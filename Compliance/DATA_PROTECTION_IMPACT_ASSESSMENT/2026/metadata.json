@@ -1,0 +1,108 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 81233,
+  "form_id": "DATA_PROTECTION_IMPACT_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/DATA_PROTECTION_IMPACT_ASSESSMENT/2026/DATA_PROTECTION_IMPACT_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:38:06.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Data Protection Impact Assessment V1.0APR24.docx",
+  "question_count": 12,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Explain the project. What are you aiming to achieve, and how does this affect a person's data or privacy? Why is a DPIA needed?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Describe the processing that will be involved. How will you collect data? Where will the data be stored? Can you delete the data? How long do you plan to store the data? Will the data be shared with any third parties? Does the processing include any special category data? Do you have any relationship with the people whose data you will be processing? Would they be expecting you to process their data in this way? What are you trying to achieve by processing this data? What are the benefits of this?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Consultation. Will you be consulting with anyone else regarding this project, such as others in your organisation? Will you be asking for any individual's opinions on your project plans?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Assess necessity and proportionality. What is your lawful basis for processing the data? Have you completed a legitimate interests assessment, if applicable? Is there any other way to achieve your projected outcome? What information will you make available to individuals?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Potential impact on individuals"
+    },
+    {
+      "answer_options": [
+        "remote",
+        "possible",
+        "likely"
+      ],
+      "question_number": "7",
+      "question_text": "Likelihood of harm"
+    },
+    {
+      "answer_options": [
+        "minimal",
+        "moderate",
+        "severe"
+      ],
+      "question_number": "8",
+      "question_text": "Severity of harm"
+    },
+    {
+      "answer_options": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "question_number": "9",
+      "question_text": "Risk rating"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "How can the risk be eliminated or reduced?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Residual risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Is this practicable? Will the project plan include these new measures?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__DATA_PROTECTION_IMPACT_ASSESSMENT__2026",
+  "title": "Data Protection Impact Assessment V1.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
