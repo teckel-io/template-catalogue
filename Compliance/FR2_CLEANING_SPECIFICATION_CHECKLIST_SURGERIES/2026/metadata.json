@@ -1,0 +1,1291 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Friday": "friday",
+    "Monday": "monday",
+    "Saturday": "saturday",
+    "Thursday": "thursday",
+    "Tuesday": "tuesday",
+    "Wednesday": "wednesday"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 27403,
+  "form_id": "FR2_CLEANING_SPECIFICATION_CHECKLIST_SURGERIES",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/FR2_CLEANING_SPECIFICATION_CHECKLIST_SURGERIES/2026/FR2_CLEANING_SPECIFICATION_CHECKLIST_SURGERIES.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:24:32.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "FR2 Cleaning specification checklist - Surgeries V2.0MAR24.docx",
+  "question_count": 156,
+  "questions": [
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "1",
+      "question_text": "Sinks and taps — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "Sinks and taps — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "Sinks and taps — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "Sinks and taps — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "Sinks and taps — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Sinks and taps — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Patient weighing scales — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Patient weighing scales — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Patient weighing scales — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Patient weighing scales — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Patient weighing scales — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Patient weighing scales — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Televisions and wipeable notice boards — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Televisions and wipeable notice boards — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Televisions and wipeable notice boards — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Televisions and wipeable notice boards — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Televisions and wipeable notice boards — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Televisions and wipeable notice boards — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Clinical Trolleys — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Clinical Trolleys — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "Clinical Trolleys — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "Clinical Trolleys — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "23",
+      "question_text": "Clinical Trolleys — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "24",
+      "question_text": "Clinical Trolleys — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "25",
+      "question_text": "Dental Chair, Clinician, and nurse chair — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "26",
+      "question_text": "Dental Chair, Clinician, and nurse chair — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "27",
+      "question_text": "Dental Chair, Clinician, and nurse chair — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "28",
+      "question_text": "Dental Chair, Clinician, and nurse chair — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "29",
+      "question_text": "Dental Chair, Clinician, and nurse chair — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "30",
+      "question_text": "Dental Chair, Clinician, and nurse chair — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "31",
+      "question_text": "Sharps containers (exterior only) — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "32",
+      "question_text": "Sharps containers (exterior only) — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "33",
+      "question_text": "Sharps containers (exterior only) — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "34",
+      "question_text": "Sharps containers (exterior only) — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "35",
+      "question_text": "Sharps containers (exterior only) — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "36",
+      "question_text": "Sharps containers (exterior only) — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "37",
+      "question_text": "Switches, sockets, data points, and wall fixtures — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "38",
+      "question_text": "Switches, sockets, data points, and wall fixtures — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "39",
+      "question_text": "Switches, sockets, data points, and wall fixtures — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "40",
+      "question_text": "Switches, sockets, data points, and wall fixtures — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "41",
+      "question_text": "Switches, sockets, data points, and wall fixtures — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "42",
+      "question_text": "Switches, sockets, data points, and wall fixtures — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "43",
+      "question_text": "Walls (accessible up to 2metres) — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "44",
+      "question_text": "Walls (accessible up to 2metres) — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "45",
+      "question_text": "Walls (accessible up to 2metres) — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "46",
+      "question_text": "Walls (accessible up to 2metres) — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "47",
+      "question_text": "Walls (accessible up to 2metres) — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "48",
+      "question_text": "Walls (accessible up to 2metres) — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "49",
+      "question_text": "Floors - Hard — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "50",
+      "question_text": "Floors - Hard — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "51",
+      "question_text": "Floors - Hard — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "52",
+      "question_text": "Floors - Hard — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "53",
+      "question_text": "Floors - Hard — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "54",
+      "question_text": "Floors - Hard — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "55",
+      "question_text": "Floors - Soft — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "56",
+      "question_text": "Floors - Soft — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "57",
+      "question_text": "Floors - Soft — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "58",
+      "question_text": "Floors - Soft — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "59",
+      "question_text": "Floors - Soft — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "60",
+      "question_text": "Floors - Soft — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "61",
+      "question_text": "Doors and ventilation grills — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "62",
+      "question_text": "Doors and ventilation grills — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "63",
+      "question_text": "Doors and ventilation grills — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "64",
+      "question_text": "Doors and ventilation grills — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "65",
+      "question_text": "Doors and ventilation grills — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "66",
+      "question_text": "Doors and ventilation grills — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "67",
+      "question_text": "Mirrors — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "68",
+      "question_text": "Mirrors — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "69",
+      "question_text": "Mirrors — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "70",
+      "question_text": "Mirrors — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "71",
+      "question_text": "Mirrors — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "72",
+      "question_text": "Mirrors — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "73",
+      "question_text": "Dispensers – Hand washing, Paper towels, alcohol dispensers — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "74",
+      "question_text": "Dispensers – Hand washing, Paper towels, alcohol dispensers — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "75",
+      "question_text": "Dispensers – Hand washing, Paper towels, alcohol dispensers — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "76",
+      "question_text": "Dispensers – Hand washing, Paper towels, alcohol dispensers — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "77",
+      "question_text": "Dispensers – Hand washing, Paper towels, alcohol dispensers — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "78",
+      "question_text": "Dispensers – Hand washing, Paper towels, alcohol dispensers — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "79",
+      "question_text": "Computers, phones, and any other electrical items used — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "80",
+      "question_text": "Computers, phones, and any other electrical items used — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "81",
+      "question_text": "Computers, phones, and any other electrical items used — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "82",
+      "question_text": "Computers, phones, and any other electrical items used — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "83",
+      "question_text": "Computers, phones, and any other electrical items used — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "84",
+      "question_text": "Computers, phones, and any other electrical items used — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "85",
+      "question_text": "Low surfaces (low-level trucking and pipes) — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "86",
+      "question_text": "Low surfaces (low-level trucking and pipes) — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "87",
+      "question_text": "Low surfaces (low-level trucking and pipes) — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "88",
+      "question_text": "Low surfaces (low-level trucking and pipes) — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "89",
+      "question_text": "Low surfaces (low-level trucking and pipes) — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "90",
+      "question_text": "Low surfaces (low-level trucking and pipes) — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "91",
+      "question_text": "Ventilation grills (visual check) — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "92",
+      "question_text": "Ventilation grills (visual check) — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "93",
+      "question_text": "Ventilation grills (visual check) — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "94",
+      "question_text": "Ventilation grills (visual check) — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "95",
+      "question_text": "Ventilation grills (visual check) — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "96",
+      "question_text": "Ventilation grills (visual check) — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "97",
+      "question_text": "Lighting - Chair overhead light — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "98",
+      "question_text": "Lighting - Chair overhead light — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "99",
+      "question_text": "Lighting - Chair overhead light — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "100",
+      "question_text": "Lighting - Chair overhead light — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "101",
+      "question_text": "Lighting - Chair overhead light — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "102",
+      "question_text": "Lighting - Chair overhead light — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "103",
+      "question_text": "Clinical Fridges — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "104",
+      "question_text": "Clinical Fridges — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "105",
+      "question_text": "Clinical Fridges — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "106",
+      "question_text": "Clinical Fridges — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "107",
+      "question_text": "Clinical Fridges — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "108",
+      "question_text": "Clinical Fridges — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "109",
+      "question_text": "Trolleys and patient clipboards — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "110",
+      "question_text": "Trolleys and patient clipboards — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "111",
+      "question_text": "Trolleys and patient clipboards — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "112",
+      "question_text": "Trolleys and patient clipboards — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "113",
+      "question_text": "Trolleys and patient clipboards — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "114",
+      "question_text": "Trolleys and patient clipboards — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "115",
+      "question_text": "Radiators — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "116",
+      "question_text": "Radiators — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "117",
+      "question_text": "Radiators — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "118",
+      "question_text": "Radiators — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "119",
+      "question_text": "Radiators — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "120",
+      "question_text": "Radiators — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "121",
+      "question_text": "Middle surfaces – windowsills, non-patient furniture, tables, desks, shelves and ledges, work surfaces, and cupboard exteriors — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "122",
+      "question_text": "Middle surfaces – windowsills, non-patient furniture, tables, desks, shelves and ledges, work surfaces, and cupboard exteriors — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "123",
+      "question_text": "Middle surfaces – windowsills, non-patient furniture, tables, desks, shelves and ledges, work surfaces, and cupboard exteriors — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "124",
+      "question_text": "Middle surfaces – windowsills, non-patient furniture, tables, desks, shelves and ledges, work surfaces, and cupboard exteriors — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "125",
+      "question_text": "Middle surfaces – windowsills, non-patient furniture, tables, desks, shelves and ledges, work surfaces, and cupboard exteriors — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "126",
+      "question_text": "Middle surfaces – windowsills, non-patient furniture, tables, desks, shelves and ledges, work surfaces, and cupboard exteriors — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "127",
+      "question_text": "High surfaces, including curtain rails, staff locker tops that are accessible, and high surfaces around patient bed areas — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "128",
+      "question_text": "High surfaces, including curtain rails, staff locker tops that are accessible, and high surfaces around patient bed areas — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "129",
+      "question_text": "High surfaces, including curtain rails, staff locker tops that are accessible, and high surfaces around patient bed areas — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "130",
+      "question_text": "High surfaces, including curtain rails, staff locker tops that are accessible, and high surfaces around patient bed areas — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "131",
+      "question_text": "High surfaces, including curtain rails, staff locker tops that are accessible, and high surfaces around patient bed areas — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "132",
+      "question_text": "High surfaces, including curtain rails, staff locker tops that are accessible, and high surfaces around patient bed areas — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "133",
+      "question_text": "Replenishment of consumables — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "134",
+      "question_text": "Replenishment of consumables — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "135",
+      "question_text": "Replenishment of consumables — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "136",
+      "question_text": "Replenishment of consumables — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "137",
+      "question_text": "Replenishment of consumables — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "138",
+      "question_text": "Replenishment of consumables — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "139",
+      "question_text": "Windows — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "140",
+      "question_text": "Windows — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "141",
+      "question_text": "Windows — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "142",
+      "question_text": "Windows — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "143",
+      "question_text": "Windows — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "144",
+      "question_text": "Windows — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "145",
+      "question_text": "Curtains and Blinds — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "146",
+      "question_text": "Curtains and Blinds — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "147",
+      "question_text": "Curtains and Blinds — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "148",
+      "question_text": "Curtains and Blinds — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "149",
+      "question_text": "Curtains and Blinds — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "150",
+      "question_text": "Curtains and Blinds — Saturday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "151",
+      "question_text": "Walls (not accessible up to 2 meters) — Monday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "152",
+      "question_text": "Walls (not accessible up to 2 meters) — Tuesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "153",
+      "question_text": "Walls (not accessible up to 2 meters) — Wednesday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "154",
+      "question_text": "Walls (not accessible up to 2 meters) — Thursday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "155",
+      "question_text": "Walls (not accessible up to 2 meters) — Friday"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "156",
+      "question_text": "Walls (not accessible up to 2 meters) — Saturday"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__FR2_CLEANING_SPECIFICATION_CHECKLIST_SURGERIES__2026",
+  "title": "FR2 Cleaning specification checklist - Surgeries V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
