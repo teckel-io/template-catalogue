@@ -1,0 +1,79 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Battery Changed/ if applicable": "battery_changed",
+    "Checked working correctly/both mechanical or battery operated": "checked_working_correctly",
+    "Date": "date",
+    "Next Battery change due (3 monthly) /if applicable": "next_battery_change_due",
+    "Remedial action taken if faulty": "remedial_action_taken",
+    "Signature": "signature",
+    "Smoke Detector Location": "smoke_detector_location"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 49037,
+  "form_id": "WEEKLY_SMOKE_DETECTOR_CHECK_BATTERY_CHANGE_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/WEEKLY_SMOKE_DETECTOR_CHECK_BATTERY_CHANGE_LOG/2026/WEEKLY_SMOKE_DETECTOR_CHECK_BATTERY_CHANGE_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:36:42.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Weekly Smoke Detector Check & Battery Change Log V2.0FEB24.docx",
+  "question_count": 7,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Smoke Detector Location"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Checked working correctly/both mechanical or battery operated"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Remedial action taken if faulty"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Battery Changed/ if applicable"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Next Battery change due (3 monthly) /if applicable"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Signature"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__WEEKLY_SMOKE_DETECTOR_CHECK_BATTERY_CHANGE_LOG__2026",
+  "title": "Weekly Smoke Detector Check & Battery Change Log V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
