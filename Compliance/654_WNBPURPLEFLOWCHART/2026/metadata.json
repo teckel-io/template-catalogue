@@ -1,0 +1,212 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 66410,
+  "form_id": "654_WNBPURPLEFLOWCHART",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/654_WNBPURPLEFLOWCHART/2026/654_WNBPURPLEFLOWCHART.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:32:33.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "654_WNBPurpleFlowchart.pdf",
+  "question_count": 22,
+  "questions": [
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "1",
+      "question_text": "Phone contact made and appointment rebooked"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "WNB_AAR_letter1_rebooked sent to residential address"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "Actions documented using template note WNB1-AAR"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "No reply to phone call after 2 attempts at different times"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "WNB_ARR_letter2 sent to patient/carer/care provider at residential address"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Actions documented using template note WNB2-AAR"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Patient/carer/care provider contacted within 3 weeks"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Asked if any special reason why not brought"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Offered new appointment"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Listened and documented any obvious worries about planned treatment"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Offered further discussion with dental nurse or dentist if necessary"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "WNB_AAR_letter3_rebooked sent to residential address"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Actions documented using template note WNB3-AAR"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "No response within 3 weeks"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Clinician informed"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Clinician reviewed records and assessed risk of harm"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Considered sharing information with referring dentist, other health professional or social worker, and GP"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "WNB_AAR_letter4_concerns sent to GP with completed concerns and care/support information"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Record archived or further action decided"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Actions documented using template note WNB4-AAR"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "Multiple cancellations or repeated WNBs with rebooking or no response to recall letter treated as WNB4"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "Actions documented using template note WNB4-AAR for multiple cancellations"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__654_WNBPURPLEFLOWCHART__2026",
+  "title": "654_WNBPurpleFlowchart",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
