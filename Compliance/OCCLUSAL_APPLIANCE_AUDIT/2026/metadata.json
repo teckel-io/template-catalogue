@@ -1,0 +1,121 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Clinical record with a stated diagnosis?": "clinical_record_diagnosis",
+    "Clinical record with the clinical history of presenting signs and symptoms of occlusal problems? (see guidance points below)": "clinical_record_history",
+    "Date of claim": "date_of_claim",
+    "Exempt": "exempt",
+    "Fee Payor": "fee_payor",
+    "Is any preventative advice offered before appliance therapy is considered?": "preventative_advice_offered",
+    "Occlusal appliance collected by patient at reception?": "appliance_collected_at_reception",
+    "Occlusal appliance fitted by dentist?": "appliance_fitted_by_dentist",
+    "Patient": "patient",
+    "Should follow-up appointments be made to check for improvements in patient signs and symptoms?": "follow_up_appointments_needed",
+    "Type of appliance": "type_of_appliance"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 22435,
+  "form_id": "OCCLUSAL_APPLIANCE_AUDIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/OCCLUSAL_APPLIANCE_AUDIT/2026/OCCLUSAL_APPLIANCE_AUDIT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:25:36.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Occlusal Appliance Audit - V2.0MAR24.docx",
+  "question_count": 11,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Patient"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date of claim"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Exempt"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Fee Payor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Clinical record with the clinical history of presenting signs and symptoms of occlusal problems? (see guidance points below)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "6",
+      "question_text": "Clinical record with a stated diagnosis?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Is any preventative advice offered before appliance therapy is considered?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Type of appliance"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "9",
+      "question_text": "Occlusal appliance fitted by dentist?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "10",
+      "question_text": "Occlusal appliance collected by patient at reception?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "Should follow-up appointments be made to check for improvements in patient signs and symptoms?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__OCCLUSAL_APPLIANCE_AUDIT__2026",
+  "title": "Occlusal Appliance Audit - V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
