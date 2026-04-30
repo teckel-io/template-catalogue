@@ -1,0 +1,102 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "additional_roles": "any_additional_roles_qualifications_or_professional_interests",
+    "benefit": "what_benefit_will_this_have_to_my_work",
+    "completion_date": "when_will_i_complete_the_activity",
+    "development_outcome": "which_development_outcome_does_it_link_to",
+    "learning_method": "how_will_i_meet_this_learning_or_maintenance_need",
+    "learning_needs": "what_do_i_need_to_learn_or_maintain",
+    "patient_population": "my_patient_population",
+    "practice_relation": "how_does_this_relate_to_my_field_of_practice",
+    "registrant_titles_cycle": "my_registrant_titles_and_cycle_period",
+    "work_settings": "my_work_settings"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 40448,
+  "form_id": "PERSONAL_DEVELOPMENT_PLAN_PDP_GDC_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PERSONAL_DEVELOPMENT_PLAN_PDP_GDC_TEMPLATE/2026/PERSONAL_DEVELOPMENT_PLAN_PDP_GDC_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:48:43.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Personal Development Plan PDP - GDC Template.docx",
+  "question_count": 10,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "My registrant title(s) and cycle period: List each title you are registered under, your cycle period and total hours needed."
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "My work setting(s): What is your place(s) of work and its environment? Different settings may require you to undertake certain roles and skills."
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Any additional roles, qualifications or professional interests: Do you have additional roles, qualifications, specialties or areas of focus/interest? Do any of these need continual learning or maintenance?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "My patient population: What are the oral health and management needs of patients in your care? Does this change across your work settings?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "What do I need to learn or maintain for this cycle? What skills or knowledge have you identified that need developing or maintaining? Are there any gaps that need addressing?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "How does this relate to my field of practice? Why have you identified this, how does it relate to your daily job, patients or tasks?"
+    },
+    {
+      "answer_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question_number": "7",
+      "question_text": "Which development outcome does it link to? (A, B, C or D - see development outcomes table above)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "What benefit will this have to my work? How will CPD activity in this area help you to maintain or improve your daily work and/or care for patients?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "How will I meet this learning or maintenance need? What activities could you do to help meet your learning and maintenance needs?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "When will I complete the activity? What are your target dates for review and completion?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PERSONAL_DEVELOPMENT_PLAN_PDP_GDC_TEMPLATE__2026",
+  "title": "Personal Development Plan PDP - GDC Template",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
