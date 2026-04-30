@@ -1,0 +1,846 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20348,
+  "form_id": "REFERRALS_AUDIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/REFERRALS_AUDIT/2026/REFERRALS_AUDIT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:26:21.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Referrals Audit V1.0JUN25.docx",
+  "question_count": 90,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "1",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "2",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "3",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "4",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "5",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "6",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "9",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "Has the reason for a referral been recorded in the patient notes? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "11",
+      "question_text": "Was the referral discussed with the patient? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "12",
+      "question_text": "Was the referral discussed with the patient? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "Was the referral discussed with the patient? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "14",
+      "question_text": "Was the referral discussed with the patient? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "15",
+      "question_text": "Was the referral discussed with the patient? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "16",
+      "question_text": "Was the referral discussed with the patient? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "Was the referral discussed with the patient? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "18",
+      "question_text": "Was the referral discussed with the patient? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "Was the referral discussed with the patient? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "20",
+      "question_text": "Was the referral discussed with the patient? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "21",
+      "question_text": "Was the referral letter or online form completed? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "22",
+      "question_text": "Was the referral letter or online form completed? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "23",
+      "question_text": "Was the referral letter or online form completed? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "24",
+      "question_text": "Was the referral letter or online form completed? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "25",
+      "question_text": "Was the referral letter or online form completed? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "26",
+      "question_text": "Was the referral letter or online form completed? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "27",
+      "question_text": "Was the referral letter or online form completed? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "28",
+      "question_text": "Was the referral letter or online form completed? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "29",
+      "question_text": "Was the referral letter or online form completed? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "30",
+      "question_text": "Was the referral letter or online form completed? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "Was the referral sent in a timely manner? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "Was the referral sent in a timely manner? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Was the referral sent in a timely manner? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Was the referral sent in a timely manner? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "35",
+      "question_text": "Was the referral sent in a timely manner? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "36",
+      "question_text": "Was the referral sent in a timely manner? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "37",
+      "question_text": "Was the referral sent in a timely manner? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "38",
+      "question_text": "Was the referral sent in a timely manner? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "39",
+      "question_text": "Was the referral sent in a timely manner? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "40",
+      "question_text": "Was the referral sent in a timely manner? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "41",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "42",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "43",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "44",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "45",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "46",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "47",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "48",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "49",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "50",
+      "question_text": "Was the type of referral recorded? Routine or Urgent — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "51",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "52",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "53",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "54",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "55",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "56",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "57",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "58",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "59",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "60",
+      "question_text": "Were all relevant x-rays or additional information attached to the referral? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "61",
+      "question_text": "Was the referral log completed? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "62",
+      "question_text": "Was the referral log completed? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "63",
+      "question_text": "Was the referral log completed? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "64",
+      "question_text": "Was the referral log completed? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "65",
+      "question_text": "Was the referral log completed? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "66",
+      "question_text": "Was the referral log completed? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "67",
+      "question_text": "Was the referral log completed? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "68",
+      "question_text": "Was the referral log completed? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "69",
+      "question_text": "Was the referral log completed? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "70",
+      "question_text": "Was the referral log completed? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "71",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "72",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "73",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "74",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "75",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "76",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "77",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "78",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "79",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "80",
+      "question_text": "Was the referral tracked to ensure it has been received and processed? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "81",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "82",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "83",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "84",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "85",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "86",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "87",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "88",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "89",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "90",
+      "question_text": "Has the patient notes been updated to reflect the outcome of the referral? — Patient 10"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__REFERRALS_AUDIT__2026",
+  "title": "Referrals Audit V1.0JUN25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
