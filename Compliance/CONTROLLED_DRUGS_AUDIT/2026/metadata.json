@@ -1,0 +1,325 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Comments": "comments",
+    "Y/N": "yes_no_response"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 23343,
+  "form_id": "CONTROLLED_DRUGS_AUDIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CONTROLLED_DRUGS_AUDIT/2026/CONTROLLED_DRUGS_AUDIT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:23:31.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Controlled Drugs Audit -V2.0MAR24.docx",
+  "question_count": 44,
+  "questions": [
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "1",
+      "question_text": "Does the practice have a written policy for handling and managing CDs that is appropriate to the activities carried out at the practice?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Comments for: Does the practice have a written policy for handling and managing CDs that is appropriate to the activities carried out at the practice?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "3",
+      "question_text": "Does the practice have written standard operating procedures covering the handling and management of CDs that are appropriate to the practice activities?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Comments for: Does the practice have written standard operating procedures covering the handling and management of CDs that are appropriate to the practice activities?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "5",
+      "question_text": "Is the access to CDs controlled?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Comments for: Is the access to CDs controlled?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "7",
+      "question_text": "If the practice stocks midazolam for use in medical emergencies, is it used following the guidelines produced by the Resuscitation Council (UK)?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Comments for: If the practice stocks midazolam for use in medical emergencies, is it used following the guidelines produced by the Resuscitation Council (UK)?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "9",
+      "question_text": "If the practice stocks midazolam for conscious sedation, is it used according to the guidelines produced by the Resuscitation Council (UK)?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Comments for: If the practice stocks midazolam for conscious sedation, is it used according to the guidelines produced by the Resuscitation Council (UK)?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "11",
+      "question_text": "Does the practice have a record of its Accountable officer? (e.g., from PCT)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Comments for: Does the practice have a record of its Accountable officer? (e.g., from PCT)"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "13",
+      "question_text": "Does the practice have a record of a person responsible for ordering, receiving, and storing CDs?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Comments for: Does the practice have a record of a person responsible for ordering, receiving, and storing CDs?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "15",
+      "question_text": "Does the practice have a record of its GDPs who prescribe CDs?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Comments for: Does the practice have a record of its GDPs who prescribe CDs?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "17",
+      "question_text": "Does the practice maintain a record of specific restrictions on the CD prescribing abilities of any healthcare professionals involved?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Comments for: Does the practice maintain a record of specific restrictions on the CD prescribing abilities of any healthcare professionals involved?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "19",
+      "question_text": "Are private prescriptions for CDs written on Private Prescription Forms for Controlled Drugs (FP10PCD)?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Comments for: Are private prescriptions for CDs written on Private Prescription Forms for Controlled Drugs (FP10PCD)?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "21",
+      "question_text": "Are NHS prescriptions for CDs written on Prescription forms for Controlled Drugs (FP10D)?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Comments for: Are NHS prescriptions for CDs written on Prescription forms for Controlled Drugs (FP10D)?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "23",
+      "question_text": "Do you use a particular requisition form (FP10CDF) to order CDs from a community pharmacist using a private prescriber code?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Comments for: Do you use a particular requisition form (FP10CDF) to order CDs from a community pharmacist using a private prescriber code?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "25",
+      "question_text": "Do you order from a wholesaler using the supplier's designated ordering system?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Comments for: Do you order from a wholesaler using the supplier's designated ordering system?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "27",
+      "question_text": "Do you keep a copy of the CD invoice with your CDs / Medicines compliance records for at least two years?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Comments for: Do you keep a copy of the CD invoice with your CDs / Medicines compliance records for at least two years?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "29",
+      "question_text": "Does your team understand safe storage for CDs? (Temazepam is subject to safe storage arrangements and must be kept in a locked CD cabinet. Midazolam, for the emergency kit, does not require this, but it is advisable to keep drugs used for sedation purposes in a fixed, lockable cupboard.)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Comments for: Does your team understand safe storage for CDs? (Temazepam is subject to safe storage arrangements and must be kept in a locked CD cabinet. Midazolam, for the emergency kit, does not require this, but it is advisable to keep drugs used for sedation purposes in a fixed, lockable cupboard.)"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "31",
+      "question_text": "Do you dispose of CDs using denaturing kits? (Note: Schedule 1 and 2 drugs should be witnessed by a person authorised by an Accountable Officer, but this is not true of Midazolam as it is in Schedule 3)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Comments for: Do you dispose of CDs using denaturing kits? (Note: Schedule 1 and 2 drugs should be witnessed by a person authorised by an Accountable Officer, but this is not true of Midazolam as it is in Schedule 3)"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "33",
+      "question_text": "Does the practice have appropriate procedures for the initial and continuing training or development of all staff involved in prescribing, handling, supplying, and administering CDs?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Comments for: Does the practice have appropriate procedures for the initial and continuing training or development of all staff involved in prescribing, handling, supplying, and administering CDs?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "35",
+      "question_text": "Does your team know that a prescription for a CD in Schedule 3 or 4 is valid for 28 days and that a prescription for a CD in Schedule 5 is valid for six months?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Comments for: Does your team know that a prescription for a CD in Schedule 3 or 4 is valid for 28 days and that a prescription for a CD in Schedule 5 is valid for six months?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "37",
+      "question_text": "Are there procedures in place to identify and learn from untoward incidents involving CDs?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Comments for: Are there procedures in place to identify and learn from untoward incidents involving CDs?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "39",
+      "question_text": "Are there procedures in place to record concerns expressed about incidents involving or involving improper management or use of CDs by a member of staff?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Comments for: Are there procedures in place to record concerns expressed about incidents involving or involving improper management or use of CDs by a member of staff?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "41",
+      "question_text": "Are there procedures in place to alert the Accountable Officer of any complaints, concerns, or incidents involving the management and use of CDs?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Comments for: Are there procedures in place to alert the Accountable Officer of any complaints, concerns, or incidents involving the management and use of CDs?"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "43",
+      "question_text": "Are any complaints, concerns, or incidents involving the management and use of CDs in the last 24 months on record?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Comments for: Are any complaints, concerns, or incidents involving the management and use of CDs in the last 24 months on record?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CONTROLLED_DRUGS_AUDIT__2026",
+  "title": "Controlled Drugs Audit -V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
