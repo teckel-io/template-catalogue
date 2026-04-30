@@ -1,0 +1,102 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "completed_by": "Completed By",
+    "date_completed": "Date Completed",
+    "friday": "Friday",
+    "monday": "Monday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "task_completed_by": "Task Completed By",
+    "thursday": "Thursday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 24024,
+  "form_id": "COMPRESSOR_LOGS",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/COMPRESSOR_LOGS/2026/COMPRESSOR_LOGS.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:48:03.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Compressor Logs V1.0JULY25.docx",
+  "question_count": 11,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "W/C - Monday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "W/C - Tuesday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "W/C - Wednesday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "W/C - Thursday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "W/C - Friday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "W/C - Saturday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "W/C - Sunday"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Monthly Task Completed By"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Monthly Date Completed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Date Completed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Completed By"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__COMPRESSOR_LOGS__2026",
+  "title": "Compressor Logs V1.0JULY25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
