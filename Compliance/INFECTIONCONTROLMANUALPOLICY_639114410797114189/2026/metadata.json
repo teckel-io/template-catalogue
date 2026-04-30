@@ -1,0 +1,79 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "competent_person_name": "competent_person_name",
+    "decontamination_lead_name": "decontamination_lead_name",
+    "designated_person_name": "designated_person_name",
+    "operator_names": "operator_names",
+    "owner": "owner",
+    "registered_manager_name": "registered_manager_name",
+    "user_name": "user_name"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 208058,
+  "form_id": "INFECTIONCONTROLMANUALPOLICY_639114410797114189",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INFECTIONCONTROLMANUALPOLICY_639114410797114189/2026/INFECTIONCONTROLMANUALPOLICY_639114410797114189.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:45:17.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "InfectionControlManualPolicy_639114410797114189.pdf",
+  "question_count": 7,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Registered Manager - Name(s) of who is responsible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Decontamination Lead - Name(s) of who is responsible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Designated Person - Name(s) of who is responsible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "User - Name(s) of who is responsible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Operator(s) - Name(s) of who is responsible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Competent Person (Service Engineer) – pressure vessels - Person/company responsible for servicing and maintaining decontamination equipment"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Owner"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INFECTIONCONTROLMANUALPOLICY_639114410797114189__2026",
+  "title": "InfectionControlManualPolicy_639114410797114189",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
