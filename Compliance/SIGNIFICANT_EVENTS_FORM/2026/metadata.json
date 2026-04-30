@@ -1,0 +1,219 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 19513,
+  "form_id": "SIGNIFICANT_EVENTS_FORM",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SIGNIFICANT_EVENTS_FORM/2026/SIGNIFICANT_EVENTS_FORM.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:32:47.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Significant Events Form V2.0FEB25.docx",
+  "question_count": 34,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date incident was reported:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Name of Reporter:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Job Title:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Telephone number:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Date of Incident:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Time of Incident:"
+    },
+    {
+      "answer_options": [
+        "Clinical Incident",
+        "Complaint",
+        "Environmental (water /heating / toilets etc)",
+        "Ill Health",
+        "Involving a car",
+        "Fire",
+        "Security",
+        "Damage to property",
+        "Near Miss",
+        "Personal Accident",
+        "Violence Abuse or Harassment",
+        "Other"
+      ],
+      "question_number": "7",
+      "question_text": "Incident Type:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Description of the incident: Give a FACTUAL account of what happened."
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "What immediate actions were taken:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Persons Involved:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Location of incident:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Were any medicines involved in the incident?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Name:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Staff or Patient:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Address / Base:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Gender:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Date of Birth:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "If staff member, were they absent from duties:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Did the person receive any attention (treatment / advice etc):"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "If yes, please provide details:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Were the police involved in the incident?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Does this need to be reported externally - NHS England Area Team:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Does this need to be reported externally - CQC:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Does this need to be reported externally - RIDDOR reportable:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Potential for Complaint:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Potential for Claim:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Name of designated manager:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Contact details:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Signature of designated manager:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Date:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "What was the outcome and what measures have been taken to prevent recurrence?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Please provide details including name and contact number of any relative or representative who has been informed of the incident:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Please provide any further details here:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Was there any learning from this incident and has it been cascaded to ALL Staff?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SIGNIFICANT_EVENTS_FORM__2026",
+  "title": "Significant Events Form V2.0FEB25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
