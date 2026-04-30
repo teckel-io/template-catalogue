@@ -1,0 +1,284 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 19633,
+  "form_id": "COMPLAINTS_AUDIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/COMPLAINTS_AUDIT/2026/COMPLAINTS_AUDIT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:23:25.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Complaints Audit V2.0MAR24.docx",
+  "question_count": 40,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "1",
+      "question_text": "Do you have a complaints policy and procedure in place?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Do you have a complaints policy and procedure in place? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Do you have a complaints policy and procedure in place? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "4",
+      "question_text": "Do you have a named person responsible for dealing with complaints in the practice (complaints manager)?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Do you have a named person responsible for dealing with complaints in the practice (complaints manager)? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Do you have a named person responsible for dealing with complaints in the practice (complaints manager)? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "Is the practice complaints policy and procedure displayed for patients to see?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Is the practice complaints policy and procedure displayed for patients to see? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Is the practice complaints policy and procedure displayed for patients to see? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "Do patients feel that the practice will be open and honest if things go wrong?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Do patients feel that the practice will be open and honest if things go wrong? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Do patients feel that the practice will be open and honest if things go wrong? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "Are patients encouraged to provide feedback to the practice?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Are patients encouraged to provide feedback to the practice? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Are patients encouraged to provide feedback to the practice? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "16",
+      "question_text": "Are staff members aware of the practice complaints policy and procedure?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Are staff members aware of the practice complaints policy and procedure? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Are staff members aware of the practice complaints policy and procedure? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "Have all staff members received training in dealing with complaints?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Have all staff members received training in dealing with complaints? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Have all staff members received training in dealing with complaints? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "22",
+      "question_text": "Is an acknowledgement of complaint communicated to patient within the policy timeframes?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Is an acknowledgement of complaint communicated to patient within the policy timeframes? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Is an acknowledgement of complaint communicated to patient within the policy timeframes? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "25",
+      "question_text": "Are full records kept of the complaint and its investigation?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Are full records kept of the complaint and its investigation? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Are full records kept of the complaint and its investigation? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "28",
+      "question_text": "Are patients aware of how to escalate their complaint of necessary and who they should contact?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Are patients aware of how to escalate their complaint of necessary and who they should contact? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Are patients aware of how to escalate their complaint of necessary and who they should contact? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "Where actions have been required from a complaint, have these been evidenced and completed?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Where actions have been required from a complaint, have these been evidenced and completed? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Where actions have been required from a complaint, have these been evidenced and completed? - Further actions required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Where appropriate have the findings from the complaint been discussed with staff members?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Where appropriate have the findings from the complaint been discussed with staff members? - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Where appropriate have the findings from the complaint been discussed with staff members? - Further actions required?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Date of last complaints audit"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "How many complaints have been received since the last audit?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Are there any trends to the nature of complaints?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Are trends looked at in relation to complaints?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__COMPLAINTS_AUDIT__2026",
+  "title": "Complaints Audit V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
