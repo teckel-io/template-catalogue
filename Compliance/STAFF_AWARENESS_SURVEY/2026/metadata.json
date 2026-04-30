@@ -1,0 +1,184 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "False": "false",
+    "Not Sure": "not_sure",
+    "True": "true"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 19146,
+  "form_id": "STAFF_AWARENESS_SURVEY",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/STAFF_AWARENESS_SURVEY/2026/STAFF_AWARENESS_SURVEY.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:38:46.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Staff awareness survey V1.0APR24.docx",
+  "question_count": 16,
+  "questions": [
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "1",
+      "question_text": "I feel data security and protection are important for my organisation."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "2",
+      "question_text": "I know the rules about who I share data with and how."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "3",
+      "question_text": "I know who to ask questions about data security in my organisation."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "4",
+      "question_text": "I understand the important laws and principles regarding data sharing and when I should and should not share data."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "5",
+      "question_text": "I am happy data is used legally and securely in my organisation"
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "6",
+      "question_text": "I know how to use and transmit data securely"
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "7",
+      "question_text": "I feel that patient confidentiality is more important than sharing information for individual care."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "8",
+      "question_text": "The tools and processes used by my organisation make it easy to use and transmit data securely"
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "9",
+      "question_text": "I can raise concerns about unsecured or unlawful data uses, and I know that they will be addressed without personal recrimination."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "10",
+      "question_text": "I understand the important laws and principles of data sharing, and when I should and should not share data"
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "11",
+      "question_text": "If I have a question about sharing data lawfully and securely, I know where to seek help."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "12",
+      "question_text": "I take personal responsibility for handling data securely."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "13",
+      "question_text": "The data security training offered by my organisation supports me in understanding how to use data lawfully and securely."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "14",
+      "question_text": "The level of access I have to IT systems holding sensitive information is appropriate"
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "15",
+      "question_text": "I know how to report a data security breach."
+    },
+    {
+      "answer_options": [
+        "True",
+        "False",
+        "Not Sure"
+      ],
+      "question_number": "16",
+      "question_text": "When there is a data security incident my organisation works quickly to address it."
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__STAFF_AWARENESS_SURVEY__2026",
+  "title": "Staff awareness survey V1.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
