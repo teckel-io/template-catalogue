@@ -1,0 +1,44 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 1746391,
+  "form_id": "930_SHTM_01_05_PART_C_V1_APRIL_24",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/930_SHTM_01_05_PART_C_V1_APRIL_24/2026/930_SHTM_01_05_PART_C_V1_APRIL_24.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:35:06.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "930_shtm-01-05-part-c-v1-april-24.pdf",
+  "question_count": 1,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "Needs Updating"
+      ],
+      "question_number": "1",
+      "question_text": "Policy reviewed and confirmed current"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__930_SHTM_01_05_PART_C_V1_APRIL_24__2026",
+  "title": "930_shtm-01-05-part-c-v1-april-24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
