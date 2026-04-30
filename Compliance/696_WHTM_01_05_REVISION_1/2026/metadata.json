@@ -1,0 +1,673 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "authorized_engineer_name": "authorized_engineer_name",
+    "authorized_engineer_tel": "authorized_engineer_tel",
+    "authorized_person_name": "authorized_person_name",
+    "authorized_person_tel": "authorized_person_tel",
+    "competent_person_decontamination_name": "competent_person_decontamination_name",
+    "competent_person_decontamination_tel": "competent_person_decontamination_tel",
+    "competent_person_pressure_name": "competent_person_pressure_name",
+    "competent_person_pressure_tel": "competent_person_pressure_tel",
+    "decontamination_lead_name": "decontamination_lead_name",
+    "decontamination_lead_tel": "decontamination_lead_tel",
+    "dental_practice_address": "dental_practice_address",
+    "designated_person_name": "designated_person_name",
+    "designated_person_tel": "designated_person_tel",
+    "make": "make",
+    "microbiologist_name": "microbiologist_name",
+    "microbiologist_tel": "microbiologist_tel",
+    "model": "model",
+    "operator_name": "operator_name",
+    "operator_tel": "operator_tel",
+    "ref_no": "ref_no",
+    "registered_manager_name": "registered_manager_name",
+    "registered_manager_tel": "registered_manager_tel",
+    "review_comments": "review_comments",
+    "review_date": "review_date",
+    "review_name_signature": "review_name_signature",
+    "room": "room",
+    "serial_no": "serial_no",
+    "service_engineer_name": "service_engineer_name",
+    "service_engineer_tel": "service_engineer_tel",
+    "sterilizer_location": "sterilizer_location",
+    "user_name": "user_name",
+    "user_tel": "user_tel",
+    "week_beginning": "week_beginning"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 4900552,
+  "form_id": "696_WHTM_01_05_REVISION_1",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/696_WHTM_01_05_REVISION_1/2026/696_WHTM_01_05_REVISION_1.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:34:45.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "696_WHTM 01-05 Revision 1.pdf",
+  "question_count": 112,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Dental practice address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Make"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Model"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Ref. No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Serial No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Registered manager - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Registered manager - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "User - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "User - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Operator(s) - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Operator(s) - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Decontamination Lead - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Decontamination Lead - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Designated Person - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Designated Person - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Authorised Engineer (Decontamination) - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Authorised Engineer (Decontamination) - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Competent Person (Pressure vessels) - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Competent Person (Pressure vessels) - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Authorised Person (Decontamination) - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Authorised Person (Decontamination) - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Competent Person (Decontamination) - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Competent Person (Decontamination) - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Service engineer - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Service engineer - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Microbiologist - Name/organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Microbiologist - Tel. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Review of records - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Review of records - Comments on review"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Review of records - Name/signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Daily test sheet - Sterilizer location"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Daily test sheet - Serial No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Daily test sheet - Week beginning"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Daily test sheet - Make/model"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Daily test sheet - Ref. No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Monday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Monday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Monday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Monday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "41",
+      "question_text": "Monday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail",
+        "Not applicable"
+      ],
+      "question_number": "42",
+      "question_text": "Monday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Monday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Tuesday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Tuesday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "46",
+      "question_text": "Tuesday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "Tuesday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "48",
+      "question_text": "Tuesday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "49",
+      "question_text": "Tuesday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "Tuesday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Wednesday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Wednesday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Wednesday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Wednesday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "55",
+      "question_text": "Wednesday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "56",
+      "question_text": "Wednesday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Wednesday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "Thursday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "Thursday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "Thursday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Thursday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "62",
+      "question_text": "Thursday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "63",
+      "question_text": "Thursday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "Thursday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "Friday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "Friday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "67",
+      "question_text": "Friday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "68",
+      "question_text": "Friday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "69",
+      "question_text": "Friday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "70",
+      "question_text": "Friday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "71",
+      "question_text": "Friday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "72",
+      "question_text": "Saturday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "73",
+      "question_text": "Saturday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "74",
+      "question_text": "Saturday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "75",
+      "question_text": "Saturday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "76",
+      "question_text": "Saturday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "77",
+      "question_text": "Saturday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "78",
+      "question_text": "Saturday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "79",
+      "question_text": "Sunday - Cycle number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "80",
+      "question_text": "Sunday - Temp °C min/max"
+    },
+    {
+      "answer_options": [],
+      "question_number": "81",
+      "question_text": "Sunday - Pressure bar"
+    },
+    {
+      "answer_options": [],
+      "question_number": "82",
+      "question_text": "Sunday - Sterilizing hold time Min:sec"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "83",
+      "question_text": "Sunday - Automatic control test result"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "84",
+      "question_text": "Sunday - Steam penetration test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "85",
+      "question_text": "Sunday - Certified fit for use by user"
+    },
+    {
+      "answer_options": [],
+      "question_number": "86",
+      "question_text": "Monday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "87",
+      "question_text": "Monday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "88",
+      "question_text": "Monday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "89",
+      "question_text": "Tuesday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "90",
+      "question_text": "Tuesday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "91",
+      "question_text": "Tuesday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "92",
+      "question_text": "Wednesday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "93",
+      "question_text": "Wednesday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "94",
+      "question_text": "Wednesday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "95",
+      "question_text": "Thursday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "96",
+      "question_text": "Thursday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "97",
+      "question_text": "Thursday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "98",
+      "question_text": "Friday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "99",
+      "question_text": "Friday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "100",
+      "question_text": "Friday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "101",
+      "question_text": "Saturday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "102",
+      "question_text": "Saturday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "103",
+      "question_text": "Saturday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "104",
+      "question_text": "Sunday water change - Cycle number when water changed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "105",
+      "question_text": "Sunday water change - Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "106",
+      "question_text": "Sunday water change - Water changed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "107",
+      "question_text": "Faults - new or existing (also enter in plant history record)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "108",
+      "question_text": "Weekly test sheet - Sterilizer location"
+    },
+    {
+      "answer_options": [],
+      "question_number": "109",
+      "question_text": "Weekly test sheet - Serial No."
+    },
+    {
+      "answer_options": [],
+      "question_number": "110",
+      "question_text": "Weekly test sheet - Department"
+    },
+    {
+      "answer_options": [],
+      "question_number": "111",
+      "question_text": "Weekly test sheet - Make/model"
+    },
+    {
+      "answer_options": [],
+      "question_number": "112",
+      "question_text": "Weekly test sheet - Ref. No."
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__696_WHTM_01_05_REVISION_1__2026",
+  "title": "696_WHTM 01-05 Revision 1",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
