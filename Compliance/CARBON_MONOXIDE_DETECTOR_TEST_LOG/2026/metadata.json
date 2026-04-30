@@ -1,0 +1,70 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Date of test": "date_of_test",
+    "Location of Detector": "location_of_detector",
+    "Remedial Action Taken if Test Failed": "remedial_action",
+    "Tested (test button pressed) – Pass/Fail": "test_result",
+    "Tested By": "tested_by"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20009,
+  "form_id": "CARBON_MONOXIDE_DETECTOR_TEST_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CARBON_MONOXIDE_DETECTOR_TEST_LOG/2026/CARBON_MONOXIDE_DETECTOR_TEST_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:36:13.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Carbon Monoxide Detector Test Log V1.0NOV25.docx",
+  "question_count": 5,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date of test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Location of Detector"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "3",
+      "question_text": "Tested (test button pressed) – Pass/Fail"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Remedial Action Taken if Test Failed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Tested By"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CARBON_MONOXIDE_DETECTOR_TEST_LOG__2026",
+  "title": "Carbon Monoxide Detector Test Log V1.0NOV25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
