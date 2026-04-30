@@ -1,0 +1,76 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Corrective actions taken (if applicable)": "corrective_actions",
+    "Date": "date",
+    "Make of test (include serial number or exp date if applicable)": "test_make_serial",
+    "Pass/Fail": "pass_fail",
+    "Signature": "signature",
+    "Test type – routine or re-test": "test_type"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 67645,
+  "form_id": "CLEANING_EFFICACY_SOIL_TEST_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CLEANING_EFFICACY_SOIL_TEST_LOG/2026/CLEANING_EFFICACY_SOIL_TEST_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:36:01.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Cleaning Efficacy (Soil Test) Log V1.0APR24.docx",
+  "question_count": 6,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Test type – routine or re-test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Make of test (include serial number or exp date if applicable)"
+    },
+    {
+      "answer_options": [
+        "Pass",
+        "Fail"
+      ],
+      "question_number": "4",
+      "question_text": "Pass/Fail"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Corrective actions taken (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Signature"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CLEANING_EFFICACY_SOIL_TEST_LOG__2026",
+  "title": "Cleaning Efficacy (Soil Test) Log V1.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
