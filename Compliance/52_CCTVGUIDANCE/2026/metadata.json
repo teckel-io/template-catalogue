@@ -1,0 +1,439 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "acceptable_coverage": "acceptable_coverage",
+    "activity": "activity",
+    "alert_function": "alert_function",
+    "area_description": "area_description",
+    "cyber_security_requirements": "cyber_security_requirements",
+    "display_screens": "display_screens",
+    "export_archive": "export_archive",
+    "purpose_of_observation": "purpose_of_observation",
+    "recording": "recording",
+    "response_required_to_incidents": "response_required_to_incidents",
+    "retention_period": "retention_period",
+    "target_speed": "target_speed",
+    "targets": "targets",
+    "what_standards_will_apply": "what_standards_will_apply",
+    "when_monitored": "when_monitored",
+    "where_monitored": "where_monitored",
+    "who_monitors": "who_monitors"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 1874230,
+  "form_id": "52_CCTVGUIDANCE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/52_CCTVGUIDANCE/2026/52_CCTVGUIDANCE.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:37:24.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "52_CCTVGuidance.pdf",
+  "question_count": 77,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Area description - Customer entrance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Activity - Customer entrance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Targets - Customer entrance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Purpose of observation - Customer entrance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Acceptable coverage - Customer entrance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Target speed - Customer entrance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Area description - Cash Room entrances"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Activity - Cash Room entrances"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Targets - Cash Room entrances"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Purpose of observation - Cash Room entrances"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Acceptable coverage - Cash Room entrances"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Target speed - Cash Room entrances"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Area description - Tills"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Activity - Tills"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Targets - Tills"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Purpose of observation - Tills"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Acceptable coverage - Tills"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Target speed - Tills"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Area description - High value items (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Activity - High value items (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Targets - High value items (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Purpose of observation - High value items (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Acceptable coverage - High value items (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Target speed - High value items (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Area description - Stock room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Activity - Stock room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Targets - Stock room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Purpose of observation - Stock room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Acceptable coverage - Stock room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Target speed - Stock room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Area description - Secure cage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Activity - Secure cage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Targets - Secure cage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Purpose of observation - Secure cage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Acceptable coverage - Secure cage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Target speed - Secure cage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Area description - Loading bay"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Activity - Loading bay"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Targets - Loading bay"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Purpose of observation - Loading bay"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Acceptable coverage - Loading bay"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Target speed - Loading bay"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Area description - ATM (customer)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Activity - ATM (customer)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Targets - ATM (customer)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "46",
+      "question_text": "Purpose of observation - ATM (customer)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "Acceptable coverage - ATM (customer)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "48",
+      "question_text": "Target speed - ATM (customer)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Area description - Aisles (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "Activity - Aisles (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Targets - Aisles (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Purpose of observation - Aisles (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Acceptable coverage - Aisles (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Target speed - Aisles (shop floor)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Area description - Cash room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "56",
+      "question_text": "Activity - Cash room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Targets - Cash room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "Purpose of observation - Cash room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "Acceptable coverage - Cash room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "Target speed - Cash room"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Area description - Car park"
+    },
+    {
+      "answer_options": [],
+      "question_number": "62",
+      "question_text": "Activity - Car park"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "Targets - Car park"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "Purpose of observation - Car park"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "Acceptable coverage - Car park"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "Target speed - Car park"
+    },
+    {
+      "answer_options": [],
+      "question_number": "67",
+      "question_text": "Who monitors"
+    },
+    {
+      "answer_options": [],
+      "question_number": "68",
+      "question_text": "When monitored"
+    },
+    {
+      "answer_options": [],
+      "question_number": "69",
+      "question_text": "Where monitored"
+    },
+    {
+      "answer_options": [],
+      "question_number": "70",
+      "question_text": "What standards will apply"
+    },
+    {
+      "answer_options": [],
+      "question_number": "71",
+      "question_text": "Response required to incidents"
+    },
+    {
+      "answer_options": [],
+      "question_number": "72",
+      "question_text": "Alert function"
+    },
+    {
+      "answer_options": [],
+      "question_number": "73",
+      "question_text": "Display screens"
+    },
+    {
+      "answer_options": [],
+      "question_number": "74",
+      "question_text": "Retention period"
+    },
+    {
+      "answer_options": [],
+      "question_number": "75",
+      "question_text": "Recording"
+    },
+    {
+      "answer_options": [],
+      "question_number": "76",
+      "question_text": "Export/Archive"
+    },
+    {
+      "answer_options": [],
+      "question_number": "77",
+      "question_text": "Cyber security requirements"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__52_CCTVGUIDANCE__2026",
+  "title": "52_CCTVGuidance",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
