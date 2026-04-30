@@ -1,0 +1,412 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 33644,
+  "form_id": "SMOKING_CESSATION_AUDIT_DATSHEET_PART_2",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SMOKING_CESSATION_AUDIT_DATSHEET_PART_2/2026/SMOKING_CESSATION_AUDIT_DATSHEET_PART_2.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:30:48.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Smoking Cessation Audit Datsheet Part 2.docx",
+  "question_count": 45,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "1",
+      "question_text": "Does your hospital have a smoke free policy that prohibits smoking anywhere on the hospital grounds?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "2",
+      "question_text": "Does your hospital have a designated smoking area?"
+    },
+    {
+      "answer_options": [
+        "Not at all",
+        "Rarely",
+        "Mostly",
+        "Completely"
+      ],
+      "question_number": "3",
+      "question_text": "If the answer to question 1b is 'yes', to what extent are smoking restrictions enforced in areas outside the designated smoking areas?"
+    },
+    {
+      "answer_options": [
+        "Not at all",
+        "Rarely",
+        "Mostly",
+        "Completely"
+      ],
+      "question_number": "4",
+      "question_text": "If the answer to question 1b is 'no', to what extent are smoking restrictions enforced throughout hospital grounds?"
+    },
+    {
+      "answer_options": [
+        "Yes – external grounds only",
+        "Yes external and selected internal sites",
+        "No – vaping is not allowed",
+        "Not known"
+      ],
+      "question_number": "5",
+      "question_text": "Does your hospital have a vape friendly policy that permits vaping on the hospital grounds?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "6",
+      "question_text": "Does your hospital have designated vaping areas?"
+    },
+    {
+      "answer_options": [
+        "Yes – medical",
+        "Yes – surgical",
+        "Yes – obstetrics and gynae",
+        "Yes – elective",
+        "None of the above"
+      ],
+      "question_number": "7",
+      "question_text": "Does your trust utilise a standardised clerking proforma which has a dedicated space to document smoking history for newly admitted (emergency and elective) patients? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known",
+        "Other, please specify"
+      ],
+      "question_number": "8",
+      "question_text": "Does your trust have a hospital-based smoking cessation service on the premises?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Other, please specify for question 5a:"
+    },
+    {
+      "answer_options": [
+        "Trust",
+        "External provider"
+      ],
+      "question_number": "10",
+      "question_text": "If yes to 5a, is this provided by the trust or an external provider?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known",
+        "Other, please specify"
+      ],
+      "question_number": "11",
+      "question_text": "Does your trust have access to a community-based smoking cessation service?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Other, please specify for question 5c:"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known",
+        "Not applicable"
+      ],
+      "question_number": "13",
+      "question_text": "Is there a formal referral pathway that allows all healthcare professionals within your hospital to refer patients to a hospital-based smoking cessation service within your Trust?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known",
+        "Not applicable"
+      ],
+      "question_number": "14",
+      "question_text": "Is there a formal referral pathway that allows all healthcare professionals within your hospital to refer patients to a community smoking cessation service?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "15",
+      "question_text": "Is smoking cessation in your hospital supported by a consultant or nurse consultant?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "If yes, how many hours per week are allocated in this person's job plan to smoking cessation?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "17",
+      "question_text": "Does your hospital have a dedicated Hospital Smoking Cessation Practitioner (HSCP)?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "If yes, how many hours per week is an HSCP/are HSCPs employed?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "If yes, how many HSCPs are employed?"
+    },
+    {
+      "answer_options": [
+        "Nurse",
+        "Non-Nursing"
+      ],
+      "question_number": "20",
+      "question_text": "Please confirm which post your HSPC holds. If more than one HSPC, please provide information for most senior."
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 1"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 2"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 3"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 4"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 5"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 6"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 7"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 8"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 9"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Please provide banding for your hospitals HSPC - Staff 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "31",
+      "question_text": "Is pharmacotherapy for tobacco addiction available in your hospital?"
+    },
+    {
+      "answer_options": [
+        "NRT – Patches",
+        "NRT – Nasal spray",
+        "NRT – Inhalators",
+        "NRT – Mouthspray",
+        "NRT – Gum",
+        "Varenicline",
+        "NRT – Microtabs",
+        "Bupropion",
+        "NRT – Lozenges"
+      ],
+      "question_number": "32",
+      "question_text": "If the answer to 9a is yes, which? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "33",
+      "question_text": "If the answer to 9a is yes, does your hospital have a prescribing guideline / protocol to support clinicians when prescribing pharmacotherapy for tobacco addiction?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "34",
+      "question_text": "Does the support provided to patients include an offer of a vaping kit?"
+    },
+    {
+      "answer_options": [
+        "Yes – prescribe",
+        "Yes – supply",
+        "Yes – recommend",
+        "No",
+        "Not known"
+      ],
+      "question_number": "35",
+      "question_text": "Is the HSCP able to prescribe, supply or recommend pharmacotherapy that can be given to inpatients on the day of the consultation? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "Yes – prescribe",
+        "Yes – supply",
+        "Yes – recommend",
+        "No",
+        "Not known"
+      ],
+      "question_number": "36",
+      "question_text": "Is the HSCP able to prescribe, supply or recommend pharmacotherapy that can be given to outpatients on the day of the consultation? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "nursing (including clinical nurse specialists)",
+        "pharmacists",
+        "physiotherapists",
+        "other"
+      ],
+      "question_number": "37",
+      "question_text": "What other health care professionals are able to prescribe, supply or recommend pharmacotherapy? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "Never",
+        "Rarely",
+        "Mostly",
+        "Always"
+      ],
+      "question_number": "38",
+      "question_text": "Do inpatients have access to an HSCP during their stay?"
+    },
+    {
+      "answer_options": [
+        "Never",
+        "Rarely",
+        "Mostly",
+        "Always"
+      ],
+      "question_number": "39",
+      "question_text": "Do outpatients have access to an HSCP during their visit?"
+    },
+    {
+      "answer_options": [
+        "Dedicated office space",
+        "Phone number",
+        "Email address",
+        "None of the above",
+        "Not applicable"
+      ],
+      "question_number": "40",
+      "question_text": "Does your hospital-based smoking cessation service have the following? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "An initial consultation lasting up to 40 minutes",
+        "An initial consultation lasting 40-60 minutes",
+        "Weekly follow-up appoints of 10-20 minutes for at least 4 weeks in the first month after the stop date",
+        "A validated method for confirming a patient has stopped smoking 4 weeks after the quit date",
+        "Phone call contact at 3 and 6 months",
+        "Self-reported quitters offered a final appointment at 12 months",
+        "Not applicable",
+        "Other (please specify)"
+      ],
+      "question_number": "41",
+      "question_text": "Does your hospital-based smoking cessation service, offer the following? Tick all that apply"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Other, please specify for question 13:"
+    },
+    {
+      "answer_options": [
+        "Yes – via hospital smoking cessation service",
+        "Yes – via community smoking cessation service",
+        "No",
+        "Not known"
+      ],
+      "question_number": "43",
+      "question_text": "For smokers that are discharged from your hospital that wish to stop smoking, is there a system in place that allows them to be followed up by a smoking cessation service (hospital or community) for ongoing support?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not known"
+      ],
+      "question_number": "44",
+      "question_text": "Are frontline hospital staff offered regular smoking cessation training?"
+    },
+    {
+      "answer_options": [
+        "Foundation Doctors",
+        "Ward Nurses",
+        "Core Trainees",
+        "Outpatient Nurses",
+        "Specialty Trainees",
+        "Pharmacists",
+        "Specialty Doctors",
+        "Physiotherapists",
+        "Consultants",
+        "Other"
+      ],
+      "question_number": "45",
+      "question_text": "If yes, which staff are offered smoking cessation training? Tick all that apply:"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SMOKING_CESSATION_AUDIT_DATSHEET_PART_2__2026",
+  "title": "Smoking Cessation Audit Datsheet Part 2",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
