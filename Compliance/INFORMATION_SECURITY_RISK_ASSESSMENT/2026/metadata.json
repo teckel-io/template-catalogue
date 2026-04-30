@@ -1,0 +1,233 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Action required: yes/no": "action_required",
+    "Control measures in place": "control_measures",
+    "Risk/Hazard": "risk_hazard",
+    "Sign and date once completed": "sign_date_completed"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 22544,
+  "form_id": "INFORMATION_SECURITY_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INFORMATION_SECURITY_RISK_ASSESSMENT/2026/INFORMATION_SECURITY_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:38:34.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Information Security Risk Assessment V1.2JUN25.docx",
+  "question_count": 30,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "1",
+      "question_text": "Computers are left unattended, and patients or the public see confidential information — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Computers are left unattended, and patients or the public see confidential information — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "3",
+      "question_text": "Email with attachments sent without being encrypted/using password protection — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Email with attachments sent without being encrypted/using password protection — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Memory sticks containing patient/sensitive data are misplaced or lost — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Memory sticks containing patient/sensitive data are misplaced or lost — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Posted items containing patient/sensitive data getting lost — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Posted items containing patient/sensitive data getting lost — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "9",
+      "question_text": "Voicemails left on incorrect numbers containing patient/confidential information — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Voicemails left on incorrect numbers containing patient/confidential information — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "Relatives of a patient are given information incorrectly — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Relatives of a patient are given information incorrectly — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "13",
+      "question_text": "Mobile/laptop going missing — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Mobile/laptop going missing — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "15",
+      "question_text": "Referrals are getting lost or misplaced — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Referrals are getting lost or misplaced — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "17",
+      "question_text": "New staff — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "New staff — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "The server getting damaged, and data lost — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "The server getting damaged, and data lost — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "21",
+      "question_text": "Malware Infection of Patient Management Software due to outdated anti-virus/Malware software — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Malware Infection of Patient Management Software due to outdated anti-virus/Malware software — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "23",
+      "question_text": "Phishing emails sent to the practice or staff email addresses — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Phishing emails sent to the practice or staff email addresses — Sign and date once completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "25",
+      "question_text": "Remote Access – data interception from using public or unprotected wifi — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Remote Access – data interception from using public or unprotected wifi — Sign and date once completed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "[OTHER] — Risk/Hazard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "[OTHER] — Control measures in place"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "29",
+      "question_text": "[OTHER] — Action required: yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "[OTHER] — Sign and date once completed"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INFORMATION_SECURITY_RISK_ASSESSMENT__2026",
+  "title": "Information Security Risk Assessment V1.2JUN25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
