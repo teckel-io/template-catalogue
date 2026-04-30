@@ -1,0 +1,127 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Actual time of appointment": "actual_appointment_time",
+    "Audit completed by(name)": "audit_completed_by",
+    "Clinician name": "clinician_name",
+    "Could there have been improvements made?": "improvements",
+    "Data Collected from End Date": "data_end_date",
+    "Data Collected from Start Date": "data_start_date",
+    "Date of Audit": "date_of_audit",
+    "Date of next Audit": "next_audit_date",
+    "GDC Registration Number": "gdc_registration_number",
+    "How many minutes past the appointment time ?": "minutes_past_appointment",
+    "Patient I.D number": "patient_id",
+    "Practice": "practice",
+    "Time checked in on system as waiting": "time_checked_in",
+    "Time checked into surgery": "time_checked_into_surgery",
+    "What was the reason for this": "reason"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 33826,
+  "form_id": "PATIENT_WAITING_TIME_AUDIT_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PATIENT_WAITING_TIME_AUDIT_TEMPLATE/2026/PATIENT_WAITING_TIME_AUDIT_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:25:50.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Patient waiting time audit template -V2.0MAR24.docx",
+  "question_count": 15,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Clinician name:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "GDC Registration Number:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Date of Audit:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Audit completed by(name):"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Practice:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Data Collected from Start Date:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Data Collected from End Date:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Date of next Audit:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Patient I.D number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Time checked in on system as waiting"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Actual time of appointment"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Time checked into surgery"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "How many minutes past the appointment time ?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "What was the reason for this"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Could there have been improvements made?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PATIENT_WAITING_TIME_AUDIT_TEMPLATE__2026",
+  "title": "Patient waiting time audit template -V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
