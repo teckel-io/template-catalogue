@@ -1,0 +1,497 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 692895,
+  "form_id": "CBCT_CLINICAL_AUDIT_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CBCT_CLINICAL_AUDIT_TEMPLATE/2026/CBCT_CLINICAL_AUDIT_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:23:02.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "CBCT Clinical Audit Template.docx",
+  "question_count": 57,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "1",
+      "question_text": "Table 1 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "2",
+      "question_text": "Table 2 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "3",
+      "question_text": "Table 3 Question"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "Maxilla — Single Tooth — Incisive Canal"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "Maxilla — Single Tooth — Descent Maxillary sinus"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Maxilla — Single Tooth — Alveolar ridge"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Maxilla — Partially Dentate — Descent Maxillary sinus"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Maxilla — Partially Dentate — Alveolar ridge"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Maxilla — Edentulous — Descent Maxillary sinus"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Maxilla — Edentulous — Alveolar ridge"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Mandible — Single tooth — Mandibular Canal"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Mandible — Single tooth — Alveolar Ridge"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Mandible — Partially Dentate — Mandibular Canal / Mental foramen"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Mandible — Partially Dentate — Alveolar Ridge"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Mandible — Edentulous — Mandibular Canal"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Mandible — Edentulous — Alveolar Ridge"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Mandible — Edentulous — Severe Resorption"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Differentiation of pathosis from normal anatomy"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Relationships with important anatomical structures"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Aiding management of dens invaginatus and aberrant intra-radicular anatomy"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "Resorption (Internal/ External)"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "Management of iatrogenic error (e.g. instrument fracture)"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "23",
+      "question_text": "Aiding surgical endodontic planning"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "24",
+      "question_text": "Dento-alveolar Trauma"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "25",
+      "question_text": "Root Fracture"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "26",
+      "question_text": "Luxation or avulusion Injury"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "27",
+      "question_text": "Table 6 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "28",
+      "question_text": "Table 7 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "29",
+      "question_text": "Table 8 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "30",
+      "question_text": "Table 9 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "CBCT Raw Data/cd"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "CBCT Prescription Details"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Radiologists/Clinician's Report"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Printouts"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "35",
+      "question_text": "Table 11 Question"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "36",
+      "question_text": "Patient Weight"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "37",
+      "question_text": "Dosage"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "38",
+      "question_text": "Indication for scan"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "39",
+      "question_text": "Scan volume"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "40",
+      "question_text": "Scan capture size"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "41",
+      "question_text": "Normal findings"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "42",
+      "question_text": "Abnormal findings"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "43",
+      "question_text": "Planning features"
+    },
+    {
+      "answer_options": [
+        "Present",
+        "Not Present"
+      ],
+      "question_number": "44",
+      "question_text": "Other"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "45",
+      "question_text": "Table 13 Question"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "Treatment not carried forward"
+      ],
+      "question_number": "46",
+      "question_text": "Changes made to treatment plan"
+    },
+    {
+      "answer_options": [
+        "No",
+        "Original treatment plan confirmed"
+      ],
+      "question_number": "47",
+      "question_text": "Original treatment plan confirmed"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "48",
+      "question_text": "Aiding management of dens invaginatus and aberrant pulpal anatomy"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "49",
+      "question_text": "External resorption"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "50",
+      "question_text": "Internal resorption"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "51",
+      "question_text": "Lateral root perforation by a post"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "52",
+      "question_text": "Accessory canal identification"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "53",
+      "question_text": "Surgical management of fractured instrument"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "54",
+      "question_text": "Root fractures"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "55",
+      "question_text": "Luxation injuries"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "56",
+      "question_text": "Avulsion"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "57",
+      "question_text": "Root resorption as a post-trauma complication"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CBCT_CLINICAL_AUDIT_TEMPLATE__2026",
+  "title": "CBCT Clinical Audit Template",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
