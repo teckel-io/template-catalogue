@@ -1,0 +1,89 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "bare_below_elbows": "bare_below_elbows",
+    "correct_technique": "correct_hand_hygiene_technique",
+    "cuts_grazes_covered": "cuts_grazes_covered",
+    "key_moments": "key_moments_opportunity_taken",
+    "staff_member": "staff_member_being_observed",
+    "towels_disposal": "paper_towels_disposal"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 1263747,
+  "form_id": "WORD_VERSION_EDITABLE_ON_DESKTOP_HAND_HYGIENE_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/WORD_VERSION_EDITABLE_ON_DESKTOP_HAND_HYGIENE_TEMPLATE/2026/WORD_VERSION_EDITABLE_ON_DESKTOP_HAND_HYGIENE_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:27:38.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Word Version (editable on desktop) - Hand Hygiene Template.docx",
+  "question_count": 6,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Staff member being observed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "2",
+      "question_text": "'Key Moments' Was the opportunity taken to clean their hands at each moment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "3",
+      "question_text": "Staff are 'Bare Below the Elbows'*"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "4",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "The correct hand hygiene technique is used when washing hands**"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "6",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__WORD_VERSION_EDITABLE_ON_DESKTOP_HAND_HYGIENE_TEMPLATE__2026",
+  "title": "Word Version (editable on desktop) - Hand Hygiene Template",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
