@@ -1,0 +1,114 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21351,
+  "form_id": "MANUAL_HANDLING_AUDIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/MANUAL_HANDLING_AUDIT/2026/MANUAL_HANDLING_AUDIT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:24:06.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Manual Handling Audit - V2.1MAR24.docx",
+  "question_count": 12,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "1",
+      "question_text": "The organisation's current policy includes manual handling, which has been reviewed within the last three years and refers to legislation and best practices."
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Comments for Item 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "3",
+      "question_text": "The Manual Handling Policy is communicated at all levels."
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Comments for Item 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Competent persons are identified to undertake a health and safety risk assessment, which includes Manual Handling. (Template called Practice/Health and Safety Risk Assessment)\n\nSuppose individual manual handling risk assessments are required. In that case, they can be in the additional risk assessments folder in the compliance suite."
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Comments for Item 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Have line managers documented manual handling risk assessments for all significant activities with potential injury or harm to health?\nAny general risks should be added to the H&S Practice RA; individual risks need to undergo the individual manual handling risk assessment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Comments for Item 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "9",
+      "question_text": "Systems are in place to reduce the risk of injury."
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Comments for Item 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "Have all manual handling risk assessments been reviewed at least on a 1-yearly basis?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Comments for Item 6"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__MANUAL_HANDLING_AUDIT__2026",
+  "title": "Manual Handling Audit - V2.1MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
