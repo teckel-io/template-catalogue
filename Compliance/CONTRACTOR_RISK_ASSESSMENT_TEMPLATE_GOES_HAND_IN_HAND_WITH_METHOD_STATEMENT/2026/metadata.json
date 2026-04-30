@@ -1,0 +1,126 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 22655,
+  "form_id": "CONTRACTOR_RISK_ASSESSMENT_TEMPLATE_GOES_HAND_IN_HAND_WITH_METHOD_STATEMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CONTRACTOR_RISK_ASSESSMENT_TEMPLATE_GOES_HAND_IN_HAND_WITH_METHOD_STATEMENT/2026/CONTRACTOR_RISK_ASSESSMENT_TEMPLATE_GOES_HAND_IN_HAND_WITH_METHOD_STATEMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:36:22.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Contractor Risk Assessment template - Goes hand in hand with Method Statement V2.0FEB24.docx",
+  "question_count": 11,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Written by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "3",
+      "question_text": "Struck by moving vehicles (when working in outside area) — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "4",
+      "question_text": "Manual Handling- Muscle strains, sprains & injuries caused by lifting heavy loads — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "5",
+      "question_text": "Lung damage or difficulty breathing from mixing and sanding powdered fillers — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "6",
+      "question_text": "Cuts to hands from preparing surfaces — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "Electrical Risk of – electric shock or burns fire from damaged equipment — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "Fire — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "9",
+      "question_text": "Sharps Risk of infection from used needles, instruments and spicules of teeth or bone — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "Slips, trips and falls Risk of injury — Hazard Assessment"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "Risk Assessment reviewed and approved"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CONTRACTOR_RISK_ASSESSMENT_TEMPLATE_GOES_HAND_IN_HAND_WITH_METHOD_STATEMENT__2026",
+  "title": "Contractor Risk Assessment template - Goes hand in hand with Method Statement V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
