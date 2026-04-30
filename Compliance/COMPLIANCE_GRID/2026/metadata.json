@@ -1,0 +1,253 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Case study": "case_study",
+    "Compliance": "compliance",
+    "Description": "description",
+    "Evidence": "evidence",
+    "Standard": "standard",
+    "Tools and resources": "tools_and_resources"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21704,
+  "form_id": "COMPLIANCE_GRID",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/COMPLIANCE_GRID/2026/COMPLIANCE_GRID.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:24:12.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Compliance Grid.docx",
+  "question_count": 42,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Cleaning responsibilities — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Cleaning responsibilities — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Cleaning responsibilities — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Cleaning responsibilities — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Cleaning responsibilities — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Cleaning responsibilities — Case study"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Audit frequency — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Audit frequency — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Audit frequency — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Audit frequency — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Audit frequency — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Audit frequency — Case study"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Audit – display of star ratings — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Audit – display of star ratings — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Audit – display of star ratings — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Audit – display of star ratings — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Audit – display of star ratings — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Audit – display of star ratings — Case study"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Efficacy checks — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Efficacy checks — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Efficacy checks — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Efficacy checks — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Efficacy checks — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Efficacy checks — Case study"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Commitment to cleanliness charter posters — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Commitment to cleanliness charter posters — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Commitment to cleanliness charter posters — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Commitment to cleanliness charter posters — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Commitment to cleanliness charter posters — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Commitment to cleanliness charter posters — Case study"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Elements, frequencies and performance parameter — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Elements, frequencies and performance parameter — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Elements, frequencies and performance parameter — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Elements, frequencies and performance parameter — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Elements, frequencies and performance parameter — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Elements, frequencies and performance parameter — Case study"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Functional risk categories — Compliance"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Functional risk categories — Standard"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Functional risk categories — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Functional risk categories — Evidence"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Functional risk categories — Tools and resources"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Functional risk categories — Case study"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__COMPLIANCE_GRID__2026",
+  "title": "Compliance Grid",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
