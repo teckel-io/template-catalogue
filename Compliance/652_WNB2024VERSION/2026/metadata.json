@@ -1,0 +1,196 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 547675,
+  "form_id": "652_WNB2024VERSION",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/652_WNB2024VERSION/2026/652_WNB2024VERSION.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:31:45.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "652_WNB2024Version.pdf",
+  "question_count": 20,
+  "questions": [
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "1",
+      "question_text": "WNB1 - Phone contact made and appointment rebooked"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "WNB1 - Send letter CYP_WNB_letter1_rebooked to home address"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "WNB1 - Use template note WNB1 to document actions taken"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "WNB2 - No reply to phone call after 2 attempts at different times"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "WNB2 - Send CYP_WNB_letter2_to_parent to home address"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "WNB2 - Use template note WNB2 to document actions taken"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "WNB3 - Ask if any special reason why not brought"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "WNB3 - Offer new appointment"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "WNB3 - Listen and document if any obvious worries about the planned treatment"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "WNB3 - Send letter CYP_WNB_letter3_rebooked to home address"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "WNB3 - Use template note WNB3 to document actions taken"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "WNB4 - Inform clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "WNB4 - Clinician to review records and assess risk of harm"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "WNB4 - Consider sharing information with referring dentist, other health professional or local children services, and GP"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "WNB4 - Send letter to GP CYP_WNB_letter4_to_GP"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "WNB4 - Archive record OR decide on further action required"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "WNB4 - Use template note WNB4 to document actions taken"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Multiple cancellations or repeated WNBs - Treat as WNB4"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Multiple cancellations or repeated WNBs - Make a note to discuss with parent at next visit"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Multiple cancellations or repeated WNBs - Use template note WNB4 to document actions taken"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__652_WNB2024VERSION__2026",
+  "title": "652_WNB2024Version",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
