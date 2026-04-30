@@ -1,0 +1,145 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "calculation_a_div_b": "3.Calculation of A ÷ B",
+    "cgdents_selection_criteria_used": "*CGDents publication: Selection criteria for dental radiography is used when prescribing radiographs Y/N",
+    "clinical_evaluation_reporting": "Clinical Evaluation (Reporting) Y/N",
+    "comments": "Comments",
+    "consent_gained": "Consent Gained Y/N",
+    "date_taken": "Date Taken",
+    "graded_a_n": "Graded A/N",
+    "id_no": "ID No",
+    "justification_given": "Justification Given Y/N",
+    "patient_id": "Patient ID",
+    "percentage_total": "4.Total from Column 3 X 100= %",
+    "rad_taken_by": "Rad Taken By",
+    "total_acceptable_images": "1.Total number of Acceptable Images (A)",
+    "total_radiographs_audit": "2.Total Number of Radiographs on Audit (B)",
+    "xray_file_attached_correct_patient": "X-ray File attached to the Correct Patient Y/N"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 35713,
+  "form_id": "RADIOGRAPH_AUDIT_DIGITAL_PERIAPICAL_50_IMAGE_AUDIT_TO_BE_DONE_WITH_BITEWING_AUDI",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/RADIOGRAPH_AUDIT_DIGITAL_PERIAPICAL_50_IMAGE_AUDIT_TO_BE_DONE_WITH_BITEWING_AUDI/2026/RADIOGRAPH_AUDIT_DIGITAL_PERIAPICAL_50_IMAGE_AUDIT_TO_BE_DONE_WITH_BITEWING_AUDI.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:29:34.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Radiograph Audit - Digital Periapical (50 Image audit to be done with Bitewing Audit) V2.2FEB26.docx",
+  "question_count": 15,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "ID No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Patient ID"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Date Taken"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Rad Taken By"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "5",
+      "question_text": "*CGDents publication: Selection criteria for dental radiography is used when prescribing radiographs Y/N"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "6",
+      "question_text": "Justification Given Y/N"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "7",
+      "question_text": "Consent Gained Y/N"
+    },
+    {
+      "answer_options": [
+        "A",
+        "N"
+      ],
+      "question_number": "8",
+      "question_text": "Graded A/N"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "9",
+      "question_text": "Clinical Evaluation (Reporting) Y/N"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "10",
+      "question_text": "X-ray File attached to the Correct Patient Y/N"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "1.Total number of Acceptable Images (A)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "2.Total Number of Radiographs on Audit (B)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "3.Calculation of A ÷ B"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "4.Total from Column 3 X 100= %"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__RADIOGRAPH_AUDIT_DIGITAL_PERIAPICAL_50_IMAGE_AUDIT_TO_BE_DONE_WITH_BITEWING_AUDI__2026",
+  "title": "Radiograph Audit - Digital Periapical (50 Image audit to be done with Bitewing Audit) V2.2FEB26",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
