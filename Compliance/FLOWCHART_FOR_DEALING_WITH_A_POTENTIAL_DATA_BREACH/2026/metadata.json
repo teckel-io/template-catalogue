@@ -1,0 +1,55 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 28156,
+  "form_id": "FLOWCHART_FOR_DEALING_WITH_A_POTENTIAL_DATA_BREACH",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/FLOWCHART_FOR_DEALING_WITH_A_POTENTIAL_DATA_BREACH/2026/FLOWCHART_FOR_DEALING_WITH_A_POTENTIAL_DATA_BREACH.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:37:51.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Flowchart for dealing with a potential Data Breach V1.0APR24.docx",
+  "question_count": 3,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date and Time:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Identified Risk"
+    },
+    {
+      "answer_options": [
+        "Low",
+        "Medium",
+        "High"
+      ],
+      "question_number": "3",
+      "question_text": "Risk Factor- Low, Medium or High"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__FLOWCHART_FOR_DEALING_WITH_A_POTENTIAL_DATA_BREACH__2026",
+  "title": "Flowchart for dealing with a potential Data Breach V1.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
