@@ -1,0 +1,186 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 27419,
+  "form_id": "LEGITIMATE_INTEREST_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/LEGITIMATE_INTEREST_ASSESSMENT/2026/LEGITIMATE_INTEREST_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:40:06.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Legitimate Interest Assessment V2.0APR24.docx",
+  "question_count": 30,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Why do you want to process the data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "What benefit do you expect to get from processing the data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Do any third parties benefit from the processing?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "How significant are the benefits you have identified?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "What would the impact be if you couldn't proceed with the processing?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Are you complying with any other relevant laws?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Are you complying with industry guidelines or codes of practice?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Are there any ethical issues with the processing?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Will this processing help you achieve your purpose?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Is the processing proportionate to that purpose?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Can you achieve the same purpose without the processing?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Can you achieve the same purpose by processing less data or by processing the data in another, more obvious, or less intrusive way?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Is it special category data or criminal offence data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Is it data which people are likely to consider particularly private?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Are you processing children's data or data relating to other vulnerable groups?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Do you have an existing relationship with the individual?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "What's the nature of the relationship, and how have you used data in the past?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Did you collect the data directly from the individual? What did you tell them at the time?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "If you obtained the data from a third party, what did they tell the individuals about reuse by third parties for other purposes, and does this cover you?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "How long ago did you collect the data? Have there been any changes in technology or context since then that would affect expectations?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Is your intended purpose and method widely understood?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Are you intending to do anything new or innovative?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Do you have any evidence about expectations – e.g. from market research, focus groups or other forms of consultation?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Are there any other factors in the particular circumstances that mean they would or would not expect the processing?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "What are the possible impacts of the processing on people?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Will individuals lose any control over the use of their personal data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "What is the likelihood and severity of any potential impact?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Are some people likely to object to the processing or find it intrusive?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Would you be happy to explain the processing to individuals?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Can you adopt any safeguards to minimise the impact?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__LEGITIMATE_INTEREST_ASSESSMENT__2026",
+  "title": "Legitimate Interest Assessment V2.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
