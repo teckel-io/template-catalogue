@@ -1,0 +1,211 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "N/A": "na",
+    "No": "no",
+    "Yes": "yes"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 65226,
+  "form_id": "334_AUDIT_TOOL_ASEPTIC_TECHNIQUE_PROCEDURE_FOR_DENTAL_PRACTICE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/334_AUDIT_TOOL_ASEPTIC_TECHNIQUE_PROCEDURE_FOR_DENTAL_PRACTICE/2026/334_AUDIT_TOOL_ASEPTIC_TECHNIQUE_PROCEDURE_FOR_DENTAL_PRACTICE.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:28:04.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "334_Audit-Tool-Aseptic-Technique-Procedure-for-Dental-Practice.pdf",
+  "question_count": 19,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "1",
+      "question_text": "The procedure is explained and discussed with the patient and verbal consent obtained."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "2",
+      "question_text": "The practitioner undertaking the procedure is bare below the elbows (BBE) and any cuts/grazes are covered with a waterproof dressing."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "3",
+      "question_text": "Hands are decontaminated, using the correct technique, with liquid soap and warm running water and dried with paper towels or an alcohol handrub is used and allowed to dry."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "4",
+      "question_text": "The surface to be used for the sterile field is decontaminated with a detergent wipe or detergent and warm water and dried with paper towels."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "5",
+      "question_text": "All equipment is obtained for the procedure, sterile items are checked to ensure they are intact, sterile and within the expiry date."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "6",
+      "question_text": "The patient is positioned comfortably for the procedure."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "A disposable apron is put on."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "The outer packaging of the sterile pack is opened and contents removed using a sliding action ensuring that the inner pack is not touched."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "9",
+      "question_text": "If the sterile pack has an inner wrapper it is opened using only the corners of the paper."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "If supplementary items are required, remove from packaging and place on the sterile field ensuring the outer packaging does not come into contact with the sterile field."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "11",
+      "question_text": "Sterile gloves are put on without contaminating the outer surface of the gloves."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "12",
+      "question_text": "If it is necessary for the practitioner to obtain additional items during the procedure, gloves should be removed, hands decontaminated, items obtained and placed on sterile field. Hands are then decontaminated again prior to applying a new pair of sterile gloves and recommencing procedure."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "Procedure is performed, ensuring sterile items are not contaminated by used items."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "14",
+      "question_text": "Waste is disposed of in the appropriate colour waste bags: • Black bag - non-contaminated domestic waste, e.g. packaging and paper towels • Yellow and black offensive/hygiene waste bag - saliva contaminated waste with no known risk, e.g. gloves, aprons, tissues and other items from dental care not contaminated with blood, medicines, chemicals or amalgam • Orange infectious waste bag - blood contaminated waste, e.g. gloves, aprons, tissues, swabs and other waste that may present a risk of infection (including saliva, contaminated items from a known infectious patient or where medical history is not available). Should not be used for medicine, chemical or amalgam contaminated wastes"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "15",
+      "question_text": "Remove gloves first, then apron and dispose of in the appropriate colour waste bag."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "16",
+      "question_text": "Hands are decontaminated with liquid soap and warm running water and dried with paper towels or alcohol handrub used and allowed to dry."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "The patient is comfortable and given appropriate care and follow-up advice as required prior to them leaving the room."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "18",
+      "question_text": "The procedure is documented in the patient's records."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "The immediate area is decontaminated as per local policy."
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__334_AUDIT_TOOL_ASEPTIC_TECHNIQUE_PROCEDURE_FOR_DENTAL_PRACTICE__2026",
+  "title": "334_Audit-Tool-Aseptic-Technique-Procedure-for-Dental-Practice",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
