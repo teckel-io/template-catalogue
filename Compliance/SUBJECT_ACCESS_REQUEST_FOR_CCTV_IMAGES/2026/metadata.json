@@ -1,0 +1,139 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "access_granted": "access_granted",
+    "access_not_granted": "access_not_granted",
+    "data_controller_date": "data_controller_date",
+    "data_controller_name": "data_controller_name",
+    "data_controller_signature": "data_controller_signature",
+    "data_subject_name_address": "data_subject_details",
+    "data_subject_signature": "data_subject_signature",
+    "date_image_taken": "date_image_taken",
+    "description_photos": "description_photos",
+    "full_name_address_applicant": "applicant_details",
+    "location_camera": "location_camera",
+    "reason_not_granting": "reason_not_granting",
+    "reasons_for_request": "reasons_for_request",
+    "reasons_no_signature": "reasons_no_signature",
+    "time_image_taken": "time_image_taken",
+    "view_only_satisfied": "view_only_satisfied"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 19096,
+  "form_id": "SUBJECT_ACCESS_REQUEST_FOR_CCTV_IMAGES",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SUBJECT_ACCESS_REQUEST_FOR_CCTV_IMAGES/2026/SUBJECT_ACCESS_REQUEST_FOR_CCTV_IMAGES.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:37:36.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Subject Access Request for CCTV Images V1.1APR24.docx",
+  "question_count": 16,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Full name and address of Applicant, including job role and organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Name and address of \"Data Subject\" – i.e. the person whose image is recorded"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "If the data subject is not the person making the application, please obtain a signed consent from the data subject opposite - Data Subject signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "If it is not possible to obtain the signature of the data subject, please state your reasons"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Please state your reasons for requesting the image"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "The date on which the requested image was taken"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Time at which the requested image was taken"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Location of the data subject at the time the image was taken (i.e. which camera or cameras.)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Please provide a full description of the individual or, alternatively, attach a range of photographs to this application to enable the operator to identify the data subject – Height, Gender, Hair Colour etc"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Please indicate whether you (the applicant) will be satisfied by viewing the image only"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Access Granted (tick)"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Access not granted (tick)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Reason for not granting access"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Data Controller's name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Data Controller's Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Data Controller's Date"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SUBJECT_ACCESS_REQUEST_FOR_CCTV_IMAGES__2026",
+  "title": "Subject Access Request for CCTV Images V1.1APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
