@@ -1,0 +1,213 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "cost": "cost",
+    "description": "disgrifiad",
+    "fee_basis": "sail_y_tal",
+    "fee_type": "math_o_dal",
+    "how_to_access": "sut_gallwch_chi_sicrhau_wybodaeth",
+    "information_to_publish": "yr_wybodaeth_sydd_iw_chyhoeddi"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 73128,
+  "form_id": "ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME_WELSH",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME_WELSH/2026/ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME_WELSH.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:39:10.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "ICO Template for NHS Dentists - Freedom of Information Publication Scheme - Welsh.docx",
+  "question_count": 34,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Pwy yw pwy yn y ddeintyddfa"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Manylion cysylltu'r ddeintyddfa, y cyfeiriad post ac ebost (os yw'n cael ei ddefnyddio). Os oes modd, enwau'r cysylltiadau gyda rhif ffôn a chyfeiriad ebost."
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Oriau agor"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Manylion am gyllid y GIG a dderbynnir a chost gweithredu contract y GIG – cymaint o wybodaeth â phosibl, mor fanwl â phosibl"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Cyfanswm y gwariant blynyddol ar ddarparu gwasanaethau contract y GIG (gan fod y mwyafrif o ddeintyddfeydd yn darparu gofal i gleifion ar sail breifat hefyd, mae'r costau wedi'u dosrannu)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Archwiliad incwm y GIG"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Cynlluniau ar gyfer datblygu a darparu gwasanaethau'r GIG"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Data perfformiad gan gynnwys perfformiad yn erbyn targedau"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Adroddiadau ar arolygiadau gan y rheoleiddwyr"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Asesiadau o'r effaith ar ddiogelu data (ar ffurf lawn neu grynodeb) neu unrhyw asesiad effaith arall"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Cofnodion o benderfyniadau a wnaed yn y ddeintyddfa sy'n effeithio ar ddarparu gwasanaethau'r GIG"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Polisïau a gweithdrefnau ar gyfer cynnal busnes a darparu gwasanaethau"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Polisïau a gweithdrefnau gwasanaethau i gwsmeriaid a chwynion"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Cyfarwyddiadau mewnol i'r staff a pholisïau sy'n ymwneud â darparu gwasanaethau'r GIG"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Polisïau a gweithdrefnau ynghylch recriwtio a chyflogi staff"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Polisi tâl"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Polisi cydraddoldeb ac amrywiaeth"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Polisi iechyd a diogelwch"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Polisi rheoli heintiau"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Rhestr wirio diogelu radiolegol"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Polisïau rheoli cofnodion (cadw, dinistrio ac archifo cofnodion)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Polisïau cyfrinachedd a diogelu data (gan gynnwys polisïau rhannu data a defnyddio CCTV)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Polisïau a gweithdrefnau ar gyfer ymdrin â cheisiadau am wybodaeth"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Manylion lleoliadau unrhyw gamerâu gwyliadwriaeth CCTV agored sy'n cael eu gweithredu gennych chi neu ar eich rhan"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Manylion unrhyw gofrestr neu restr sydd ar gael i'r cyhoedd"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Y gwasanaethau a ddarperir o dan gontract i'r GIG"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Taliadau am unrhyw un neu ragor o'r gwasanaethau hyn"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Taflenni gwybodaeth"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Trefniadau y tu allan i oriau"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Llungopïo @ ..c y ddalen (du a gwyn) - cost ad-daliad"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Llungopïo @ ..c y ddalen (lliw) - cost ad-daliad"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Postio - cost ad-daliad"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Ffi Statudol"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Ffi Arall"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME_WELSH__2026",
+  "title": "ICO Template for NHS Dentists - Freedom of Information Publication Scheme - Welsh",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
