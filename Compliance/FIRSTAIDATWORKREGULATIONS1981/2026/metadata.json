@@ -1,0 +1,241 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Impact on first-aid provision": "impact_on_first_aid_provision",
+    "Number needed": "number_needed",
+    "Required Yes/no": "required_yes_no",
+    "Space for notes": "space_for_notes"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 2377975,
+  "form_id": "FIRSTAIDATWORKREGULATIONS1981",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/FIRSTAIDATWORKREGULATIONS1981/2026/FIRSTAIDATWORKREGULATIONS1981.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:41:50.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "FirstAidatWorkRegulations1981.pdf",
+  "question_count": 34,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Hazards (use the findings of your general risk assessment and take account of any parts of your workplace that have different work activities/hazards which may require different levels of first-aid provision) — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Does your workplace have low-level hazards such as those that might be found in offices and shops? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Does your workplace have higher-level hazards such as chemicals or dangerous machinery? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Do your work activities involve special hazards such as hydrofluoric acid or confined spaces? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "How many people are employed on site? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Are there inexperienced workers on site, or employees with disabilities or particular health problems? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "What is your record of accidents and ill health? What injuries and illness have occurred and where did they happen? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Do you have employees who travel a lot, work remotely or work alone? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Do any of your employees work shifts or out-of-hours? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Are the premises spread out, eg are there several buildings on the site or multi-floor buildings? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Is your workplace remote from emergency medical services? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Do any of your employees work at sites occupied by other employers? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Do you have sufficient provision to cover absences of first-aiders or appointed persons? — Space for notes"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Do members of the public or non-employees visit your premises? — Space for notes"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "15",
+      "question_text": "Appointed person — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Appointed person — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "17",
+      "question_text": "First-aider with an emergency first aid at work certificate — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "First-aider with an emergency first aid at work certificate — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "First-aider with a first aid at work certificate — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "First-aider with a first aid at work certificate — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "21",
+      "question_text": "First-aider with additional training (specify) — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "First-aider with additional training (specify) — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "23",
+      "question_text": "Dust- and damp-proof first-aid container — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Dust- and damp-proof first-aid container — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "25",
+      "question_text": "Kit contents — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Kit contents — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "27",
+      "question_text": "Additional equipment (specify), eg foil blankets, eye wash bottles, shears, microporous tape, tourniquets, haemostatic dressings — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Additional equipment (specify), eg foil blankets, eye wash bottles, shears, microporous tape, tourniquets, haemostatic dressings — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "29",
+      "question_text": "Defibrillator — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Defibrillator — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "31",
+      "question_text": "Travelling first-aid kit — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Travelling first-aid kit — Number needed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "33",
+      "question_text": "First-aid room — Required Yes/no"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "First-aid room — Number needed"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__FIRSTAIDATWORKREGULATIONS1981__2026",
+  "title": "FirstAidatWorkRegulations1981",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
