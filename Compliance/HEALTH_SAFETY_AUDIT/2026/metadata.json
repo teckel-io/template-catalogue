@@ -1,0 +1,457 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 24928,
+  "form_id": "HEALTH_SAFETY_AUDIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/HEALTH_SAFETY_AUDIT/2026/HEALTH_SAFETY_AUDIT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:23:46.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Health & Safety Audit V2.0MAR24.docx",
+  "question_count": 49,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date of Audit:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Carried out by:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Practice:"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "4",
+      "question_text": "Have corrective actions from the previous audit been completed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "5",
+      "question_text": "Are floors and passageways clear of obstructions and slip hazards?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "6",
+      "question_text": "Are the housekeeping standards satisfactory?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "Are all doorways clear of obstructions?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "Are hazardous waste and sharps bins being used and emptied?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Any other pertinent observations:"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "Are all fire exits clear of obstruction?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "11",
+      "question_text": "Are all fire doors closed and not propped open?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "12",
+      "question_text": "Are all fire extinguishers in date, easily accessible, and signposted?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "Is the fire signage in place?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "14",
+      "question_text": "Are employees aware of the fire evacuation procedure and their specific responsibilities?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "15",
+      "question_text": "Is the fire marshal station equipped with a baton and Hi-Vis vest? Are the listed marshals appropriate?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "16",
+      "question_text": "Is the overall appearance of the practice, equipment, and appliances satisfactory, i.e., cleanliness and general condition"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "Are all power points, cables, and plugs in sound condition?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "18",
+      "question_text": "Are portable appliances in good condition?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "Do all portable appliances have current PAT testing stickers attached?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "20",
+      "question_text": "Are machines free of trip hazards from trailing cables, etc."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "21",
+      "question_text": "Is the condition of the chairs acceptable?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "22",
+      "question_text": "Are filing cabinets fitted with anti-tilt mechanisms or labeled to indicate otherwise"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "23",
+      "question_text": "Are any chemicals being stored correctly in the area (i.e., correct container, segregated where required)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "24",
+      "question_text": "Are flammables being stored correctly as per the manufacturer's instructions?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "25",
+      "question_text": "Are all chemical containers adequately labelled?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "26",
+      "question_text": "Are current safety data sheets available?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "27",
+      "question_text": "Have COSHH assessments been carried out, and have they been reviewed?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "28",
+      "question_text": "Is there adequate chemical spillage clean-up equipment available"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "29",
+      "question_text": "Are risk assessments and suitable controls in place for any dust or fume issues (practice risk assessment)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "30",
+      "question_text": "Are the lighting levels in the area sufficient?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "Is the control of any noise issues adequate?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "Are the heating and ventilation levels sufficient?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Is the main structure (floors, walls, ceilings, windows, and pipes) in an acceptable condition?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Is the area free of overhead hazards?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "35",
+      "question_text": "Is the area free of sharp or protruding edges?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "36",
+      "question_text": "Is suitable and sufficient Personal Protective Equipment being provided, and is it being used?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "37",
+      "question_text": "Are safety signs and notices in place i.e. warning signs, PPE etc"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "38",
+      "question_text": "Is the first aid station complete, i.e. box still sealed, eye wash bottles present, and first aiders list up to date"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "39",
+      "question_text": "Are safe storage practices being followed?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "40",
+      "question_text": "Have staff in the area been trained to use the equipment?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "41",
+      "question_text": "Are up-to-date Risk Assessments available?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "42",
+      "question_text": "Have DSE workstation assessments been carried out?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "43",
+      "question_text": "Is historical safety documentation suitably stored and available?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "44",
+      "question_text": "Are operating instructions in place?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "45",
+      "question_text": "Is adequate health and safety training provided?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "46",
+      "question_text": "Are training records or matrixes available?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "47",
+      "question_text": "Have all outstanding staff safety issues been dealt with?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "48",
+      "question_text": "Is health surveillance carried out where applicable and recorded?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Additional Comments:"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__HEALTH_SAFETY_AUDIT__2026",
+  "title": "Health & Safety Audit V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
