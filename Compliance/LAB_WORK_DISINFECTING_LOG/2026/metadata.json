@@ -1,0 +1,63 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "incoming_date_disinfected": "Date Disinfected",
+    "incoming_disinfected_with": "Disinfected with",
+    "incoming_lab_work_id": "Incoming Lab Work ID",
+    "outgoing_date_disinfected": "Date Disinfected",
+    "outgoing_disinfected_with": "Disinfected with",
+    "outgoing_lab_work_id": "Outgoing Lab Work ID"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21126,
+  "form_id": "LAB_WORK_DISINFECTING_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/LAB_WORK_DISINFECTING_LOG/2026/LAB_WORK_DISINFECTING_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:48:24.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Lab Work Disinfecting Log V2.0MAR24.docx",
+  "question_count": 4,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Outgoing Lab Work ID"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date Disinfected"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Disinfected with"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Incoming Lab Work ID"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__LAB_WORK_DISINFECTING_LOG__2026",
+  "title": "Lab Work Disinfecting Log V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
