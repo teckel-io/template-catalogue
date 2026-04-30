@@ -1,0 +1,1124 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Date": "audit_date",
+    "Patient 1": "patient_1",
+    "Patient 2": "patient_2",
+    "Patient 3": "patient_3",
+    "Patient 4": "patient_4",
+    "Patient 5": "patient_5",
+    "Ther/Hyg": "therapist_hygienist"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 27731,
+  "form_id": "RECORD_CARD_AUDIT_HYGIENISTS_AND_THERAPISTS",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/RECORD_CARD_AUDIT_HYGIENISTS_AND_THERAPISTS/2026/RECORD_CARD_AUDIT_HYGIENISTS_AND_THERAPISTS.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:26:09.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Record card audit- Hygienists and Therapists V2.1AUG25.docx",
+  "question_count": 102,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Ther/Hyg"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Patient ID Number — Patient 1"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Patient ID Number — Patient 2"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Patient ID Number — Patient 3"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Patient ID Number — Patient 4"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Patient ID Number — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "medical history — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "9",
+      "question_text": "medical history — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "medical history — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "11",
+      "question_text": "medical history — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "12",
+      "question_text": "medical history — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "medical history recorded in medical screen/tab — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "14",
+      "question_text": "medical history recorded in medical screen/tab — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "15",
+      "question_text": "medical history recorded in medical screen/tab — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "16",
+      "question_text": "medical history recorded in medical screen/tab — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "medical history recorded in medical screen/tab — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "18",
+      "question_text": "medical history update in clinical record — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "medical history update in clinical record — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "20",
+      "question_text": "medical history update in clinical record — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "21",
+      "question_text": "medical history update in clinical record — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "22",
+      "question_text": "medical history update in clinical record — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "23",
+      "question_text": "discussions — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "24",
+      "question_text": "discussions — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "25",
+      "question_text": "discussions — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "26",
+      "question_text": "discussions — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "27",
+      "question_text": "discussions — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "28",
+      "question_text": "presenting complaint recorded (c/o) — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "29",
+      "question_text": "presenting complaint recorded (c/o) — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "30",
+      "question_text": "presenting complaint recorded (c/o) — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "presenting complaint recorded (c/o) — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "presenting complaint recorded (c/o) — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Social history (smoking/Alcohol) — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Social history (smoking/Alcohol) — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "35",
+      "question_text": "Social history (smoking/Alcohol) — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "36",
+      "question_text": "Social history (smoking/Alcohol) — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "37",
+      "question_text": "Social history (smoking/Alcohol) — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "38",
+      "question_text": "Smoking cessation advice given (mark n/a if non smoker) — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "39",
+      "question_text": "Smoking cessation advice given (mark n/a if non smoker) — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "40",
+      "question_text": "Smoking cessation advice given (mark n/a if non smoker) — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "41",
+      "question_text": "Smoking cessation advice given (mark n/a if non smoker) — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "42",
+      "question_text": "Smoking cessation advice given (mark n/a if non smoker) — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "43",
+      "question_text": "intra oral examination — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "44",
+      "question_text": "intra oral examination — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "45",
+      "question_text": "intra oral examination — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "46",
+      "question_text": "intra oral examination — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "47",
+      "question_text": "intra oral examination — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "48",
+      "question_text": "current oral hygiene regime discussed — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "49",
+      "question_text": "current oral hygiene regime discussed — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "50",
+      "question_text": "current oral hygiene regime discussed — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "51",
+      "question_text": "current oral hygiene regime discussed — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "52",
+      "question_text": "current oral hygiene regime discussed — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "53",
+      "question_text": "TBI Given — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "54",
+      "question_text": "TBI Given — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "55",
+      "question_text": "TBI Given — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "56",
+      "question_text": "TBI Given — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "57",
+      "question_text": "TBI Given — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "58",
+      "question_text": "BPE — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "59",
+      "question_text": "BPE — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "60",
+      "question_text": "BPE — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "61",
+      "question_text": "BPE — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "62",
+      "question_text": "BPE — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "63",
+      "question_text": "6PPC completed (6 point perio chart) — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "64",
+      "question_text": "6PPC completed (6 point perio chart) — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "65",
+      "question_text": "6PPC completed (6 point perio chart) — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "66",
+      "question_text": "6PPC completed (6 point perio chart) — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "67",
+      "question_text": "6PPC completed (6 point perio chart) — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "68",
+      "question_text": "Treatment — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "69",
+      "question_text": "Treatment — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "70",
+      "question_text": "Treatment — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "71",
+      "question_text": "Treatment — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "72",
+      "question_text": "Treatment — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "73",
+      "question_text": "Treatment completed recorded — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "74",
+      "question_text": "Treatment completed recorded — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "75",
+      "question_text": "Treatment completed recorded — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "76",
+      "question_text": "Treatment completed recorded — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "77",
+      "question_text": "Treatment completed recorded — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "78",
+      "question_text": "LA recorded if used — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "79",
+      "question_text": "LA recorded if used — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "80",
+      "question_text": "LA recorded if used — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "81",
+      "question_text": "LA recorded if used — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "82",
+      "question_text": "LA recorded if used — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "83",
+      "question_text": "risk assessment and planning — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "84",
+      "question_text": "risk assessment and planning — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "85",
+      "question_text": "risk assessment and planning — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "86",
+      "question_text": "risk assessment and planning — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "87",
+      "question_text": "risk assessment and planning — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "88",
+      "question_text": "Future appointments/monitoring discussed — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "89",
+      "question_text": "Future appointments/monitoring discussed — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "90",
+      "question_text": "Future appointments/monitoring discussed — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "91",
+      "question_text": "Future appointments/monitoring discussed — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "92",
+      "question_text": "Future appointments/monitoring discussed — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "93",
+      "question_text": "Recall — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "94",
+      "question_text": "Recall — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "95",
+      "question_text": "Recall — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "96",
+      "question_text": "Recall — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "97",
+      "question_text": "Recall — Patient 5"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "98",
+      "question_text": "recall period agreed for hyg appointments — Patient 1"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "99",
+      "question_text": "recall period agreed for hyg appointments — Patient 2"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "100",
+      "question_text": "recall period agreed for hyg appointments — Patient 3"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "101",
+      "question_text": "recall period agreed for hyg appointments — Patient 4"
+    },
+    {
+      "answer_options": [
+        "√",
+        "yes",
+        "X",
+        "No",
+        "N/A"
+      ],
+      "question_number": "102",
+      "question_text": "recall period agreed for hyg appointments — Patient 5"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__RECORD_CARD_AUDIT_HYGIENISTS_AND_THERAPISTS__2026",
+  "title": "Record card audit- Hygienists and Therapists V2.1AUG25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
