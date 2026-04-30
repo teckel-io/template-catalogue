@@ -1,0 +1,523 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "BASIS OF CHARGE": "basis_of_charge",
+    "Cost": "cost",
+    "DESCRIPTION": "description",
+    "How you can obtain the information": "how_to_obtain_information",
+    "Information to be published": "information_to_be_published",
+    "TYPE OF CHARGE": "type_of_charge"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 77293,
+  "form_id": "ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME/2026/ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:39:15.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "ICO Template for NHS Dentists - Freedom of Information Publication Scheme.docx",
+  "question_count": 96,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Information to be published — Who's who in the practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "How you can obtain the information — Who's who in the practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Cost — Who's who in the practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Information to be published — Contact details for the practice, postal and email address (if used). Where possible, named contacts with telephone number and email address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "How you can obtain the information — Contact details for the practice, postal and email address (if used). Where possible, named contacts with telephone number and email address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Cost — Contact details for the practice, postal and email address (if used). Where possible, named contacts with telephone number and email address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Information to be published — Opening hours"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "How you can obtain the information — Opening hours"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Cost — Opening hours"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Information to be published — Details on NHS funding received and the cost of operating the NHS contract – as much information as possible, in as much detail as possible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "How you can obtain the information — Details on NHS funding received and the cost of operating the NHS contract – as much information as possible, in as much detail as possible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Cost — Details on NHS funding received and the cost of operating the NHS contract – as much information as possible, in as much detail as possible"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Information to be published — Total annual expenditure on the provision of NHS/HSC contracted services (since most practices also provide care to patients on a private basis, the costs have been apportioned)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "How you can obtain the information — Total annual expenditure on the provision of NHS/HSC contracted services (since most practices also provide care to patients on a private basis, the costs have been apportioned)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Cost — Total annual expenditure on the provision of NHS/HSC contracted services (since most practices also provide care to patients on a private basis, the costs have been apportioned)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Information to be published — Audit of NHS income"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "How you can obtain the information — Audit of NHS income"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Cost — Audit of NHS income"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Information to be published — Plans for the development and provision of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "How you can obtain the information — Plans for the development and provision of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Cost — Plans for the development and provision of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Information to be published — Performance data including performance against targets"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "How you can obtain the information — Performance data including performance against targets"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Cost — Performance data including performance against targets"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Information to be published — Inspection reports by regulators. These are: The Care Quality Commission (England); Healthcare Inspectorate Wales (Wales); The Regulation and Quality Improvement Authority (Northern Ireland)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "How you can obtain the information — Inspection reports by regulators. These are: The Care Quality Commission (England); Healthcare Inspectorate Wales (Wales); The Regulation and Quality Improvement Authority (Northern Ireland)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Cost — Inspection reports by regulators. These are: The Care Quality Commission (England); Healthcare Inspectorate Wales (Wales); The Regulation and Quality Improvement Authority (Northern Ireland)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Information to be published — Data Protection impact assessments (in full or summary format) or any other impact assessment (eg Health & Safety Impact Assessment, Equality Impact Assessments etc), as appropriate and relevant"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "How you can obtain the information — Data Protection impact assessments (in full or summary format) or any other impact assessment (eg Health & Safety Impact Assessment, Equality Impact Assessments etc), as appropriate and relevant"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Cost — Data Protection impact assessments (in full or summary format) or any other impact assessment (eg Health & Safety Impact Assessment, Equality Impact Assessments etc), as appropriate and relevant"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Information to be published — Records of decisions made in the practice/firm affecting the provision of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "How you can obtain the information — Records of decisions made in the practice/firm affecting the provision of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Cost — Records of decisions made in the practice/firm affecting the provision of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Information to be published — Policies and procedures for conducting business and delivering services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "How you can obtain the information — Policies and procedures for conducting business and delivering services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Cost — Policies and procedures for conducting business and delivering services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Information to be published — Customer service and Complaints policies and procedures (including those covering handling requests for information and operating the publication scheme)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "How you can obtain the information — Customer service and Complaints policies and procedures (including those covering handling requests for information and operating the publication scheme)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Cost — Customer service and Complaints policies and procedures (including those covering handling requests for information and operating the publication scheme)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Information to be published — Internal instructions to staff and policies relating to the delivery of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "How you can obtain the information — Internal instructions to staff and policies relating to the delivery of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Cost — Internal instructions to staff and policies relating to the delivery of NHS services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Information to be published — Policies and procedures about the recruitment and employment of staff"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "How you can obtain the information — Policies and procedures about the recruitment and employment of staff"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Cost — Policies and procedures about the recruitment and employment of staff"
+    },
+    {
+      "answer_options": [],
+      "question_number": "46",
+      "question_text": "Information to be published — Pay Policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "How you can obtain the information — Pay Policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "48",
+      "question_text": "Cost — Pay Policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Information to be published — Equality and diversity policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "How you can obtain the information — Equality and diversity policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Cost — Equality and diversity policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Information to be published — Health and safety policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "How you can obtain the information — Health and safety policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Cost — Health and safety policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Information to be published — Infection control policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "56",
+      "question_text": "How you can obtain the information — Infection control policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Cost — Infection control policy"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "Information to be published — Radiation protection checklist"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "How you can obtain the information — Radiation protection checklist"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "Cost — Radiation protection checklist"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Information to be published — Records management policies (records retention, destruction and archive)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "62",
+      "question_text": "How you can obtain the information — Records management policies (records retention, destruction and archive)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "Cost — Records management policies (records retention, destruction and archive)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "Information to be published — Confidentiality and data protection policies (including data sharing and CCTV usage)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "How you can obtain the information — Confidentiality and data protection policies (including data sharing and CCTV usage)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "Cost — Confidentiality and data protection policies (including data sharing and CCTV usage)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "67",
+      "question_text": "Information to be published — Policies and procedures for handling requests for information"
+    },
+    {
+      "answer_options": [],
+      "question_number": "68",
+      "question_text": "How you can obtain the information — Policies and procedures for handling requests for information"
+    },
+    {
+      "answer_options": [],
+      "question_number": "69",
+      "question_text": "Cost — Policies and procedures for handling requests for information"
+    },
+    {
+      "answer_options": [],
+      "question_number": "70",
+      "question_text": "Information to be published — Details of the locations of any overt CCTV surveillance cameras operated by you or on your behalf depending on the level of detail which is appropriate"
+    },
+    {
+      "answer_options": [],
+      "question_number": "71",
+      "question_text": "How you can obtain the information — Details of the locations of any overt CCTV surveillance cameras operated by you or on your behalf depending on the level of detail which is appropriate"
+    },
+    {
+      "answer_options": [],
+      "question_number": "72",
+      "question_text": "Cost — Details of the locations of any overt CCTV surveillance cameras operated by you or on your behalf depending on the level of detail which is appropriate"
+    },
+    {
+      "answer_options": [],
+      "question_number": "73",
+      "question_text": "Information to be published — Any publicly available register or list (if any are held this should be publicised but, in most circumstances, existing access provisions will be sufficient)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "74",
+      "question_text": "How you can obtain the information — Any publicly available register or list (if any are held this should be publicised but, in most circumstances, existing access provisions will be sufficient)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "75",
+      "question_text": "Cost — Any publicly available register or list (if any are held this should be publicised but, in most circumstances, existing access provisions will be sufficient)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "76",
+      "question_text": "Information to be published — The services provided under contract to the NHS"
+    },
+    {
+      "answer_options": [],
+      "question_number": "77",
+      "question_text": "How you can obtain the information — The services provided under contract to the NHS"
+    },
+    {
+      "answer_options": [],
+      "question_number": "78",
+      "question_text": "Cost — The services provided under contract to the NHS"
+    },
+    {
+      "answer_options": [],
+      "question_number": "79",
+      "question_text": "Information to be published — Charges for any of these services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "80",
+      "question_text": "How you can obtain the information — Charges for any of these services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "81",
+      "question_text": "Cost — Charges for any of these services"
+    },
+    {
+      "answer_options": [],
+      "question_number": "82",
+      "question_text": "Information to be published — Information leaflets"
+    },
+    {
+      "answer_options": [],
+      "question_number": "83",
+      "question_text": "How you can obtain the information — Information leaflets"
+    },
+    {
+      "answer_options": [],
+      "question_number": "84",
+      "question_text": "Cost — Information leaflets"
+    },
+    {
+      "answer_options": [],
+      "question_number": "85",
+      "question_text": "Information to be published — Out of hours arrangements"
+    },
+    {
+      "answer_options": [],
+      "question_number": "86",
+      "question_text": "How you can obtain the information — Out of hours arrangements"
+    },
+    {
+      "answer_options": [],
+      "question_number": "87",
+      "question_text": "Cost — Out of hours arrangements"
+    },
+    {
+      "answer_options": [],
+      "question_number": "88",
+      "question_text": "Photocopying @ ..p per sheet (black & white)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "89",
+      "question_text": "Photocopying @ ..p per sheet (colour)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "90",
+      "question_text": "Postage"
+    },
+    {
+      "answer_options": [],
+      "question_number": "91",
+      "question_text": "Statutory Fee — Type of Charge"
+    },
+    {
+      "answer_options": [],
+      "question_number": "92",
+      "question_text": "Statutory Fee — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "93",
+      "question_text": "Statutory Fee — Basis of Charge"
+    },
+    {
+      "answer_options": [],
+      "question_number": "94",
+      "question_text": "Other — Type of Charge"
+    },
+    {
+      "answer_options": [],
+      "question_number": "95",
+      "question_text": "Other — Description"
+    },
+    {
+      "answer_options": [],
+      "question_number": "96",
+      "question_text": "Other — Basis of Charge"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__ICO_TEMPLATE_FOR_NHS_DENTISTS_FREEDOM_OF_INFORMATION_PUBLICATION_SCHEME__2026",
+  "title": "ICO Template for NHS Dentists - Freedom of Information Publication Scheme",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
