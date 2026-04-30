@@ -1,0 +1,64 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Comments": "comments",
+    "Date": "date",
+    "Location/Item Name": "location_item_name",
+    "Visually OK?": "visually_ok"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20344,
+  "form_id": "PAT_TEST_VISUAL_INSPECTION",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PAT_TEST_VISUAL_INSPECTION/2026/PAT_TEST_VISUAL_INSPECTION.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:48:36.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "PAT Test Visual Inspection V2.0MAR24.docx",
+  "question_count": 4,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Location/Item Name"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "3",
+      "question_text": "Visually OK?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Comments"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PAT_TEST_VISUAL_INSPECTION__2026",
+  "title": "PAT Test Visual Inspection V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
