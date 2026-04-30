@@ -1,0 +1,765 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "How long is the information retained?": "retention_period",
+    "Information Asset Name": "information_asset_name",
+    "Information contained and why": "information_contained_and_why",
+    "Is this special category data?": "is_special_category_data",
+    "Location of Asset": "location_of_asset",
+    "Make and model (if applicable)": "make_and_model",
+    "Responsible Owner": "responsible_owner",
+    "Security Measures in Place": "security_measures_in_place"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 26109,
+  "form_id": "INFORMATION_ASSET_REGISTER",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INFORMATION_ASSET_REGISTER/2026/INFORMATION_ASSET_REGISTER.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:38:27.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Information Asset Register V1.1APR24.docx",
+  "question_count": 144,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "DBS/disclosure information — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "DBS/disclosure information — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "DBS/disclosure information — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "DBS/disclosure information — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "DBS/disclosure information — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "DBS/disclosure information — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "DBS/disclosure information — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "DBS/disclosure information — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Disciplinary/grievance documents — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Disciplinary/grievance documents — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Disciplinary/grievance documents — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Disciplinary/grievance documents — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Disciplinary/grievance documents — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Disciplinary/grievance documents — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Disciplinary/grievance documents — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Disciplinary/grievance documents — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Staff NI numbers — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Staff NI numbers — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Staff NI numbers — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Staff NI numbers — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Staff NI numbers — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Staff NI numbers — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Staff NI numbers — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Staff NI numbers — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Staff financial information — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Staff financial information — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Staff financial information — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Staff financial information — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Staff financial information — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Staff financial information — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Staff financial information — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Staff financial information — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "CCTV Data — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "CCTV Data — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "CCTV Data — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "CCTV Data — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "CCTV Data — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "CCTV Data — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "CCTV Data — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "CCTV Data — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Patient Records - electronic — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Patient Records - electronic — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Patient Records - electronic — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Patient Records - electronic — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Patient Records - electronic — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "46",
+      "question_text": "Patient Records - electronic — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "Patient Records - electronic — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "48",
+      "question_text": "Patient Records - electronic — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Patient records - paper — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "Patient records - paper — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Patient records - paper — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Patient records - paper — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Patient records - paper — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Patient records - paper — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Patient records - paper — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "56",
+      "question_text": "Patient records - paper — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Patient records – study models/lab work — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "Patient records – study models/lab work — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "Patient records – study models/lab work — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "Patient records – study models/lab work — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Patient records – study models/lab work — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "62",
+      "question_text": "Patient records – study models/lab work — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "Patient records – study models/lab work — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "Patient records – study models/lab work — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "67",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "68",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "69",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "70",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "71",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "72",
+      "question_text": "Patient finance records (such as payment plans or direct debit mandates) — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "73",
+      "question_text": "Credit card receipts — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "74",
+      "question_text": "Credit card receipts — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "75",
+      "question_text": "Credit card receipts — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "76",
+      "question_text": "Credit card receipts — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "77",
+      "question_text": "Credit card receipts — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "78",
+      "question_text": "Credit card receipts — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "79",
+      "question_text": "Credit card receipts — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "80",
+      "question_text": "Credit card receipts — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "81",
+      "question_text": "Complaints — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "82",
+      "question_text": "Complaints — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "83",
+      "question_text": "Complaints — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "84",
+      "question_text": "Complaints — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "85",
+      "question_text": "Complaints — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "86",
+      "question_text": "Complaints — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "87",
+      "question_text": "Complaints — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "88",
+      "question_text": "Complaints — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "89",
+      "question_text": "Payroll information — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "90",
+      "question_text": "Payroll information — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "91",
+      "question_text": "Payroll information — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "92",
+      "question_text": "Payroll information — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "93",
+      "question_text": "Payroll information — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "94",
+      "question_text": "Payroll information — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "95",
+      "question_text": "Payroll information — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "96",
+      "question_text": "Payroll information — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "97",
+      "question_text": "Staff rotas — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "98",
+      "question_text": "Staff rotas — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "99",
+      "question_text": "Staff rotas — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "100",
+      "question_text": "Staff rotas — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "101",
+      "question_text": "Staff rotas — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "102",
+      "question_text": "Staff rotas — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "103",
+      "question_text": "Staff rotas — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "104",
+      "question_text": "Staff rotas — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "105",
+      "question_text": "Prescription Logs — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "106",
+      "question_text": "Prescription Logs — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "107",
+      "question_text": "Prescription Logs — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "108",
+      "question_text": "Prescription Logs — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "109",
+      "question_text": "Prescription Logs — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "110",
+      "question_text": "Prescription Logs — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "111",
+      "question_text": "Prescription Logs — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "112",
+      "question_text": "Prescription Logs — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "113",
+      "question_text": "Audits — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "114",
+      "question_text": "Audits — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "115",
+      "question_text": "Audits — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "116",
+      "question_text": "Audits — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "117",
+      "question_text": "Audits — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "118",
+      "question_text": "Audits — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "119",
+      "question_text": "Audits — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "120",
+      "question_text": "Audits — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "121",
+      "question_text": "Emails – NHS mail or other — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "122",
+      "question_text": "Emails – NHS mail or other — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "123",
+      "question_text": "Emails – NHS mail or other — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "124",
+      "question_text": "Emails – NHS mail or other — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "125",
+      "question_text": "Emails – NHS mail or other — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "126",
+      "question_text": "Emails – NHS mail or other — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "127",
+      "question_text": "Emails – NHS mail or other — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "128",
+      "question_text": "Emails – NHS mail or other — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "129",
+      "question_text": "Referrals — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "130",
+      "question_text": "Referrals — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "131",
+      "question_text": "Referrals — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "132",
+      "question_text": "Referrals — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "133",
+      "question_text": "Referrals — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "134",
+      "question_text": "Referrals — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "135",
+      "question_text": "Referrals — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "136",
+      "question_text": "Referrals — How long is the information retained?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "137",
+      "question_text": "OTHER – ADD AS REQURED — Information Asset Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "138",
+      "question_text": "OTHER – ADD AS REQURED — Location of Asset"
+    },
+    {
+      "answer_options": [],
+      "question_number": "139",
+      "question_text": "OTHER – ADD AS REQURED — Make and model (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "140",
+      "question_text": "OTHER – ADD AS REQURED — Information contained and why"
+    },
+    {
+      "answer_options": [],
+      "question_number": "141",
+      "question_text": "OTHER – ADD AS REQURED — Is this special category data?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "142",
+      "question_text": "OTHER – ADD AS REQURED — Responsible Owner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "143",
+      "question_text": "OTHER – ADD AS REQURED — Security Measures in Place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "144",
+      "question_text": "OTHER – ADD AS REQURED — How long is the information retained?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INFORMATION_ASSET_REGISTER__2026",
+  "title": "Information Asset Register V1.1APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
