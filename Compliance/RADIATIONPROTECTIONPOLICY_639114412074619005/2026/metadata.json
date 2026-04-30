@@ -1,0 +1,100 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "contingency_plans_summary": "contingency_plans_summary",
+    "controlled_area_arrangements": "controlled_area_arrangements",
+    "employer_mpe_contact": "employer_mpe_contact",
+    "incident_other_relevant_info": "incident_other_relevant_info",
+    "incident_patient_age_demographics": "incident_patient_age_demographics",
+    "incident_what_happened_why": "incident_what_happened_why",
+    "incident_xray_ct_settings": "incident_xray_ct_settings",
+    "key_working_instructions": "key_working_instructions",
+    "mpe_telephone_email": "mpe_telephone_email",
+    "policy_reviewed_confirmed": "policy_reviewed_confirmed"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 186379,
+  "form_id": "RADIATIONPROTECTIONPOLICY_639114412074619005",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/RADIATIONPROTECTIONPOLICY_639114412074619005/2026/RADIATIONPROTECTIONPOLICY_639114412074619005.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:46:12.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "RadiationProtectionPolicy_639114412074619005.pdf",
+  "question_count": 10,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "A summary of the contingency plans and the reasonably foreseeable accidents to which they relate"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Key working instructions setting out the procedures that employees must follow to restrict exposures to themselves and other persons"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Written arrangements governing access to the controlled area"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Contact details for the Employer/MPE"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "MPE telephone/email contact details"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "The age and demographic details of the patient (for incident recording)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "The x-ray/CT settings, the kilovolts (kVp) and milliamperes (mA) and DAP (if known) (for incident recording)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Any other relevant information such as error codes, time for which the exposure appeared to continue or unusual signals (for incident recording)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "What happened and why, and any other relevant information (for incident recording)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "Needs Updating"
+      ],
+      "question_number": "10",
+      "question_text": "Policy reviewed and confirmed current"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__RADIATIONPROTECTIONPOLICY_639114412074619005__2026",
+  "title": "RadiationProtectionPolicy_639114412074619005",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
