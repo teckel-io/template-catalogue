@@ -1,0 +1,181 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "1_surgeries_after_use_agreed": "1_surgeries_after_use_agreed",
+    "1_surgeries_daily_agreed": "1_surgeries_daily_agreed",
+    "1_surgeries_periodic_agreed": "1_surgeries_periodic_agreed",
+    "2_staff_toilets_after_use_agreed": "2_staff_toilets_after_use_agreed",
+    "2_staff_toilets_daily_agreed": "2_staff_toilets_daily_agreed",
+    "2_staff_toilets_periodic_agreed": "2_staff_toilets_periodic_agreed",
+    "3_patient_toilets_after_use_agreed": "3_patient_toilets_after_use_agreed",
+    "3_patient_toilets_daily_agreed": "3_patient_toilets_daily_agreed",
+    "3_patient_toilets_periodic_agreed": "3_patient_toilets_periodic_agreed",
+    "4_waiting_rooms_after_use_agreed": "4_waiting_rooms_after_use_agreed",
+    "4_waiting_rooms_daily_agreed": "4_waiting_rooms_daily_agreed",
+    "4_waiting_rooms_periodic_agreed": "4_waiting_rooms_periodic_agreed",
+    "5_staff_kitchen_after_use_agreed": "5_staff_kitchen_after_use_agreed",
+    "5_staff_kitchen_daily_agreed": "5_staff_kitchen_daily_agreed",
+    "5_staff_kitchen_periodic_agreed": "5_staff_kitchen_periodic_agreed",
+    "6_communal_areas_after_use_agreed": "6_communal_areas_after_use_agreed",
+    "6_communal_areas_daily_agreed": "6_communal_areas_daily_agreed",
+    "6_communal_areas_periodic_agreed": "6_communal_areas_periodic_agreed",
+    "7_reception_after_use_agreed": "7_reception_after_use_agreed",
+    "7_reception_daily_agreed": "7_reception_daily_agreed",
+    "7_reception_periodic_agreed": "7_reception_periodic_agreed",
+    "8_main_office_after_use_agreed": "8_main_office_after_use_agreed",
+    "8_main_office_daily_agreed": "8_main_office_daily_agreed",
+    "8_main_office_periodic_agreed": "8_main_office_periodic_agreed"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 18259,
+  "form_id": "APPENDIX_1A_CLEANING_RESPONSIBILITIES_FRAMEWORK_TO_COMPLETE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/APPENDIX_1A_CLEANING_RESPONSIBILITIES_FRAMEWORK_TO_COMPLETE/2026/APPENDIX_1A_CLEANING_RESPONSIBILITIES_FRAMEWORK_TO_COMPLETE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:24:18.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Appendix 1a, Cleaning Responsibilities Framework to Complete.docx",
+  "question_count": 24,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Surgeries — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Surgeries — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Surgeries — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Staff Toilets — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Staff Toilets — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Staff Toilets — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Patient Toilets — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Patient Toilets — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Patient Toilets — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Waiting rooms — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Waiting rooms — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Waiting rooms — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Staff Kitchen/Room — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Staff Kitchen/Room — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Staff Kitchen/Room — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Communal Areas — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Communal Areas — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Communal Areas — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Reception/Desk — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Reception/Desk — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Reception/Desk — Periodic Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Main Office — After Use or if visibly soiled — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Main Office — Daily Clean — Organisation Agreed Responsibility"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Main Office — Periodic Clean — Organisation Agreed Responsibility"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__APPENDIX_1A_CLEANING_RESPONSIBILITIES_FRAMEWORK_TO_COMPLETE__2026",
+  "title": "Appendix 1a, Cleaning Responsibilities Framework to Complete",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
