@@ -1,0 +1,199 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Comments for Competency 1": "competency_1_comments",
+    "Comments for Competency 2": "competency_2_comments",
+    "Comments for Competency 3": "competency_3_comments",
+    "Comments for Competency 4": "competency_4_comments",
+    "Comments for Competency 5": "competency_5_comments",
+    "Comments for Competency 6": "competency_6_comments",
+    "Comments for Competency 7": "competency_7_comments",
+    "Comments for Competency 8": "competency_8_comments",
+    "Comments for Competency 9": "competency_9_comments",
+    "Level of competency for Competency 1": "competency_1_level",
+    "Level of competency for Competency 2": "competency_2_level",
+    "Level of competency for Competency 3": "competency_3_level",
+    "Level of competency for Competency 4": "competency_4_level",
+    "Level of competency for Competency 5": "competency_5_level",
+    "Level of competency for Competency 6": "competency_6_level",
+    "Level of competency for Competency 7": "competency_7_level",
+    "Level of competency for Competency 8": "competency_8_level",
+    "Level of competency for Competency 9": "competency_9_level",
+    "Signature of Assessor for Competency 1": "competency_1_assessor_signature",
+    "Signature of Assessor for Competency 2": "competency_2_assessor_signature",
+    "Signature of Assessor for Competency 3": "competency_3_assessor_signature",
+    "Signature of Assessor for Competency 4": "competency_4_assessor_signature",
+    "Signature of Assessor for Competency 5": "competency_5_assessor_signature",
+    "Signature of Assessor for Competency 6": "competency_6_assessor_signature",
+    "Signature of Assessor for Competency 7": "competency_7_assessor_signature",
+    "Signature of Assessor for Competency 8": "competency_8_assessor_signature",
+    "Signature of Assessor for Competency 9": "competency_9_assessor_signature"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 47214,
+  "form_id": "569_AUDIT_TOOL_ASEPTIC_TECHNIQUE_COMPETENCY_ASSESSMENT_RECORD_FOR_DENTAL_PRACTIC",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/569_AUDIT_TOOL_ASEPTIC_TECHNIQUE_COMPETENCY_ASSESSMENT_RECORD_FOR_DENTAL_PRACTIC/2026/569_AUDIT_TOOL_ASEPTIC_TECHNIQUE_COMPETENCY_ASSESSMENT_RECORD_FOR_DENTAL_PRACTIC.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:28:09.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "569_Audit-Tool-Aseptic-Technique-Competency-Assessment-Record-for-Dental-Practice.pdf",
+  "question_count": 27,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Level of competency for Competency 1 — Demonstrates understanding of the main sources of infection for patients"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Comments for Competency 1 — Demonstrates understanding of the main sources of infection for patients"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Signature of Assessor for Competency 1 — Demonstrates understanding of the main sources of infection for patients"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Level of competency for Competency 2 — Demonstrates understanding of the main modes of transmission of infection for patients"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Comments for Competency 2 — Demonstrates understanding of the main modes of transmission of infection for patients"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Signature of Assessor for Competency 2 — Demonstrates understanding of the main modes of transmission of infection for patients"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Level of competency for Competency 3 — Demonstrates knowledge of the methods of preventing transmission of infection"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Comments for Competency 3 — Demonstrates knowledge of the methods of preventing transmission of infection"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Signature of Assessor for Competency 3 — Demonstrates knowledge of the methods of preventing transmission of infection"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Level of competency for Competency 4 — Demonstrates knowledge and understanding of asepsis and aseptic technique in accordance with local policy on Aseptic Technique"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Comments for Competency 4 — Demonstrates knowledge and understanding of asepsis and aseptic technique in accordance with local policy on Aseptic Technique"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Signature of Assessor for Competency 4 — Demonstrates knowledge and understanding of asepsis and aseptic technique in accordance with local policy on Aseptic Technique"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Level of competency for Competency 5 — Performs an aseptic technique procedure demonstrating that the principles of asepsis are adhered to (using the checklist for aseptic technique procedure)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Comments for Competency 5 — Performs an aseptic technique procedure demonstrating that the principles of asepsis are adhered to (using the checklist for aseptic technique procedure)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Signature of Assessor for Competency 5 — Performs an aseptic technique procedure demonstrating that the principles of asepsis are adhered to (using the checklist for aseptic technique procedure)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Level of competency for Competency 6 — Demonstrates the correct technique for hand decontamination before, during and after an aseptic technique procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Comments for Competency 6 — Demonstrates the correct technique for hand decontamination before, during and after an aseptic technique procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Signature of Assessor for Competency 6 — Demonstrates the correct technique for hand decontamination before, during and after an aseptic technique procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Level of competency for Competency 7 — Demonstrates safe disposal of sharps and infectious/offensive waste associated with an aseptic technique procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Comments for Competency 7 — Demonstrates safe disposal of sharps and infectious/offensive waste associated with an aseptic technique procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Signature of Assessor for Competency 7 — Demonstrates safe disposal of sharps and infectious/offensive waste associated with an aseptic technique procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Level of competency for Competency 8 — Maintains the patient's privacy and dignity throughout the procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Comments for Competency 8 — Maintains the patient's privacy and dignity throughout the procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Signature of Assessor for Competency 8 — Maintains the patient's privacy and dignity throughout the procedure"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Level of competency for Competency 9 — Communicates effectively with the patient"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Comments for Competency 9 — Communicates effectively with the patient"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Signature of Assessor for Competency 9 — Communicates effectively with the patient"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__569_AUDIT_TOOL_ASEPTIC_TECHNIQUE_COMPETENCY_ASSESSMENT_RECORD_FOR_DENTAL_PRACTIC__2026",
+  "title": "569_Audit-Tool-Aseptic-Technique-Competency-Assessment-Record-for-Dental-Practice",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
