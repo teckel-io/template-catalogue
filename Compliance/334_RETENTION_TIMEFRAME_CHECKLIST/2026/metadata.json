@@ -1,0 +1,488 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 102072,
+  "form_id": "334_RETENTION_TIMEFRAME_CHECKLIST",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/334_RETENTION_TIMEFRAME_CHECKLIST/2026/334_RETENTION_TIMEFRAME_CHECKLIST.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:40:25.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "334_Retention Timeframe Checklist V1.0JULY25.pdf",
+  "question_count": 52,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "1",
+      "question_text": "Clinical Audit Records (including radiograph and antibiotic prescribing audits) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "2",
+      "question_text": "Autoclave/Washer Disinfector/Ultrasonic Bath Records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "3",
+      "question_text": "Compressors, fire equipment inspection - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "4",
+      "question_text": "Fire Equipment Documents - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "5",
+      "question_text": "Controlled drugs invoices (Schedules 2-5, including buccal midazolam) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "6",
+      "question_text": "Accident books/Accident reports/records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "RIDDOR reports - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "COSHH risk assessments - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "9",
+      "question_text": "Fridge temperature records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "10",
+      "question_text": "General risk assessments (such as sharps risk assessment) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "11",
+      "question_text": "Health and safety risk assessment - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "12",
+      "question_text": "Employers' liability insurance certificate - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "Portable appliance inspection and testing - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "14",
+      "question_text": "EICR (Fixed Wire) Reports - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "15",
+      "question_text": "Infection Prevention Audits - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "16",
+      "question_text": "Waste records (hazardous): consignment notes and consignee returns - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "Waste records (Non-hazardous): Waste Transfer Notes - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "18",
+      "question_text": "Water safety records related to legionella risk management - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "Daily infection prevention checklists (including daily surgery and decontamination checklists) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "20",
+      "question_text": "Emergency Drugs and Equipment Record - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "21",
+      "question_text": "Quality assurance checks, Audits & employers' procedure for Radiation Protection - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "22",
+      "question_text": "DPIA - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "23",
+      "question_text": "DBS/CRB Criminal records check certificates copy - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "24",
+      "question_text": "Occupational health records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "25",
+      "question_text": "Pre-employment health screening questionnaire - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "26",
+      "question_text": "Income tax and NI returns, income tax records and correspondence with HMRC - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "27",
+      "question_text": "Statutory Maternity Pay records, calculations, certificates (Mat B1s) or other medical evidence - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "28",
+      "question_text": "Statutory Sick Pay records, calculations, certificates, self-certificates - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "29",
+      "question_text": "Health surveillance records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "30",
+      "question_text": "Wage/salary records, overtime, bonuses, expenses - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "Application forms and interview notes (for unsuccessful candidates) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "Parental leave records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Personnel files and training records (including disciplinary records and working time records) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Redundancy details, calculations of payments, refunds, notification to Secretary of State - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "35",
+      "question_text": "CPD records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "36",
+      "question_text": "Whistleblowing documents - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "37",
+      "question_text": "Accidental exposure to radiation report/Exposure dosimetry records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "38",
+      "question_text": "Appointment books - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "39",
+      "question_text": "Clinical records (including working casts and models) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "40",
+      "question_text": "FP 17s - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "41",
+      "question_text": "Complaints records (patients) - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "42",
+      "question_text": "Dental Lab Statement of Manufacture of Dental Appliance - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "43",
+      "question_text": "Friends and Family Test Response Cards/digital responses - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "44",
+      "question_text": "Subject access requests - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "45",
+      "question_text": "Subject access requests where there has been an appeal - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "46",
+      "question_text": "Accounting records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "47",
+      "question_text": "Dental laboratory invoices - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "48",
+      "question_text": "VAT records - Retention compliance confirmed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Checklist completed by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "Date completed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Any retention compliance issues identified - describe"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Actions required to address compliance issues"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__334_RETENTION_TIMEFRAME_CHECKLIST__2026",
+  "title": "334_Retention Timeframe Checklist V1.0JULY25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
