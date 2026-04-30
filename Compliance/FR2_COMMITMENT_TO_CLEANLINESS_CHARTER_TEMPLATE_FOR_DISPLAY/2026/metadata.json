@@ -1,0 +1,212 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 169588,
+  "form_id": "FR2_COMMITMENT_TO_CLEANLINESS_CHARTER_TEMPLATE_FOR_DISPLAY",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/FR2_COMMITMENT_TO_CLEANLINESS_CHARTER_TEMPLATE_FOR_DISPLAY/2026/FR2_COMMITMENT_TO_CLEANLINESS_CHARTER_TEMPLATE_FOR_DISPLAY.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:25:01.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "FR2 Commitment to Cleanliness Charter Template for Display.docx",
+  "question_count": 22,
+  "questions": [
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "1",
+      "question_text": "Sinks, including taps — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "Dental chair, Clinician, and nurse chair — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "Surgery worktop surfaces and cupboard fronts — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "Surgery equipment — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "Fans with accessible blades — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Clinical Trolleys — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Switches, sockets, data points, trunking, handrails and wall fixtures — Weekly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Walls (accessible up to 2 metres) — Annually — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Ceilings and walls (not accessible above 2 metres and ceiling lights) — 2 yearly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Hard floors (including skirtings) — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Soft floors (including skirtings) — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Doors (including ventilation grills) — Weekly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Windows (including frames where accessible) — 6 monthly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Internal glazing (including partitions excluding mirrors and windows) — Fortnightly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Mirrors — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Dispensers (hand wash, hand sanitisers, etc) — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Air Vents and Grills — Monthly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Clinical Fridges — Weekly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Electrical items (computers etc) — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Radiators — Weekly — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "Sharps bins (exterior only) — Daily — Nurses"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "Blinds — Six monthly — Nurses/Cleaner"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__FR2_COMMITMENT_TO_CLEANLINESS_CHARTER_TEMPLATE_FOR_DISPLAY__2026",
+  "title": "FR2 Commitment to Cleanliness Charter Template for Display",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
