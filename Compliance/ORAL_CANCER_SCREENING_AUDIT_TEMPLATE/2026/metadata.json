@@ -1,0 +1,733 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "alcohol_consumption_1": "Alcohol consumption 1",
+    "alcohol_consumption_10": "Alcohol consumption 10",
+    "alcohol_consumption_2": "Alcohol consumption 2",
+    "alcohol_consumption_3": "Alcohol consumption 3",
+    "alcohol_consumption_4": "Alcohol consumption 4",
+    "alcohol_consumption_5": "Alcohol consumption 5",
+    "alcohol_consumption_6": "Alcohol consumption 6",
+    "alcohol_consumption_7": "Alcohol consumption 7",
+    "alcohol_consumption_8": "Alcohol consumption 8",
+    "alcohol_consumption_9": "Alcohol consumption 9",
+    "audit_completed_by": "Audit completed by (name)",
+    "date_of_audit": "Date of Audit",
+    "date_of_next_audit": "Date of next Audit",
+    "dentist_name": "Dentist name",
+    "gdc_registration_number": "GDC Registration Number",
+    "mh_recorded_1": "MH recorded 1",
+    "mh_recorded_10": "MH recorded 10",
+    "mh_recorded_2": "MH recorded 2",
+    "mh_recorded_3": "MH recorded 3",
+    "mh_recorded_4": "MH recorded 4",
+    "mh_recorded_5": "MH recorded 5",
+    "mh_recorded_6": "MH recorded 6",
+    "mh_recorded_7": "MH recorded 7",
+    "mh_recorded_8": "MH recorded 8",
+    "mh_recorded_9": "MH recorded 9",
+    "oral_cancer_advice_1": "Oral cancer advice 1",
+    "oral_cancer_advice_10": "Oral cancer advice 10",
+    "oral_cancer_advice_2": "Oral cancer advice 2",
+    "oral_cancer_advice_3": "Oral cancer advice 3",
+    "oral_cancer_advice_4": "Oral cancer advice 4",
+    "oral_cancer_advice_5": "Oral cancer advice 5",
+    "oral_cancer_advice_6": "Oral cancer advice 6",
+    "oral_cancer_advice_7": "Oral cancer advice 7",
+    "oral_cancer_advice_8": "Oral cancer advice 8",
+    "oral_cancer_advice_9": "Oral cancer advice 9",
+    "patient_code_1": "Patient code 1",
+    "patient_code_10": "Patient code 10",
+    "patient_code_2": "Patient code 2",
+    "patient_code_3": "Patient code 3",
+    "patient_code_4": "Patient code 4",
+    "patient_code_5": "Patient code 5",
+    "patient_code_6": "Patient code 6",
+    "patient_code_7": "Patient code 7",
+    "patient_code_8": "Patient code 8",
+    "patient_code_9": "Patient code 9",
+    "practice": "Practice",
+    "risk_status_1": "Risk status 1",
+    "risk_status_10": "Risk status 10",
+    "risk_status_2": "Risk status 2",
+    "risk_status_3": "Risk status 3",
+    "risk_status_4": "Risk status 4",
+    "risk_status_5": "Risk status 5",
+    "risk_status_6": "Risk status 6",
+    "risk_status_7": "Risk status 7",
+    "risk_status_8": "Risk status 8",
+    "risk_status_9": "Risk status 9",
+    "smoking_drinking_advice_1": "Smoking drinking advice 1",
+    "smoking_drinking_advice_10": "Smoking drinking advice 10",
+    "smoking_drinking_advice_2": "Smoking drinking advice 2",
+    "smoking_drinking_advice_3": "Smoking drinking advice 3",
+    "smoking_drinking_advice_4": "Smoking drinking advice 4",
+    "smoking_drinking_advice_5": "Smoking drinking advice 5",
+    "smoking_drinking_advice_6": "Smoking drinking advice 6",
+    "smoking_drinking_advice_7": "Smoking drinking advice 7",
+    "smoking_drinking_advice_8": "Smoking drinking advice 8",
+    "smoking_drinking_advice_9": "Smoking drinking advice 9",
+    "smoking_habits_1": "Smoking habits 1",
+    "smoking_habits_10": "Smoking habits 10",
+    "smoking_habits_2": "Smoking habits 2",
+    "smoking_habits_3": "Smoking habits 3",
+    "smoking_habits_4": "Smoking habits 4",
+    "smoking_habits_5": "Smoking habits 5",
+    "smoking_habits_6": "Smoking habits 6",
+    "smoking_habits_7": "Smoking habits 7",
+    "smoking_habits_8": "Smoking habits 8",
+    "smoking_habits_9": "Smoking habits 9"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 25609,
+  "form_id": "ORAL_CANCER_SCREENING_AUDIT_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/ORAL_CANCER_SCREENING_AUDIT_TEMPLATE/2026/ORAL_CANCER_SCREENING_AUDIT_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:25:43.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Oral Cancer Screening audit template V1.0APR24.docx",
+  "question_count": 76,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Dentist name:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "GDC Registration Number:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Date of Audit:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Practice:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Date of next Audit:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Audit completed by (name):"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Patient code from clinical record software — Patient 1"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Patient code from clinical record software — Patient 2"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Patient code from clinical record software — Patient 3"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Patient code from clinical record software — Patient 4"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Patient code from clinical record software — Patient 5"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Patient code from clinical record software — Patient 6"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Patient code from clinical record software — Patient 7"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Patient code from clinical record software — Patient 8"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Patient code from clinical record software — Patient 9"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Patient code from clinical record software — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "18",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "20",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "21",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "22",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "23",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "24",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "25",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "26",
+      "question_text": "Full MH recorded separately to clinical notes including tobacco use/chewing tobacco & Alcohol consumption? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "27",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "28",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "29",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "30",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "34",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "35",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "36",
+      "question_text": "Evidence of Smoking habits recorded in clinical notes? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "37",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "38",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "39",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "40",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "41",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "42",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "43",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "44",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "45",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "46",
+      "question_text": "Evidence of alcohol consumption recorded in clinical notes? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "47",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "48",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "49",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "50",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "51",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "52",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "53",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "54",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "55",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "56",
+      "question_text": "Oral Cancer Advice given where appropriate recorded in clinical notes? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "57",
+      "question_text": "Smoking and Drinking advice given? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "58",
+      "question_text": "Smoking and Drinking advice given? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "59",
+      "question_text": "Smoking and Drinking advice given? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "60",
+      "question_text": "Smoking and Drinking advice given? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "61",
+      "question_text": "Smoking and Drinking advice given? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "62",
+      "question_text": "Smoking and Drinking advice given? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "63",
+      "question_text": "Smoking and Drinking advice given? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "64",
+      "question_text": "Smoking and Drinking advice given? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "65",
+      "question_text": "Smoking and Drinking advice given? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "66",
+      "question_text": "Smoking and Drinking advice given? — Patient 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "67",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "68",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "69",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "70",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "71",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "72",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "73",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "74",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "75",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "76",
+      "question_text": "Oral Cancer Risk status recorded and acted on appropriately? — Patient 10"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__ORAL_CANCER_SCREENING_AUDIT_TEMPLATE__2026",
+  "title": "Oral Cancer Screening audit template V1.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
