@@ -40,9 +40,9 @@
   "gcs_uri": "gs://teckel-templates-dev/Compliance/ANNUAL_STATEMENT_FOR_INFECTION_CONTROL/2026/ANNUAL_STATEMENT_FOR_INFECTION_CONTROL.docx",
   "industry": null,
   "industry_id": null,
-  "ingested_via": "batch_loader v1.3",
+  "ingested_via": "batch_loader v1.4",
   "is_log": false,
-  "metadata_generated_at": "2026-04-30T22:28:04.000Z",
+  "metadata_generated_at": "2026-04-30T23:11:42.000Z",
   "ocr_model_version": null,
   "ocr_pages_processed": null,
   "original_filename": "Annual statement for infection control - V2.0MAR24.docx",
@@ -185,5 +185,5 @@
   "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__ANNUAL_STATEMENT_FOR_INFECTION_CONTROL__2026",
   "title": "Annual statement for infection control - V2.0MAR24",
   "trigger_type": null,
-  "wallet_address": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c"
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
 }
