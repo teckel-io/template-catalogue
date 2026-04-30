@@ -1,0 +1,284 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "date_of_birth": "Date of birth",
+    "disagreement_reason": "If 'No', record reason for disagreement in notes",
+    "oral_health_review_date": "Oral health review date",
+    "patient_agrees_with_interval": "Does patient agree with recommended interval?",
+    "patient_name": "Name",
+    "recommended_recall_interval": "Recommended recall interval for next oral health review"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 48787,
+  "form_id": "828_NICE_RECALL_INTERVENTION_GUIDELINES",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/828_NICE_RECALL_INTERVENTION_GUIDELINES/2026/828_NICE_RECALL_INTERVENTION_GUIDELINES.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:44:36.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "828_NICE Recall Intervention Guidelines.pdf",
+  "question_count": 32,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Name:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date of birth:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Oral health review date:"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "4",
+      "question_text": "Conditions where dental disease could put the patient's general health at increased risk (such as cardiovascular disease, bleeding disorders, immunosuppression)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Conditions that increase a patient's risk of developing dental disease (such as diabetes, xerostomia)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "6",
+      "question_text": "Conditions that may complicate dental treatment or the patient's ability to maintain their oral health (such as special needs, anxious/nervous/phobic conditions)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "High caries in mother and siblings"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "8",
+      "question_text": "Tobacco use"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "9",
+      "question_text": "Excessive alcohol use"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "10",
+      "question_text": "Family history of chronic or aggressive (early onset/juvenile) periodontitis"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "High and/or frequent sugar intake"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "12",
+      "question_text": "High and/or frequent dietary acid intake"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "13",
+      "question_text": "Use of fluoride toothpaste"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "14",
+      "question_text": "Other sources of fluoride (for example, the patient lives in a water-fluoridated area)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "15",
+      "question_text": "Recent and previous caries experience"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "16",
+      "question_text": "New lesions since last check-up"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "17",
+      "question_text": "Anterior caries or restorations"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "18",
+      "question_text": "Premature extractions because of caries"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "Past root caries or large number of exposed roots"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "20",
+      "question_text": "Heavily restored dentition"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "21",
+      "question_text": "Previous history of periodontal disease"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "22",
+      "question_text": "Evidence of gingivitis"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "23",
+      "question_text": "Presence of periodontal pockets (BPE code 3 or 4) and/or bleeding on probing"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "24",
+      "question_text": "Presence of furcation involvements or advanced attachment loss (BPE code *)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "25",
+      "question_text": "Mucosal lesion present"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "26",
+      "question_text": "Poor level of oral hygiene"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "27",
+      "question_text": "Plaque-retaining factors (such as orthodontic appliances)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "28",
+      "question_text": "Low saliva flow rate"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "29",
+      "question_text": "Clinical evidence of tooth wear"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Recommended recall interval for next oral health review:"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "31",
+      "question_text": "Does patient agree with recommended interval?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "If 'No', record reason for disagreement in notes"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__828_NICE_RECALL_INTERVENTION_GUIDELINES__2026",
+  "title": "828_NICE Recall Intervention Guidelines",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
