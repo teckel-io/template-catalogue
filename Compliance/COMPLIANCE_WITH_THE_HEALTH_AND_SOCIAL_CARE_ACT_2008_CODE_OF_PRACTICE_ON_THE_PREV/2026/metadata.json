@@ -1,0 +1,93 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "infection_control_lead": "infection_control_lead"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21298,
+  "form_id": "COMPLIANCE_WITH_THE_HEALTH_AND_SOCIAL_CARE_ACT_2008_CODE_OF_PRACTICE_ON_THE_PREV",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/COMPLIANCE_WITH_THE_HEALTH_AND_SOCIAL_CARE_ACT_2008_CODE_OF_PRACTICE_ON_THE_PREV/2026/COMPLIANCE_WITH_THE_HEALTH_AND_SOCIAL_CARE_ACT_2008_CODE_OF_PRACTICE_ON_THE_PREV.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:33:22.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Compliance with the Health and Social Care Act 2008 Code of Practice on the Prevention and Control of Infections V2.0FEB24.docx",
+  "question_count": 11,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Infection control lead for the practice is"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Systems to manage and monitor the prevention and control of infection - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "The provision and maintenance of a clean and appropriate environment - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Appropriate antimicrobial use and stewardship - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "The provision of suitable accurate information on infections to service users - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Policy for ensuring people who have or are at risk of developing an infection are identified promptly - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Systems to ensure all care workers are aware of their responsibilities in preventing and controlling infection - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "The provision or ability to secure adequate isolation facilities - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "The ability to secure adequate access to laboratory support - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Policies designed for individual care that help prevent and control infections - How we follow the code of practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "System to manage staff health and wellbeing and organisational obligation to manage infection prevention and control - How we follow the code of practice"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__COMPLIANCE_WITH_THE_HEALTH_AND_SOCIAL_CARE_ACT_2008_CODE_OF_PRACTICE_ON_THE_PREV__2026",
+  "title": "Compliance with the Health and Social Care Act 2008 Code of Practice on the Prevention and Control of Infections V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
