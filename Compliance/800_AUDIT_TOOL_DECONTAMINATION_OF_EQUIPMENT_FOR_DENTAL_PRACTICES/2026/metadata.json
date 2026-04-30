@@ -1,0 +1,266 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 56283,
+  "form_id": "800_AUDIT_TOOL_DECONTAMINATION_OF_EQUIPMENT_FOR_DENTAL_PRACTICES",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/800_AUDIT_TOOL_DECONTAMINATION_OF_EQUIPMENT_FOR_DENTAL_PRACTICES/2026/800_AUDIT_TOOL_DECONTAMINATION_OF_EQUIPMENT_FOR_DENTAL_PRACTICES.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:28:15.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "800_Audit-Tool-Decontamination-of-Equipment-for-Dental-Practices.pdf",
+  "question_count": 34,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "1",
+      "question_text": "Staff are aware of how to access the organisations Infection Prevention and Control Policy on Decontamination, Cleaning and Disinfection."
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Comments for Question 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "3",
+      "question_text": "Detergent wipes or detergent and warm water, disposable cloth and paper towels are available for the cleaning of equipment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Comments for Question 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "5",
+      "question_text": "Disinfectant and disposable cloths or disinfectant wipes appropriate for the task, e.g. virucidal, sporicidal, are available for the disinfection of equipment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Comments for Question 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "7",
+      "question_text": "Any solution of disinfectant is made up freshly every 24 hours and marked with the date and time of preparation."
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Comments for Question 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "9",
+      "question_text": "Equipment is decontaminated in a designated area or away from clean items of equipment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Comments for Question 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "11",
+      "question_text": "Hands are washed with liquid soap and warm running water before and after decontaminating equipment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Comments for Question 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "13",
+      "question_text": "Disposable gloves and apron are worn when decontaminating equipment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Comments for Question 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "15",
+      "question_text": "Eye protection, e.g. goggles, are worn if there is a risk of splashing to the eyes when decontaminating equipment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Comments for Question 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "17",
+      "question_text": "Staff are aware that equipment should be decontaminated starting from the top and working downwards."
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Comments for Question 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "19",
+      "question_text": "There is documented evidence that equipment stored or not currently in use has been decontaminated."
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Comments for Question 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "21",
+      "question_text": "Equipment that has been decontaminated is clean, free from dust, dirt and body fluid stains, and is within one month of the date written when last decontaminated. Staff should check 5 items of equipment. All items should be clean and free from dust, dirt or body fluid stains. Details of the equipment checked should be documented. All items must be clean to score a 'Yes'."
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Item of equipment checked 1"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Item of equipment checked 2"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Item of equipment checked 3"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Item of equipment checked 4"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Item of equipment checked 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "27",
+      "question_text": "Equipment is in a good condition, e.g. no rust, label residue or damage which would prevent effective cleaning."
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Comments for Question 12"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "29",
+      "question_text": "Staff can describe the symbol used to indicate 'single use' items."
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Comments for Question 13"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "31",
+      "question_text": "Staff are aware that 'single use' items should not be re-used."
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Comments for Question 14"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "33",
+      "question_text": "Staff are aware that 'single patient use' items, e.g. re-usable endodontic reamers, can be re-used on the same patient but not on any other patient."
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Comments for Question 15"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__800_AUDIT_TOOL_DECONTAMINATION_OF_EQUIPMENT_FOR_DENTAL_PRACTICES__2026",
+  "title": "800_Audit-Tool-Decontamination-of-Equipment-for-Dental-Practices",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
