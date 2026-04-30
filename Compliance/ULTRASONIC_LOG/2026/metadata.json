@@ -1,0 +1,402 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "F": "friday",
+    "M": "monday",
+    "S": "saturday",
+    "T": "thursday",
+    "W": "wednesday"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21688,
+  "form_id": "ULTRASONIC_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/ULTRASONIC_LOG/2026/ULTRASONIC_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:35:48.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Ultrasonic Log V2.1MAY24.docx",
+  "question_count": 45,
+  "questions": [
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "1",
+      "question_text": "Ultrasonic chamber checked for cleanliness and debris — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "Ultrasonic chamber checked for cleanliness and debris — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "Ultrasonic chamber checked for cleanliness and debris — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "Ultrasonic chamber checked for cleanliness and debris — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "Ultrasonic chamber checked for cleanliness and debris — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Ultrasonic including all cables in good working order — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Ultrasonic including all cables in good working order — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Ultrasonic including all cables in good working order — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Ultrasonic including all cables in good working order — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Ultrasonic including all cables in good working order — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Tank filled with the correct amount of water and cleaning fluid (as per manufacturer instructions) — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Tank filled with the correct amount of water and cleaning fluid (as per manufacturer instructions) — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Tank filled with the correct amount of water and cleaning fluid (as per manufacturer instructions) — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Tank filled with the correct amount of water and cleaning fluid (as per manufacturer instructions) — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Tank filled with the correct amount of water and cleaning fluid (as per manufacturer instructions) — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Degas by running the Ultrasonic for a complete cycle — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Degas by running the Ultrasonic for a complete cycle — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Degas by running the Ultrasonic for a complete cycle — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Degas by running the Ultrasonic for a complete cycle — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Degas by running the Ultrasonic for a complete cycle — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "Cleaning efficacy – visual inspection of all load items (this is an ongoing task) — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "Cleaning efficacy – visual inspection of all load items (this is an ongoing task) — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "23",
+      "question_text": "Cleaning efficacy – visual inspection of all load items (this is an ongoing task) — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "24",
+      "question_text": "Cleaning efficacy – visual inspection of all load items (this is an ongoing task) — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "25",
+      "question_text": "Cleaning efficacy – visual inspection of all load items (this is an ongoing task) — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "26",
+      "question_text": "Ultrasonic is drained at the end of the morning session — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "27",
+      "question_text": "Ultrasonic is drained at the end of the morning session — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "28",
+      "question_text": "Ultrasonic is drained at the end of the morning session — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "29",
+      "question_text": "Ultrasonic is drained at the end of the morning session — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "30",
+      "question_text": "Ultrasonic is drained at the end of the morning session — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "31",
+      "question_text": "Ultrasonic drained — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "32",
+      "question_text": "Ultrasonic drained — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "33",
+      "question_text": "Ultrasonic drained — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "34",
+      "question_text": "Ultrasonic drained — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "35",
+      "question_text": "Ultrasonic drained — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "36",
+      "question_text": "Ultrasonic chamber cleaned and dried with non-linting cloth — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "37",
+      "question_text": "Ultrasonic chamber cleaned and dried with non-linting cloth — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "38",
+      "question_text": "Ultrasonic chamber cleaned and dried with non-linting cloth — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "39",
+      "question_text": "Ultrasonic chamber cleaned and dried with non-linting cloth — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "40",
+      "question_text": "Ultrasonic chamber cleaned and dried with non-linting cloth — S"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "41",
+      "question_text": "Strainers/filters removed and cleaned — M"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "42",
+      "question_text": "Strainers/filters removed and cleaned — T"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "43",
+      "question_text": "Strainers/filters removed and cleaned — W"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "44",
+      "question_text": "Strainers/filters removed and cleaned — F"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "45",
+      "question_text": "Strainers/filters removed and cleaned — S"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__ULTRASONIC_LOG__2026",
+  "title": "Ultrasonic Log V2.1MAY24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
