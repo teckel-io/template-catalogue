@@ -1,0 +1,239 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 27063,
+  "form_id": "SMOKING_CESSATION_AUDIT_DATSHEET_PART_1",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SMOKING_CESSATION_AUDIT_DATSHEET_PART_1/2026/SMOKING_CESSATION_AUDIT_DATSHEET_PART_1.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:29:41.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Smoking Cessation Audit Datsheet Part 1.docx",
+  "question_count": 23,
+  "questions": [
+    {
+      "answer_options": [
+        "Male",
+        "Female"
+      ],
+      "question_number": "1",
+      "question_text": "Gender:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Age: (age at the time of inpatient episode)"
+    },
+    {
+      "answer_options": [
+        "Emergency Admission",
+        "Elective Inpatient"
+      ],
+      "question_number": "3",
+      "question_text": "What was the route of patient contact?"
+    },
+    {
+      "answer_options": [
+        "Respiratory medicine",
+        "Other medical specialties",
+        "Surgical specialty",
+        "Obstetrics and Gynaecology (but not maternity services)",
+        "Other"
+      ],
+      "question_number": "4",
+      "question_text": "What specialty was the patient's care under? Please select the specialty they are currently under, or if discharged, the specialty they were under at discharge."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Is smoking status documented in the patient's notes? 'Smoking' refers to conventional smoking – cigarettes, cigars, pipes etc. 'Notes' includes medical, nursing or allied health professional (AHP) notes for the current admission, including any preadmission assessment clerking proformas relating to the current admission."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "6",
+      "question_text": "If the answer to 5a is yes, is the patient a current smoker? 'Smoking' refers to conventional smoking – cigarettes, cigars, pipes etc. 'Current smoker' refers to any patient currently smoking or smoked within the last 4 weeks – please answer questions 7-10 for these patients."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Is vaping status documented in the patient's notes? 'Vaping' refers to the use of electronic cigarettes. 'Notes' includes medical, nursing or allied health professional (AHP) notes for the current admission, including any preadmission assessment clerking proformas relating to the current admission."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "8",
+      "question_text": "If the answer to 5c is yes, is the patient a current vaper? 'Current vaper' refers to any patient currently vaping or vaped within the last 4 weeks. Please answer question 13 for these patients."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Not Documented",
+        "Not applicable"
+      ],
+      "question_number": "9",
+      "question_text": "Is the patient's non-cigarette smoking status documented in the notes? (for example, shisha, marijuana, does not include vaping)"
+    },
+    {
+      "answer_options": [
+        "None",
+        "Shisha",
+        "Marijuana",
+        "Heat not burn products",
+        "Other, please specify:"
+      ],
+      "question_number": "10",
+      "question_text": "If the answer to 6a is yes, what forms of non-cigarette smoking have been documented in the notes? Tick all that apply 'Heat not burn products' are an electrically-heated smoking system that releases smoke by heating tobacco at a lower temperature than a conventional cigarette."
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Other non-cigarette smoking forms - please specify:"
+    },
+    {
+      "answer_options": [
+        "Yes, they were provided very brief advice",
+        "No"
+      ],
+      "question_number": "12",
+      "question_text": "After identifying the patient is a current smoker, is there evidence in the patient's notes that they were provided with 'Very Brief Advice'?"
+    },
+    {
+      "answer_options": [
+        "Hospital smoking cessation service",
+        "Community smoking cessation service",
+        "Referred back to GP",
+        "Provided with self-referral information",
+        "Did not want referral",
+        "Not documented",
+        "Other, please specify:"
+      ],
+      "question_number": "13",
+      "question_text": "Where was the patient referred?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Other referral location - please specify:"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "15",
+      "question_text": "If the patient was referred to a hospital smoking cessation service – were they reviewed by that service during the admission?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "16",
+      "question_text": "Is there evidence in the patient's notes or drug chart that they were offered the use of licensed pharmacotherapy for tobacco addiction to help them abstain whilst an inpatient?"
+    },
+    {
+      "answer_options": [
+        "Single agent NRT (short acting or long acting patch)",
+        "Combination NRT (short acting and long acting patch)",
+        "Varenicline",
+        "Bupropion",
+        "Pharmacotherapy offered but declined"
+      ],
+      "question_number": "17",
+      "question_text": "If the answer to 9a is yes, what pharmacotherapy for tobacco addiction was provided whilst an inpatient? Tick all that apply 'NRT' = Nicotine replacement therapy, for example skin patches, chewing gum, lozenge, oral strips, nasal / mouth spray"
+    },
+    {
+      "answer_options": [
+        "Evidence ion the notes that the option of vaping discussed with the patient",
+        "Patient provided with a vaping kit to use during and after admission",
+        "Patient declined the offer of a vaping kit as a smoking cessation tool",
+        "No evidence of any vaping interventions provided"
+      ],
+      "question_number": "18",
+      "question_text": "What interventions in regard to the option of vaping as a smoking cessation tool were provided?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "Is there evidence in the patient's notes that they were discharged with licensed pharmacotherapy for tobacco addiction?"
+    },
+    {
+      "answer_options": [
+        "Single agent NRT",
+        "Combination NRT",
+        "Varenicline",
+        "Buprenorphine"
+      ],
+      "question_number": "20",
+      "question_text": "If the answer to 10a is yes, what pharmacotherapy for tobacco addiction was the patient discharged with? Tick all that apply"
+    },
+    {
+      "answer_options": [
+        "Yes – Hospital stop smoking service",
+        "Yes – Community stop smoking service",
+        "No – did not attend",
+        "No – no f/u arrangements made",
+        "No – patient declined f/u",
+        "Not possible to ascertain"
+      ],
+      "question_number": "21",
+      "question_text": "Did the patient attend any smoking cessation services for follow-up after discharge?"
+    },
+    {
+      "answer_options": [
+        "Yes- chemically validated",
+        "Yes- self reported",
+        "No",
+        "information not available"
+      ],
+      "question_number": "22",
+      "question_text": "Was the patient abstinent at 4 weeks after discharge?"
+    },
+    {
+      "answer_options": [
+        "Patient allowed to use existing vape kit during admission",
+        "Provided with a vaping kit to use during hospital stay",
+        "Vaping kit offered but declined",
+        "No evidence of an offer or discussion about vaping during inpatient stay"
+      ],
+      "question_number": "23",
+      "question_text": "Please tick all relevant answers with regard to vaping as a smoking cessation tool in this patient:"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SMOKING_CESSATION_AUDIT_DATSHEET_PART_1__2026",
+  "title": "Smoking Cessation Audit Datsheet Part 1",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
