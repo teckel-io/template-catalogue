@@ -1,0 +1,292 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "In place – yes or No": "in_place",
+    "Next steps": "next_steps",
+    "To be achieved by": "to_be_achieved_by"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 33508,
+  "form_id": "STAFF_TRAINING_NEEDS_ANALYSIS_FOR_DATA_SECURITY_CONFIDENTIALITY",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/STAFF_TRAINING_NEEDS_ANALYSIS_FOR_DATA_SECURITY_CONFIDENTIALITY/2026/STAFF_TRAINING_NEEDS_ANALYSIS_FOR_DATA_SECURITY_CONFIDENTIALITY.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:38:53.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Staff Training Needs Analysis for Data Security & Confidentiality V1.0APR24.docx",
+  "question_count": 42,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "1",
+      "question_text": "Data and cyber security awareness and good practice, including: Data protection, Data quality, Record keeping, Data security, Confidentiality, Rights of individuals under GDPR including subject access requests — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Data and cyber security awareness and good practice, including: Data protection, Data quality, Record keeping, Data security, Confidentiality, Rights of individuals under GDPR including subject access requests — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Data and cyber security awareness and good practice, including: Data protection, Data quality, Record keeping, Data security, Confidentiality, Rights of individuals under GDPR including subject access requests — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "4",
+      "question_text": "Physical security including paper records and files — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Physical security including paper records and files — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Physical security including paper records and files — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Preventing data and cyber security threats including awareness of potential threats, and reporting incidents (data breaches) including near misses — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Preventing data and cyber security threats including awareness of potential threats, and reporting incidents (data breaches) including near misses — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Preventing data and cyber security threats including awareness of potential threats, and reporting incidents (data breaches) including near misses — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "10",
+      "question_text": "Email good practice — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Email good practice — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Email good practice — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "13",
+      "question_text": "Password good practice — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Password good practice — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Password good practice — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "16",
+      "question_text": "Safe use of removable media (memory sticks) with company computers — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Safe use of removable media (memory sticks) with company computers — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Safe use of removable media (memory sticks) with company computers — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "Safe use of company laptops, tablets and phones — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Safe use of company laptops, tablets and phones — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Safe use of company laptops, tablets and phones — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "22",
+      "question_text": "Safe use of personal mobile phones to carry out company business — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Safe use of personal mobile phones to carry out company business — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Safe use of personal mobile phones to carry out company business — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "25",
+      "question_text": "DSPT — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "DSPT — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "DSPT — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "28",
+      "question_text": "Business continuity planning and data protection impact assessments (DPIA) — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Business continuity planning and data protection impact assessments (DPIA) — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Business continuity planning and data protection impact assessments (DPIA) — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "31",
+      "question_text": "Software updates — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Software updates — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Software updates — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "34",
+      "question_text": "IT infrastructure, including: Operating system updates, Backups, Firewalls, Anti-virus software installation/updates, Network management (if a network of computers is in place) — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "IT infrastructure, including: Operating system updates, Backups, Firewalls, Anti-virus software installation/updates, Network management (if a network of computers is in place) — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "IT infrastructure, including: Operating system updates, Backups, Firewalls, Anti-virus software installation/updates, Network management (if a network of computers is in place) — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "37",
+      "question_text": "Secure use of company hardware: Encryption, PINs and two factor authentication, Remote tracking/wiping of mobile devices, Limiting downloads to verified software — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Secure use of company hardware: Encryption, PINs and two factor authentication, Remote tracking/wiping of mobile devices, Limiting downloads to verified software — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Secure use of company hardware: Encryption, PINs and two factor authentication, Remote tracking/wiping of mobile devices, Limiting downloads to verified software — To be achieved by"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "40",
+      "question_text": "Setting up user accounts and control of access to which parts of systems — In place – yes or No"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Setting up user accounts and control of access to which parts of systems — Next steps"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Setting up user accounts and control of access to which parts of systems — To be achieved by"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__STAFF_TRAINING_NEEDS_ANALYSIS_FOR_DATA_SECURITY_CONFIDENTIALITY__2026",
+  "title": "Staff Training Needs Analysis for Data Security & Confidentiality V1.0APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
