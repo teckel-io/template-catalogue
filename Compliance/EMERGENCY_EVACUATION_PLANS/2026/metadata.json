@@ -1,0 +1,215 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 26286,
+  "form_id": "EMERGENCY_EVACUATION_PLANS",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/EMERGENCY_EVACUATION_PLANS/2026/EMERGENCY_EVACUATION_PLANS.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:36:54.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Emergency Evacuation Plans V2.2JAN25.docx",
+  "question_count": 23,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Wheelchair users who are seen on the ground floor of the building - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Wheelchair users who are seen above/below the ground floor - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "People with limited mobility - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Deaf and hearing-impaired people - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Blind and partially sighted people - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Learning Difficulties – people with learning difficulties may react unpredictably to a fire alarm - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "People with dementia or other cognitive impairments - Procedure for emergency evacuation"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "8",
+      "question_text": "Have emergency procedures been explained to you?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "9",
+      "question_text": "Would you be able to raise the alarm if you discovered a fire (can you press the call point)?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "10",
+      "question_text": "Are you able to open fire exits?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "11",
+      "question_text": "Are you able to access a phone to contact the emergency services if required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "12",
+      "question_text": "Can you read fire escape signs?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "13",
+      "question_text": "Can you hear the fire alarm?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "14",
+      "question_text": "Does the building have flashing lights as part of the fire detection system?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "15",
+      "question_text": "Would you need assistance to get out of the building in an emergency?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "16",
+      "question_text": "Who will assist you during an evacuation (this may be a family member/carer for a patient or a staff member)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "17",
+      "question_text": "Do you use a wheelchair or mobility aid? If yes please describe what you use."
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "18",
+      "question_text": "Can you move quickly in the event of an emergency?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "19",
+      "question_text": "Are escape routes free from obstruction?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "20",
+      "question_text": "Where the individual needs to be above/below the ground floor: Has consideration been made as to whether the activity can be moved to the ground floor?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "21",
+      "question_text": "Would you be able to transfer to an evacuation chair if required?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "22",
+      "question_text": "Is an evac chair available in the building?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Comments"
+      ],
+      "question_number": "23",
+      "question_text": "Are you aware of any additional measures which could aid emergency evacuation?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__EMERGENCY_EVACUATION_PLANS__2026",
+  "title": "Emergency Evacuation Plans V2.2JAN25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
