@@ -1,0 +1,106 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 649599,
+  "form_id": "759_WRONG_SITE_SURGERY_LOCSSIPS_TOOLKIT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/759_WRONG_SITE_SURGERY_LOCSSIPS_TOOLKIT/2026/759_WRONG_SITE_SURGERY_LOCSSIPS_TOOLKIT.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:44:30.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "759_Wrong Site Surgery LocSSIPs Toolkit.pdf",
+  "question_count": 14,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Patient Identifier:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Age & sex of patient:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Medical/Dental and relevant Social History:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Brief summary of Never Event, including Risk Factors:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Effect of never event on patient - How will the outcome be managed?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "How did the clinical team manage the never event - What went well?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "How did the clinical team manage the never event - What did not go well?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "What has been learnt from the never event - Root causes:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "What has been learnt from the never event - Mitigation of risk factors:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "What has been learnt from the never event - What will be done differently next time?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "What has been learnt from the never event - How will it influence your future approach to similar cases?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "How has the learning been shared amongst the team/service?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Has the learning been reflected in updated operational procedures/training?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Have the members of the team who were involved in the never event, received adequate and appropriate support?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__759_WRONG_SITE_SURGERY_LOCSSIPS_TOOLKIT__2026",
+  "title": "759_Wrong Site Surgery LocSSIPs Toolkit",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
