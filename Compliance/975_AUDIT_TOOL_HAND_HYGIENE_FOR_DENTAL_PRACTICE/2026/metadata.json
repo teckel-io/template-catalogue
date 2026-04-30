@@ -1,0 +1,503 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "correct_hand_hygiene_technique": "correct_hand_hygiene_technique",
+    "cuts_grazes_covered": "cuts_grazes_covered",
+    "key_moments_opportunity_taken": "key_moments_opportunity_taken",
+    "paper_towels_disposed_properly": "paper_towels_disposed_properly",
+    "staff_bare_below_elbows": "staff_bare_below_elbows",
+    "staff_member_being_observed": "staff_member_being_observed"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 1572299,
+  "form_id": "975_AUDIT_TOOL_HAND_HYGIENE_FOR_DENTAL_PRACTICE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/975_AUDIT_TOOL_HAND_HYGIENE_FOR_DENTAL_PRACTICE/2026/975_AUDIT_TOOL_HAND_HYGIENE_FOR_DENTAL_PRACTICE.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:27:31.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "975_Audit-Tool-Hand-Hygiene-for-Dental-Practice.pdf",
+  "question_count": 60,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Staff member being observed - Observation No. 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "2",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "3",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "4",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 1"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "6",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 1"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Staff member being observed - Observation No. 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "8",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "9",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "10",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 2"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "12",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 2"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Staff member being observed - Observation No. 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "14",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "15",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "16",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "17",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 3"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "18",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 3"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Staff member being observed - Observation No. 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "20",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "21",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "22",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "23",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 4"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "24",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 4"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Staff member being observed - Observation No. 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "26",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "27",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "28",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "29",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 5"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "30",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 5"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Staff member being observed - Observation No. 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "32",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "33",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "34",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "35",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 6"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "36",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 6"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Staff member being observed - Observation No. 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "38",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "39",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "40",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "41",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 7"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "42",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 7"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Staff member being observed - Observation No. 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "44",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "45",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "46",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "47",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 8"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "48",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 8"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Staff member being observed - Observation No. 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "50",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "51",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "52",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "53",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 9"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "54",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 9"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Staff member being observed - Observation No. 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "N/A"
+      ],
+      "question_number": "56",
+      "question_text": "Was the opportunity taken to clean their hands at each moment ('Key Moments') - Observation No. 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "57",
+      "question_text": "Staff are 'Bare Below the Elbows' - Observation No. 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "58",
+      "question_text": "Cuts and grazes are covered with a waterproof plaster - Observation No. 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "59",
+      "question_text": "The correct hand hygiene technique is used when washing hands - Observation No. 10"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "60",
+      "question_text": "Paper towels are disposed of without touching the waste bin lid - Observation No. 10"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__975_AUDIT_TOOL_HAND_HYGIENE_FOR_DENTAL_PRACTICE__2026",
+  "title": "975_Audit-Tool-Hand-Hygiene-for-Dental-Practice",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
