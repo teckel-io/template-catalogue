@@ -1,0 +1,82 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Date equipment assigned to a staff member": "date_equipment_assigned",
+    "Date equipment is returned": "date_equipment_returned",
+    "Make/model/serial number (if applicable)": "make_model_serial_number",
+    "PM to sign once returned": "pm_signature_returned",
+    "Portable device type": "portable_device_type",
+    "Staff member to sign once it has been assigned": "staff_member_signature_assigned",
+    "Where is the device to be used? In the practice or away from the practice?": "device_usage_location"
+  },
+  "document_id_convention": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21254,
+  "form_id": "PORTABLE_DEVICES_REGISTER_AND_STAFF_DECLARATION_FORM",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PORTABLE_DEVICES_REGISTER_AND_STAFF_DECLARATION_FORM/2026/PORTABLE_DEVICES_REGISTER_AND_STAFF_DECLARATION_FORM.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.4",
+  "is_log": false,
+  "metadata_generated_at": "2026-04-30T23:38:40.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Portable Devices Register and Staff Declaration Form V1.1APR24.docx",
+  "question_count": 7,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Portable device type"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Make/model/serial number (if applicable)"
+    },
+    {
+      "answer_options": [
+        "In the practice",
+        "Away from the practice"
+      ],
+      "question_number": "3",
+      "question_text": "Where is the device to be used? In the practice or away from the practice?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Staff member to sign once it has been assigned"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Date equipment assigned to a staff member"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "PM to sign once returned"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Date equipment is returned"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PORTABLE_DEVICES_REGISTER_AND_STAFF_DECLARATION_FORM__2026",
+  "title": "Portable Devices Register and Staff Declaration Form V1.1APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
