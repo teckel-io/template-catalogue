@@ -1,0 +1,126 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "name": "name",
+    "qualified_clinical_nurse": "qualified_clinical_nurse"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 18105,
+  "form_id": "PERSONNEL_CHECKLIST_AGENCY_LOCUM_NURSES",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PERSONNEL_CHECKLIST_AGENCY_LOCUM_NURSES/2026/PERSONNEL_CHECKLIST_AGENCY_LOCUM_NURSES.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:21:49.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Personnel Checklist - Agency_Locum Nurses V1.2JUL25.docx",
+  "question_count": 11,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "NAME:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "QUALIFIED CLINICAL NURSE"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "EMERGENCY CONTACT"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "PHOTOGRAPHIC ID/RIGHT TO WORK DOCUMENTATION"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "DBS STATUS CHECKED"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "GDC REGISTRATION CERTIFICATE"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "INDEMNITY CERTIFICATE"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "HEP B STATUS & IMMUNISATIONS HISTORY"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "INDUCTION CHECKLIST (CAN BE SIMPLIFIED TO JUST INCLUDE BASICS)"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "CPR/BLS TRAINING CERTIFICATE"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "SAFEGUARDING CPD CERTIFICATE"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PERSONNEL_CHECKLIST_AGENCY_LOCUM_NURSES__2026",
+  "title": "Personnel Checklist - Agency_Locum Nurses V1.2JUL25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
