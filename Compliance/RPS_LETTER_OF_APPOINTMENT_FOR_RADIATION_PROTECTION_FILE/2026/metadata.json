@@ -1,0 +1,91 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 19777,
+  "form_id": "RPS_LETTER_OF_APPOINTMENT_FOR_RADIATION_PROTECTION_FILE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/RPS_LETTER_OF_APPOINTMENT_FOR_RADIATION_PROTECTION_FILE/2026/RPS_LETTER_OF_APPOINTMENT_FOR_RADIATION_PROTECTION_FILE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:07:08.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "RPS Letter of Appointment for Radiation Protection File V2.0MARCH24.docx",
+  "question_count": 10,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Name of RPS"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "GDC registration number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "The main role in the practice [e.g. Dentist, Hygienist, Therapist, Dental Nurse with additional qualification in radiography, or Qualified Registered Dental Nurse]"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Practice Name - Has been appointed as Radiation Protection Supervisor at"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Date of appointment"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Appointment made by [Practice Manager name]"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Practice Manager Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "I accept the appointment as Radiation Protection Supervisor (RPS) at [Practice]. I have been explained the nature of the role and its responsibilities, and I have received training appropriate to the role - Practice name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "RPS Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "RPS name (printed)"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__RPS_LETTER_OF_APPOINTMENT_FOR_RADIATION_PROTECTION_FILE__2026",
+  "title": "RPS Letter of Appointment for Radiation Protection File V2.0MARCH24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
