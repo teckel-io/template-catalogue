@@ -1,0 +1,252 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "comments": "comments",
+    "current_status_compliant_n_or_non_compliant_nc": "compliance_status"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20258,
+  "form_id": "HTM_01_05_BEST_PRACTICE_CHECKLIST",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/HTM_01_05_BEST_PRACTICE_CHECKLIST/2026/HTM_01_05_BEST_PRACTICE_CHECKLIST.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:02:27.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "HTM 01-05 Best Practice checklist V2.0MAR24.docx",
+  "question_count": 32,
+  "questions": [
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "1",
+      "question_text": "A washer disinfector - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "A washer disinfector - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "3",
+      "question_text": "LDU-Local Decontamination Unit/Dedicated decontamination/sterilisation room - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "LDU-Local Decontamination Unit/Dedicated decontamination/sterilisation room - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "5",
+      "question_text": "Aseptic storage - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Aseptic storage - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "7",
+      "question_text": "Identification of a room to be converted to a decontamination area. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Identification of a room to be converted to a decontamination area. - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "9",
+      "question_text": "Planning permission if building work is required/conservation orders - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Planning permission if building work is required/conservation orders - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "11",
+      "question_text": "Site survey detailing how the decontamination room is to be set out - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Site survey detailing how the decontamination room is to be set out - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "13",
+      "question_text": "Cabinetry quotes – work surfaces and cabinets should be impervious to moisture and withstand constant disinfection. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Cabinetry quotes – work surfaces and cabinets should be impervious to moisture and withstand constant disinfection. - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "15",
+      "question_text": "Flooring quotes – floors should be impervious to moisture, easy to clean and coved - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Flooring quotes – floors should be impervious to moisture, easy to clean and coved - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "17",
+      "question_text": "Plumbing, electrical, and other trade quotes as required - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Plumbing, electrical, and other trade quotes as required - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "19",
+      "question_text": "Staffing requirements and a plan for how the decontamination process is to be conducted – employment of a dedicated decontamination assistant or rota system. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Staffing requirements and a plan for how the decontamination process is to be conducted – employment of a dedicated decontamination assistant or rota system. - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "21",
+      "question_text": "Training requirements – do staff know how to use washer-disinfectors, how to carry out all the validation tests and checks and how to log the information - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Training requirements – do staff know how to use washer-disinfectors, how to carry out all the validation tests and checks and how to log the information - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "23",
+      "question_text": "Purchase and potential installation date of washer-disinfector. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Purchase and potential installation date of washer-disinfector. - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "25",
+      "question_text": "Suitability of service contracts, maintenance considerations and business continuity - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Suitability of service contracts, maintenance considerations and business continuity - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "27",
+      "question_text": "Purchase of instruments that are washer-disinfector compatible – shower symbol on dental handpieces. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Purchase of instruments that are washer-disinfector compatible – shower symbol on dental handpieces. - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "29",
+      "question_text": "Consideration is given as to whether the Practice may use more disposable dental instruments. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Consideration is given as to whether the Practice may use more disposable dental instruments. - Comments"
+    },
+    {
+      "answer_options": [
+        "Compliant (N)",
+        "Non-compliant (NC)"
+      ],
+      "question_number": "31",
+      "question_text": "Airflow consideration and how the area is to be ventilated to ensure clean to dirty airflow. If an air conditioning unit is to be installed, please ensure that the Engineer is aware of clean-to-dirty airflow requirements. - Current status- Compliant (N) or Non-compliant (NC)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Airflow consideration and how the area is to be ventilated to ensure clean to dirty airflow. If an air conditioning unit is to be installed, please ensure that the Engineer is aware of clean-to-dirty airflow requirements. - Comments"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__HTM_01_05_BEST_PRACTICE_CHECKLIST__2026",
+  "title": "HTM 01-05 Best Practice checklist V2.0MAR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
