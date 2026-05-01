@@ -1,0 +1,107 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "additional_roles_qualifications_interests": "additional_roles_qualifications",
+    "benefit_to_work": "work_benefit",
+    "completion_date": "target_completion",
+    "development_outcome_link": "development_outcome",
+    "how_does_this_relate_to_practice": "relation_to_practice",
+    "how_will_i_meet_need": "learning_method",
+    "my_patient_population": "patient_population",
+    "my_registrant_titles_and_cycle_period": "registrant_titles_cycle_period",
+    "my_work_settings": "work_settings",
+    "what_do_i_need_to_learn": "learning_maintenance_needs"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 625974,
+  "form_id": "PRIOR_ASSESSMENT_OF_PLANS_FOR_SURGERIES_1_TO_3_6",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PRIOR_ASSESSMENT_OF_PLANS_FOR_SURGERIES_1_TO_3_6/2026/PRIOR_ASSESSMENT_OF_PLANS_FOR_SURGERIES_1_TO_3_6.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:06:19.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Prior assessment of plans for Surgeries 1 to 3 6.docx",
+  "question_count": 10,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "My registrant title(s) and cycle period:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "My work setting(s):"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Any additional roles, qualifications or professional interests:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "My patient population:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "What do I need to learn or maintain for this cycle?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "How does this relate to my field of practice?"
+    },
+    {
+      "answer_options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "question_number": "7",
+      "question_text": "Which development outcome does it link to?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "What benefit will this have to my work?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "How will I meet this learning or maintenance need?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "When will I complete the activity?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PRIOR_ASSESSMENT_OF_PLANS_FOR_SURGERIES_1_TO_3_6__2026",
+  "title": "Prior assessment of plans for Surgeries 1 to 3 6",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
