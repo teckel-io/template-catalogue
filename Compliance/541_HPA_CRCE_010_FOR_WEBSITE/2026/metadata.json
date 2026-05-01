@@ -1,0 +1,791 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 279147,
+  "form_id": "541_HPA_CRCE_010_FOR_WEBSITE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/541_HPA_CRCE_010_FOR_WEBSITE/2026/541_HPA_CRCE_010_FOR_WEBSITE.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:05:06.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "541_HPA-CRCE-010_for_website.pdf",
+  "question_count": 126,
+  "questions": [
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "1",
+      "question_text": "Unless at premises where x-ray equipment has previously been used by the practice, notify HSE at least 28 days in advance"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "2",
+      "question_text": "Consult the RPA about the design of the CBCT facility, including required structural protection and safety and warning devices"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "3",
+      "question_text": "Ensure all staff radiation protection training is updated for use of the CBCT"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "4",
+      "question_text": "Have the CBCT \"adequately tested\" before first use and then annually by the MPE/RPA"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "5",
+      "question_text": "Adopt appropriate referral criteria for CBCT and inform all referrers"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "6",
+      "question_text": "Review all legal person's IRMER procedures to ensure that they adequately cover the CBCT work, paying particular attention to patient identification, justification and arrangements for the clinical evaluation of images"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "7",
+      "question_text": "Ensure all practitioners, operators (including those carrying out the clinical evaluation) and referrers have adequate training"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "8",
+      "question_text": "New equipment must be capable of restricting patient doses to ALARP"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "9",
+      "question_text": "New equipment must be supplied with suitable software and display screens for clinical imaging"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "10",
+      "question_text": "New equipment must be supplied with test objects and imaging tools for QA purposes"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "11",
+      "question_text": "Confirmation that environment suitable for installation of dental CBCT"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "12",
+      "question_text": "Radiation measurements to confirm adequacy of shielding"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "13",
+      "question_text": "Installer to undertake adequate testing on behalf of user (especially for General Dental Practices)"
+    },
+    {
+      "answer_options": [
+        "Confirmed",
+        "Not Confirmed"
+      ],
+      "question_number": "14",
+      "question_text": "Controlled areas will extend throughout the room"
+    },
+    {
+      "answer_options": [
+        "Confirmed",
+        "Not Confirmed"
+      ],
+      "question_number": "15",
+      "question_text": "Controlled areas will normally exist throughout the working day"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "16",
+      "question_text": "Local rules must be drafted or reviewed with RPA"
+    },
+    {
+      "answer_options": [
+        "Addressed",
+        "Not Addressed"
+      ],
+      "question_number": "17",
+      "question_text": "Description of conditions under which controlled area exists requires careful consideration"
+    },
+    {
+      "answer_options": [
+        "In Place",
+        "Not In Place"
+      ],
+      "question_number": "18",
+      "question_text": "Written arrangements necessary for staff and if patients require support"
+    },
+    {
+      "answer_options": [
+        "In Place",
+        "Not In Place"
+      ],
+      "question_number": "19",
+      "question_text": "Contingency plans should cover all reasonably foreseeable accidents"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "20",
+      "question_text": "Radiation measurements must be made at installation and must be repeated at intervals to confirm correct designation"
+    },
+    {
+      "answer_options": [
+        "Scheduled",
+        "Not Scheduled"
+      ],
+      "question_number": "21",
+      "question_text": "Measurements should be made at least every three years or when conditions change"
+    },
+    {
+      "answer_options": [
+        "Understood",
+        "Not Understood"
+      ],
+      "question_number": "22",
+      "question_text": "High patient doses as a result of equipment faults - Notifiable to HSE if more than ten times intended value"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "23",
+      "question_text": "Legal person must ensure suitable persons are identified and entitled to act as Practitioner"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "24",
+      "question_text": "Legal person must ensure suitable persons are identified and entitled to act as Referrer (including persons at other practices if appropriate)"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "25",
+      "question_text": "Legal person must ensure suitable persons are identified and entitled to act as Operator (for taking the exposure)"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "26",
+      "question_text": "Legal person must ensure suitable persons are identified and entitled to act as Operator (for reporting on images, which may include persons at other practices)"
+    },
+    {
+      "answer_options": [
+        "Completed",
+        "Not Completed"
+      ],
+      "question_number": "27",
+      "question_text": "Legal person must ensure IRMER dutyholders are adequately trained"
+    },
+    {
+      "answer_options": [
+        "Followed",
+        "Not Followed"
+      ],
+      "question_number": "28",
+      "question_text": "BSDMFR Core Curriculum specifies requirements, including for referrers"
+    },
+    {
+      "answer_options": [
+        "In Place",
+        "Not In Place"
+      ],
+      "question_number": "29",
+      "question_text": "Legal person must ensure written protocols are in place for all standard dental CBCT examinations"
+    },
+    {
+      "answer_options": [
+        "Followed",
+        "Not Followed"
+      ],
+      "question_number": "30",
+      "question_text": "Manufacturer's recommended exposure settings to be used (taking into account MPE advice) unless evidence-based guidance available"
+    },
+    {
+      "answer_options": [
+        "Implemented",
+        "Not Implemented"
+      ],
+      "question_number": "31",
+      "question_text": "Images must be reconstructed using suitable software"
+    },
+    {
+      "answer_options": [
+        "Implemented",
+        "Not Implemented"
+      ],
+      "question_number": "32",
+      "question_text": "Images must be viewed on suitable display screens under suitable conditions"
+    },
+    {
+      "answer_options": [
+        "Implemented",
+        "Not Implemented"
+      ],
+      "question_number": "33",
+      "question_text": "A two-point rating system to be used for dental CBCT images"
+    },
+    {
+      "answer_options": [
+        "Implemented",
+        "Not Implemented"
+      ],
+      "question_number": "34",
+      "question_text": "Analysis of reject images to be undertaken"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Patient Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Operator"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Clinical indication"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Exposure factors"
+    },
+    {
+      "answer_options": [
+        "Acceptable",
+        "Unacceptable"
+      ],
+      "question_number": "40",
+      "question_text": "Image quality rating"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Reason for rejection (if applicable)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Repeat number"
+    },
+    {
+      "answer_options": [
+        "Acceptable",
+        "Unacceptable"
+      ],
+      "question_number": "43",
+      "question_text": "Final outcome"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Manufacturer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Model"
+    },
+    {
+      "answer_options": [],
+      "question_number": "46",
+      "question_text": "Identifier"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "Date of Test"
+    },
+    {
+      "answer_options": [],
+      "question_number": "48",
+      "question_text": "Operating potential (kV)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Tube current (mA)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "Exposure time (s)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Voxel size (mm³)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Field of view diameter x height (cm)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Image noise Mean Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Image noise Std Dev Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "CT number uniformity Centre Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "56",
+      "question_text": "CT number uniformity North Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "CT number uniformity South Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "CT number uniformity East Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "CT number uniformity West Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "CT number Values Teflon Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "CT number Values Air Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "62",
+      "question_text": "CT number Values Acrylic Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "CT number Values LDPE Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "CT number Values Water Image Density"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "HC spatial resolution Line Pairs / cm"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "CTDI - in air Centre (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "67",
+      "question_text": "CTDI - in PMMA Centre (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "68",
+      "question_text": "CTDI - in PMMA North (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "69",
+      "question_text": "CTDI - in PMMA South (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "70",
+      "question_text": "CTDI - in PMMA East (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "71",
+      "question_text": "CTDI - in PMMA West (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "72",
+      "question_text": "CTDIw (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "73",
+      "question_text": "Dose @ detector - Adult (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "74",
+      "question_text": "Dose @ detector - Child (mGy)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "75",
+      "question_text": "Beam size @ detector - Adult width x height (cm)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "76",
+      "question_text": "Beam size @ detector - Child width x height (cm)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "77",
+      "question_text": "Dose area product - Adult (mGy cm²)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "78",
+      "question_text": "Dose area product - Child (mGy cm²)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "79",
+      "question_text": "Comments"
+    },
+    {
+      "answer_options": [],
+      "question_number": "80",
+      "question_text": "Address of CBCT practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "81",
+      "question_text": "Address of referring practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "82",
+      "question_text": "CBCT practice Tel"
+    },
+    {
+      "answer_options": [],
+      "question_number": "83",
+      "question_text": "Referring practice Tel"
+    },
+    {
+      "answer_options": [],
+      "question_number": "84",
+      "question_text": "CBCT practice Email"
+    },
+    {
+      "answer_options": [],
+      "question_number": "85",
+      "question_text": "Referring practice Email"
+    },
+    {
+      "answer_options": [],
+      "question_number": "86",
+      "question_text": "Name of legal person - CBCT practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "87",
+      "question_text": "Name of legal person - Referring practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "88",
+      "question_text": "Name of referral criteria document"
+    },
+    {
+      "answer_options": [],
+      "question_number": "89",
+      "question_text": "Name of referring person"
+    },
+    {
+      "answer_options": [],
+      "question_number": "90",
+      "question_text": "GDC/GMC Registration Number"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "91",
+      "question_text": "IRMER Role - Referrer"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "92",
+      "question_text": "IRMER Role - Operator (reporting)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "93",
+      "question_text": "Training OK?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "94",
+      "question_text": "Registration OK?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "95",
+      "question_text": "Name of legal person - CBCT practice (signature section)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "96",
+      "question_text": "Name of legal person - Referring practice (signature section)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "97",
+      "question_text": "Signature - CBCT practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "98",
+      "question_text": "Signature - Referring practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "99",
+      "question_text": "Date - CBCT practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "100",
+      "question_text": "Date - Referring practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "101",
+      "question_text": "Patient Date of birth"
+    },
+    {
+      "answer_options": [],
+      "question_number": "102",
+      "question_text": "Patient Address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "103",
+      "question_text": "Patient contact telephone number - Home"
+    },
+    {
+      "answer_options": [],
+      "question_number": "104",
+      "question_text": "Patient contact telephone number - Work"
+    },
+    {
+      "answer_options": [],
+      "question_number": "105",
+      "question_text": "Patient contact telephone number - Mobile"
+    },
+    {
+      "answer_options": [],
+      "question_number": "106",
+      "question_text": "Referrer Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "107",
+      "question_text": "Referrer Address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "108",
+      "question_text": "Referrer Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "109",
+      "question_text": "Date of referral"
+    },
+    {
+      "answer_options": [],
+      "question_number": "110",
+      "question_text": "Referrer contact telephone number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "111",
+      "question_text": "The clinical context for requesting a dental CBCT examination"
+    },
+    {
+      "answer_options": [],
+      "question_number": "112",
+      "question_text": "Relevant results of history, clinical examination and other imaging"
+    },
+    {
+      "answer_options": [],
+      "question_number": "113",
+      "question_text": "What information do you want the dental CBCT examination to provide?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "114",
+      "question_text": "Define the anatomical area that the scan(s) should cover"
+    },
+    {
+      "answer_options": [],
+      "question_number": "115",
+      "question_text": "Name of IRMER practitioner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "116",
+      "question_text": "IRMER practitioner Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "117",
+      "question_text": "IRMER practitioner Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "118",
+      "question_text": "Details of scan authorised"
+    },
+    {
+      "answer_options": [],
+      "question_number": "119",
+      "question_text": "Name of Operator"
+    },
+    {
+      "answer_options": [],
+      "question_number": "120",
+      "question_text": "Operator Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "121",
+      "question_text": "Date of scan"
+    },
+    {
+      "answer_options": [],
+      "question_number": "122",
+      "question_text": "Exposure factors used"
+    },
+    {
+      "answer_options": [],
+      "question_number": "123",
+      "question_text": "Name of Operator (Reporting)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "124",
+      "question_text": "Reporting Operator Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "125",
+      "question_text": "Reporting Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "126",
+      "question_text": "Outcome"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__541_HPA_CRCE_010_FOR_WEBSITE__2026",
+  "title": "541_HPA-CRCE-010_for_website",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
