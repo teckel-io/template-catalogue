@@ -1,0 +1,146 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Actions in place- confirm with signature or initials": "actions_confirmed_signature",
+    "Control Measures in place": "control_measures_in_place",
+    "Further actions Required": "further_actions_required",
+    "Identified Risk": "identified_risk"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 37576,
+  "form_id": "TRAINEE_NURSE_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/TRAINEE_NURSE_RISK_ASSESSMENT/2026/TRAINEE_NURSE_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:12:32.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Trainee Nurse Risk Assessment V2.1JAN25.docx",
+  "question_count": 20,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Assisting at chairside — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Assisting at chairside — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Decontamination Duties — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Decontamination Duties — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Use of hazardous substances, i.e. disinfectants, mercury, x-ray chemicals — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Use of hazardous substances, i.e. disinfectants, mercury, x-ray chemicals — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Biological agents, e.g. direct contact with clients, infection through cuts or abrasions, loss of oils to skin — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Biological agents, e.g. direct contact with clients, infection through cuts or abrasions, loss of oils to skin — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "X-rays — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "X-rays — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Manual Handling — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Manual Handling — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Fire, e.g. ignition of flammable materials, contact of materials with hot surfaces — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Fire, e.g. ignition of flammable materials, contact of materials with hot surfaces — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Display screen equipment, e.g. entering patient details, updating patient records, making appointments — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Display screen equipment, e.g. entering patient details, updating patient records, making appointments — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Workplace conditions, e.g. lighting, ventilation, temperature, floor, electricity — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Workplace conditions, e.g. lighting, ventilation, temperature, floor, electricity — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Medical Emergencies — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Medical Emergencies — Actions in place- confirm with signature or initials"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__TRAINEE_NURSE_RISK_ASSESSMENT__2026",
+  "title": "Trainee Nurse Risk Assessment V2.1JAN25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
