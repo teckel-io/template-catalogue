@@ -1,0 +1,402 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "appearance_adequate": "Appearance — Adequate",
+    "appearance_excellent": "Appearance — Excellent",
+    "appearance_good": "Appearance — Good",
+    "appearance_unacceptable": "Appearance — Unacceptable",
+    "attitude_adequate": "Attitude to work/colleagues — Adequate",
+    "attitude_excellent": "Attitude to work/colleagues — Excellent",
+    "attitude_good": "Attitude to work/colleagues — Good",
+    "attitude_unacceptable": "Attitude to work/colleagues — Unacceptable",
+    "customer_care_adequate": "Customer care — Adequate",
+    "customer_care_excellent": "Customer care — Excellent",
+    "customer_care_good": "Customer care — Good",
+    "customer_care_unacceptable": "Customer care — Unacceptable",
+    "date_joined": "Date Joined",
+    "drive_adequate": "Drive & determination — Adequate",
+    "drive_excellent": "Drive & determination — Excellent",
+    "drive_good": "Drive & determination — Good",
+    "drive_unacceptable": "Drive & determination — Unacceptable",
+    "job_title": "Job Title",
+    "knowledge_adequate": "Knowledge of job — Adequate",
+    "knowledge_excellent": "Knowledge of job — Excellent",
+    "knowledge_good": "Knowledge of job — Good",
+    "knowledge_unacceptable": "Knowledge of job — Unacceptable",
+    "practice": "Practice",
+    "progress_adequate": "Rate of progress — Adequate",
+    "progress_excellent": "Rate of progress — Excellent",
+    "progress_good": "Rate of progress — Good",
+    "progress_unacceptable": "Rate of progress — Unacceptable",
+    "quality_adequate": "Quality of work — Adequate",
+    "quality_excellent": "Quality of work — Excellent",
+    "quality_good": "Quality of work — Good",
+    "quality_unacceptable": "Quality of work — Unacceptable",
+    "quantity_adequate": "Quantity of work — Adequate",
+    "quantity_excellent": "Quantity of work — Excellent",
+    "quantity_good": "Quantity of work — Good",
+    "quantity_unacceptable": "Quantity of work — Unacceptable",
+    "review_date": "Review Date",
+    "reviewer": "Reviewer",
+    "team_member": "Team Member",
+    "timekeeping_attendance_adequate": "Timekeeping/Attendance — Adequate",
+    "timekeeping_attendance_excellent": "Timekeeping/Attendance — Excellent",
+    "timekeeping_attendance_good": "Timekeeping/Attendance — Good",
+    "timekeeping_attendance_unacceptable": "Timekeeping/Attendance — Unacceptable"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 23806,
+  "form_id": "PROBATIONARY_REVIEW_FORM_AMEND_AS_REQUIRED",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PROBATIONARY_REVIEW_FORM_AMEND_AS_REQUIRED/2026/PROBATIONARY_REVIEW_FORM_AMEND_AS_REQUIRED.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:21:16.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Probationary Review Form - Amend as Required V2.0JUN24.docx",
+  "question_count": 42,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Team Member:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Practice:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Job Title:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Reviewer:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Date Joined:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Review Date:"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Timekeeping/Attendance — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Timekeeping/Attendance — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Timekeeping/Attendance — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Timekeeping/Attendance — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "Appearance — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Appearance — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Appearance — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Appearance — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Attitude to work/colleagues — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Attitude to work/colleagues — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Attitude to work/colleagues — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Attitude to work/colleagues — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Drive & determination — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Drive & determination — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "Drive & determination — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "Drive & determination — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "23",
+      "question_text": "Customer care — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "24",
+      "question_text": "Customer care — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "25",
+      "question_text": "Customer care — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "26",
+      "question_text": "Customer care — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "27",
+      "question_text": "Knowledge of job — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "28",
+      "question_text": "Knowledge of job — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "29",
+      "question_text": "Knowledge of job — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "30",
+      "question_text": "Knowledge of job — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "31",
+      "question_text": "Quality of work — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "32",
+      "question_text": "Quality of work — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "33",
+      "question_text": "Quality of work — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "34",
+      "question_text": "Quality of work — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "35",
+      "question_text": "Quantity of work — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "36",
+      "question_text": "Quantity of work — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "37",
+      "question_text": "Quantity of work — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "38",
+      "question_text": "Quantity of work — Unacceptable"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "39",
+      "question_text": "Rate of progress — Excellent"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "40",
+      "question_text": "Rate of progress — Good"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "41",
+      "question_text": "Rate of progress — Adequate"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "42",
+      "question_text": "Rate of progress — Unacceptable"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PROBATIONARY_REVIEW_FORM_AMEND_AS_REQUIRED__2026",
+  "title": "Probationary Review Form - Amend as Required V2.0JUN24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
