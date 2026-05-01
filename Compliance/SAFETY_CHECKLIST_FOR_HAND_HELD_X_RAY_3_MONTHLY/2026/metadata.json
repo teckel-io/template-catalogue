@@ -1,0 +1,207 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Compliant – Yes or No": "compliant",
+    "Date and signature of assessor": "date_signature",
+    "Further actions needed": "further_actions"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 18979,
+  "form_id": "SAFETY_CHECKLIST_FOR_HAND_HELD_X_RAY_3_MONTHLY",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SAFETY_CHECKLIST_FOR_HAND_HELD_X_RAY_3_MONTHLY/2026/SAFETY_CHECKLIST_FOR_HAND_HELD_X_RAY_3_MONTHLY.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:05:53.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Safety Checklist for Hand Held X-ray (3 monthly)V2.0MARCH24.docx",
+  "question_count": 27,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "1",
+      "question_text": "Anytime the unit Is not being used, it is stored in a secure, locked area."
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Anytime the unit Is not being used, it is stored in a secure, locked area. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Anytime the unit Is not being used, it is stored in a secure, locked area. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "4",
+      "question_text": "Whilst practice is closed, it should be stored out of site in a locked theft-proof cabinet."
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Whilst practice is closed, it should be stored out of site in a locked theft-proof cabinet. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Whilst practice is closed, it should be stored out of site in a locked theft-proof cabinet. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "If possible, the battery is removed from the main unit and stored separately in the main unit when not in use."
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "If possible, the battery is removed from the main unit and stored separately in the main unit when not in use. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "If possible, the battery is removed from the main unit and stored separately in the main unit when not in use. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "10",
+      "question_text": "The equipment has been routinely tested by an external provider at the appropriate intervals (annually)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "The equipment has been routinely tested by an external provider at the appropriate intervals (annually) - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "The equipment has been routinely tested by an external provider at the appropriate intervals (annually) - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "13",
+      "question_text": "Equipment warning lights are working."
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Equipment warning lights are working. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Equipment warning lights are working. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "16",
+      "question_text": "Equipment Audible warning of exposure is working."
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Equipment Audible warning of exposure is working. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Equipment Audible warning of exposure is working. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "The physical condition of the device is suitable."
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "The physical condition of the device is suitable. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "The physical condition of the device is suitable. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "22",
+      "question_text": "Correct exposure controls are in place, including protection against unauthorised use."
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Correct exposure controls are in place, including protection against unauthorised use. - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Correct exposure controls are in place, including protection against unauthorised use. - Date and signature of assessor"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "25",
+      "question_text": "Regular quality assurance audits have been conducted on all radiographs taken using the equipment at the recommended timeframe (6 monthly)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Regular quality assurance audits have been conducted on all radiographs taken using the equipment at the recommended timeframe (6 monthly) - Further actions needed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Regular quality assurance audits have been conducted on all radiographs taken using the equipment at the recommended timeframe (6 monthly) - Date and signature of assessor"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SAFETY_CHECKLIST_FOR_HAND_HELD_X_RAY_3_MONTHLY__2026",
+  "title": "Safety Checklist for Hand Held X-ray (3 monthly)V2.0MARCH24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
