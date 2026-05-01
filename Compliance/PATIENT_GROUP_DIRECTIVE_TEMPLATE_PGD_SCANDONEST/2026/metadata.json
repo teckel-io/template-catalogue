@@ -1,0 +1,300 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "author_date": "author_date",
+    "author_job_title": "author_job_title",
+    "author_name": "author_name",
+    "author_signature": "author_signature",
+    "authorising_body_date": "authorising_body_date",
+    "authorising_body_job_title": "authorising_body_job_title",
+    "authorising_body_name": "authorising_body_name",
+    "authorising_body_signature": "authorising_body_signature",
+    "authorising_senior_rep": "authorising_senior_rep",
+    "change_details": "change_details",
+    "hygienist_auth_date": "hygienist_auth_date",
+    "hygienist_name": "hygienist_name",
+    "hygienist_signature": "hygienist_signature",
+    "lead_dentist_date": "lead_dentist_date",
+    "lead_dentist_job_title": "lead_dentist_job_title",
+    "lead_dentist_name": "lead_dentist_name",
+    "lead_dentist_signature": "lead_dentist_signature",
+    "lead_pharmacist_date": "lead_pharmacist_date",
+    "lead_pharmacist_job_title": "lead_pharmacist_job_title",
+    "lead_pharmacist_name": "lead_pharmacist_name",
+    "lead_pharmacist_signature": "lead_pharmacist_signature",
+    "local_signatory_date": "local_signatory_date",
+    "local_signatory_job_title": "local_signatory_job_title",
+    "local_signatory_name": "local_signatory_name",
+    "local_signatory_signature": "local_signatory_signature",
+    "other_rep_date": "other_rep_date",
+    "other_rep_job_title": "other_rep_job_title",
+    "other_rep_name": "other_rep_name",
+    "other_rep_signature": "other_rep_signature",
+    "senior_doctor_date": "senior_doctor_date",
+    "senior_doctor_job_title": "senior_doctor_job_title",
+    "senior_doctor_name": "senior_doctor_name",
+    "senior_doctor_signature": "senior_doctor_signature",
+    "senior_group_rep_date": "senior_group_rep_date",
+    "senior_group_rep_job_title": "senior_group_rep_job_title",
+    "senior_group_rep_name": "senior_group_rep_name",
+    "senior_group_rep_signature": "senior_group_rep_signature",
+    "senior_pharmacist_date": "senior_pharmacist_date",
+    "senior_pharmacist_job_title": "senior_pharmacist_job_title",
+    "senior_pharmacist_name": "senior_pharmacist_name",
+    "senior_pharmacist_signature": "senior_pharmacist_signature",
+    "version_date": "version_date",
+    "version_number": "version_number"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 36704,
+  "form_id": "PATIENT_GROUP_DIRECTIVE_TEMPLATE_PGD_SCANDONEST",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PATIENT_GROUP_DIRECTIVE_TEMPLATE_PGD_SCANDONEST/2026/PATIENT_GROUP_DIRECTIVE_TEMPLATE_PGD_SCANDONEST.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:09:42.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Patient Group Directive Template (PGD) Scandonest.docx",
+  "question_count": 43,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Version number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Change details"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Lead author - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Lead author - Job title and organization"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Lead author - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Lead author - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Lead dentist - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Lead dentist - Job title and organization"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Lead dentist - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Lead dentist - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Lead pharmacist - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Lead pharmacist - Job title and organization"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Lead pharmacist - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Lead pharmacist - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Representative of other professional group using PGD - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Representative of other professional group using PGD - Job title and organization"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Representative of other professional group using PGD - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Representative of other professional group using PGD - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Senior doctor (or dentist) - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Senior doctor (or dentist) - Job title and organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Senior doctor (or dentist) - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Senior doctor (or dentist) - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Senior pharmacist - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Senior pharmacist - Job title and organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Senior pharmacist - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Senior pharmacist - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Senior representative of professional group using the PGD - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Senior representative of professional group using the PGD - Job title and organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Senior representative of professional group using the PGD - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Senior representative of professional group using the PGD - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Person signing on behalf of authorising body - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Person signing on behalf of authorising body - Job title and organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Person signing on behalf of authorising body - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Person signing on behalf of authorising body - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Local signatory - Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Local signatory - Job title and organisation"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Local signatory - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Local signatory - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Name of hygienist/therapists"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Hygienist/therapist Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Senior representative authorising hygienist/therapist"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Hygienist/therapist authorisation Date"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PATIENT_GROUP_DIRECTIVE_TEMPLATE_PGD_SCANDONEST__2026",
+  "title": "Patient Group Directive Template (PGD) Scandonest",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
