@@ -1,0 +1,252 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "date_last_checked": "date_last_checked",
+    "date_obtained": "date_obtained",
+    "date_of_issue": "date_of_issue",
+    "duty_holder_signature": "duty_holder_signature",
+    "entitlement_date": "entitlement_date",
+    "entitler_name": "entitler_name",
+    "gdc_registration_number": "gdc_registration_number",
+    "job_title": "job_title",
+    "name_of_duty_holder": "name_of_duty_holder",
+    "operator_all_examinations": "operator_all_examinations",
+    "operator_authorise_exposures": "operator_authorise_exposures",
+    "operator_change_chemicals": "operator_change_chemicals",
+    "operator_cone_beam": "operator_cone_beam",
+    "operator_evaluate_cone_beam": "operator_evaluate_cone_beam",
+    "operator_evaluate_external": "operator_evaluate_external",
+    "operator_evaluate_internal": "operator_evaluate_internal",
+    "operator_intra_oral": "operator_intra_oral",
+    "operator_panoramic": "operator_panoramic",
+    "operator_patient_id": "operator_patient_id",
+    "operator_process_digital": "operator_process_digital",
+    "operator_process_films": "operator_process_films",
+    "operator_process_plates": "operator_process_plates",
+    "operator_qa_equipment": "operator_qa_equipment",
+    "practitioner_all_dental": "practitioner_all_dental",
+    "practitioner_cone_beam": "practitioner_cone_beam",
+    "practitioner_intra_oral": "practitioner_intra_oral",
+    "practitioner_panoramic": "practitioner_panoramic",
+    "procedures_read": "procedures_read",
+    "qualifications": "qualifications",
+    "referrer_all_dental": "referrer_all_dental",
+    "referrer_cone_beam": "referrer_cone_beam",
+    "referrer_intra_oral": "referrer_intra_oral",
+    "referrer_panoramic": "referrer_panoramic",
+    "training_records_held_by": "training_records_held_by",
+    "version_number": "version_number"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 91341,
+  "form_id": "EMPLOYERS_PROCEDURES_REQUIRED_BY_IRMER17",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/EMPLOYERS_PROCEDURES_REQUIRED_BY_IRMER17/2026/EMPLOYERS_PROCEDURES_REQUIRED_BY_IRMER17.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:06:47.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Employers Procedures Required by IRMER17 V2.1MAR25.docx",
+  "question_count": 35,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Name of duty holder"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Job title"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Qualification(s)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Date obtained"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "GDC Registration number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Date last checked"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Training records held by"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "REFERRER - Refer for all dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "REFERRER - Refer for intra oral examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "REFERRER - Refer for panoramic/cephalometric examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "REFERRER - Refer for Cone Beam CT dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "PRACTITIONER - Competent to justify requests for all dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "PRACTITIONER - Competent to justify requests for intra oral examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "PRACTITIONER - Competent to justify requests for panoramic/cephalometric examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "PRACTITIONER - Competent to justify requests for cone beam CT dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "OPERATOR - Competent to carry out patient identification"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "OPERATOR - Competent to authorise all dental exposures for which guidelines have been provided by a practitioner"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "OPERATOR - Competent to undertake all dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "OPERATOR - Competent to undertake intra oral examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "OPERATOR - Competent to undertake panoramic/cephalometric examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "OPERATOR - Competent to undertake cone beam CT dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "OPERATOR - Competent to process dental films"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "OPERATOR - Competent to change chemicals in a dental processor"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "OPERATOR - Competent to process phosphor plates"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "OPERATOR - Competent to process a digital image"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "OPERATOR - Competent to clinically evaluate all dental examinations undertaken at the practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "OPERATOR - Competent to clinically evaluate all dental examinations undertaken out with the practice"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "OPERATOR - Competent to clinically evaluate cone beam CT dental examinations"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "OPERATOR - Competent to carry out quality assurance on equipment"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Name of entitler"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Signature of duty holder"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "IRMER procedures read by duty holder"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Version number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Date of issue"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__EMPLOYERS_PROCEDURES_REQUIRED_BY_IRMER17__2026",
+  "title": "Employers Procedures Required by IRMER17 V2.1MAR25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
