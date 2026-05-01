@@ -1,0 +1,162 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21675,
+  "form_id": "CBCT_OPG_OPT_SLA_SERVICE_LEVEL_AGREEMENT_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CBCT_OPG_OPT_SLA_SERVICE_LEVEL_AGREEMENT_TEMPLATE/2026/CBCT_OPG_OPT_SLA_SERVICE_LEVEL_AGREEMENT_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:05:01.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "CBCT & OPG_OPT SLA (Service Level Agreement) template V2.0MARCH24.docx",
+  "question_count": 23,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Referring Practice Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Referring Practice Address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Referring Practice Tel"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Referring Practice Email"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Referring Practice Name of Legal Person"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "ID Reference"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "CBCT Practice Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "CBCT Practice Address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "CBCT Practice Tel"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "CBCT Practice Email"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "CBCT Practice Name of Legal Person"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Names"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "GDC/GMC Registration number"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "IRMER 2017 role - Referrer"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "IRMER 2017 role - Operator (reporting)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Training ok?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Registration ok?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Referring practice - Name of Legal Person"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Referring practice - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Referring practice - Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "CBCT practice - Name of Legal Person"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "CBCT practice - Signature"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "CBCT practice - Date"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CBCT_OPG_OPT_SLA_SERVICE_LEVEL_AGREEMENT_TEMPLATE__2026",
+  "title": "CBCT & OPG_OPT SLA (Service Level Agreement) template V2.0MARCH24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
