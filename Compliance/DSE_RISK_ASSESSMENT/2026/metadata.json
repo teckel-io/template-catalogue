@@ -1,0 +1,518 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 24519,
+  "form_id": "DSE_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/DSE_RISK_ASSESSMENT/2026/DSE_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:11:49.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "DSE Risk Assessment V2.0FEB24.docx",
+  "question_count": 66,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Name of Person Completing Questionnaire"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date of Completion"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Average Number of Hours Using Computers Each Day"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "4",
+      "question_text": "Can you read the text and characters easily?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Can you adjust the contrast and brightness of your screen?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "6",
+      "question_text": "Can you easily adjust your screen to a comfortable angle?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Is your screen at such a height that you do not have to move your head and neck more than necessary?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "8",
+      "question_text": "Does your screen swivel or tilt?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "9",
+      "question_text": "Is the screen angled away from reflections (lights and windows)?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "10",
+      "question_text": "Is your screen free from flickering"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "11",
+      "question_text": "Do you know how to clean your screen correctly?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "12",
+      "question_text": "Is the keyboard separate from the screen, movable and able to tilt"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "13",
+      "question_text": "Can you easily read the letters, numbers and symbols on the keyboard?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "14",
+      "question_text": "Is the bottom of the keyboard at elbow height?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "15",
+      "question_text": "Are the wrists straight when using the keyboard?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "16",
+      "question_text": "Do all the keys work correctly?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "17",
+      "question_text": "Is the keyboard comfortable to use?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "18",
+      "question_text": "Does your mouse work properly, and is it comfortable?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "19",
+      "question_text": "Is the mouse suitable for your needs?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "20",
+      "question_text": "Does the mouse work smoothly at a speed that suits you?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "21",
+      "question_text": "Is there enough desk area to work comfortably?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "22",
+      "question_text": "Is there enough desk area in front of the keyboard to rest your hands/wrists comfortably?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "23",
+      "question_text": "Do you have enough legroom to sit at the desk comfortably?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "24",
+      "question_text": "Is there enough room for your feet"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "25",
+      "question_text": "Is the desk free from sharp edges or splinters that might dig into you?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "26",
+      "question_text": "Is the desk strong enough for the purpose and free from undesirable movement (sagging/rocking)?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "27",
+      "question_text": "Does the chair swivel freely from side to side?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "28",
+      "question_text": "Does the chair have a minimum of 5 casters"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "29",
+      "question_text": "Is the chair comfortable to use?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "30",
+      "question_text": "Do you know how to adjust your chair correctly?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "31",
+      "question_text": "Is the chair backrest adjustable in height and tilt?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "32",
+      "question_text": "When your chair is adjusted correctly, can you place your feet flat on the floor or a footrest?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "33",
+      "question_text": "Does the arrangement of the workstation allow you to sit up straight to use the computer?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "34",
+      "question_text": "Do you have enough room under your desk to move your legs and change position?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "35",
+      "question_text": "Is the work area free from damaged electrical sockets or trailing wires that could cause a trip hazard?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "36",
+      "question_text": "Is the temperature and humidity generally comfortable?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "37",
+      "question_text": "Noise level – are they adequate to concentrate and respond to telephone conversations?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "38",
+      "question_text": "Do you feel that the lighting levels are suitable?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "39",
+      "question_text": "Do you generally take breaks from the keyboard at least once per hour?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "40",
+      "question_text": "Do you think you have adequate information, instruction and training to allow you to set up your workstation?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "41",
+      "question_text": "Do you find the software reasonably easy to use?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "42",
+      "question_text": "Is your work surface large enough?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "43",
+      "question_text": "Can you comfortably reach and use the equipment/papers, etc., on your desk?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "44",
+      "question_text": "Do you have any other concerns or comments regarding your workstation or DSE use?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "45",
+      "question_text": "If you usually wear spectacles or have eye trouble, have you had an eye test within the last two years?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "46",
+      "question_text": "Do you wear glasses only when you are working with IT equipment?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "47",
+      "question_text": "Do you / have you had any health problems that could affect your work with IT equipment? (For example: epilepsy, back problems, poor circulation)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "48",
+      "question_text": "Do you get sore/irritated/pins and needles in your hands or fingers while working or evenings and weekends?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "49",
+      "question_text": "Do you feel any pain, discomfort or stiffness in your neck, shoulders, arms or hand(s) during or after using IT equipment?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "50",
+      "question_text": "Have you felt any of the above when working with IT equipment?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "51",
+      "question_text": "Do you get neck/back/headaches regularly at work?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "52",
+      "question_text": "Have you received any training on the following: The risks from DSE work? The importance of good posture, changing position, and adjusting furniture to avoid risks? Are you organising the workplace to avoid awkward or frequently awkward movements? Avoiding reflections and glare on or around the screen? Are you adjusting and cleaning the screen and mouse? Organising work for activity changes or breaks if necessary? Who to contact for help and to report problems or symptoms? Who should be contacted for DSE and office furniture faults?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Other comments or problems:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Further actions required:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Actions completed:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "56",
+      "question_text": "Practice Manager Signature:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Practice Manager Date:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "Staff Member Signature:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "Staff Member Date:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "Review Date 1:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Review Date 2:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "62",
+      "question_text": "Review Date 3:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "Review Date 4:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "Review Date 5:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "Review Date 6:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "Review Date 7:"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__DSE_RISK_ASSESSMENT__2026",
+  "title": "DSE Risk Assessment V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
