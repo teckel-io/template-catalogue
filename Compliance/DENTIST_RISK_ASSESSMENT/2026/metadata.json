@@ -1,0 +1,266 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Actions in place- confirm with signature or initials": "actions_in_place_signature",
+    "Control Measures in place": "control_measures_in_place",
+    "Further actions Required": "further_actions_required",
+    "Identified Risk": "identified_risk"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 47757,
+  "form_id": "DENTIST_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/DENTIST_RISK_ASSESSMENT/2026/DENTIST_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:11:44.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Dentist risk assessment.docx",
+  "question_count": 44,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Examination and diagnosis — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Examination and diagnosis — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Examination and diagnosis — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Examination and diagnosis — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Administration of local anaesthetic — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Administration of local anaesthetic — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Administration of local anaesthetic — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Administration of local anaesthetic — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Surgical procedures — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Surgical procedures — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Surgical procedures — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Surgical procedures — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Restorative procedures — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Restorative procedures — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Restorative procedures — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Restorative procedures — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Use of handpieces and Ultrasonic scalers — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Use of handpieces and Ultrasonic scalers — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Use of handpieces and Ultrasonic scalers — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Use of handpieces and Ultrasonic scalers — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Decontamination of equipment and work surfaces — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Decontamination of equipment and work surfaces — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Decontamination of equipment and work surfaces — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Decontamination of equipment and work surfaces — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "X-Ray equipment — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "X-Ray equipment — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "X-Ray equipment — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "X-Ray equipment — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Electrical equipment — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Electrical equipment — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Electrical equipment — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Electrical equipment — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Handling Heavy Loads — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Handling Heavy Loads — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Handling Heavy Loads — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Handling Heavy Loads — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Medical emergencies — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Medical emergencies — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Medical emergencies — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Medical emergencies — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Fires/Burns — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Fires/Burns — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Fires/Burns — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Fires/Burns — Actions in place- confirm with signature or initials"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__DENTIST_RISK_ASSESSMENT__2026",
+  "title": "Dentist risk assessment",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
