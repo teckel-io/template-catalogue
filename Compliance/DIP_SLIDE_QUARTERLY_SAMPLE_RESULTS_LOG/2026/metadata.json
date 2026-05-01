@@ -1,0 +1,90 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "actions_required": "Actions Required",
+    "cfu_count": "C.F.U Count",
+    "lot_batch_number": "Lot/Batch Number",
+    "pass_fail": "PASS/FAIL",
+    "retest_required": "Retest Required",
+    "sampler_read_date": "Sampler Read date",
+    "sampler_test_date": "Sampler Test date"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 19664,
+  "form_id": "DIP_SLIDE_QUARTERLY_SAMPLE_RESULTS_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/DIP_SLIDE_QUARTERLY_SAMPLE_RESULTS_LOG/2026/DIP_SLIDE_QUARTERLY_SAMPLE_RESULTS_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:02:33.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Dip Slide Quarterly Sample Results Log V2.0FEB24.docx",
+  "question_count": 7,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Lot/Batch Number"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Sampler Test date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Sampler Read date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "C.F.U Count"
+    },
+    {
+      "answer_options": [
+        "PASS",
+        "FAIL"
+      ],
+      "question_number": "5",
+      "question_text": "PASS/FAIL"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Actions Required"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "7",
+      "question_text": "Retest Required?"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__DIP_SLIDE_QUARTERLY_SAMPLE_RESULTS_LOG__2026",
+  "title": "Dip Slide Quarterly Sample Results Log V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
