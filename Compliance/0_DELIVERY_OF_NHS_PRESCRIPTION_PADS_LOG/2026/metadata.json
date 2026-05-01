@@ -1,0 +1,87 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Date": "date",
+    "Have you completed the serial numbers on the 1. Prescription Pad Management Log?": "completed_management_log",
+    "How many pads were received?": "pads_received_count",
+    "Received and confirmed by PRINT NAME": "received_by_print_name",
+    "Received and confirmed by SIGNATURE": "received_by_signature",
+    "Serial numbers": "serial_numbers",
+    "Where will these be stored": "storage_location"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20171,
+  "form_id": "0_DELIVERY_OF_NHS_PRESCRIPTION_PADS_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/0_DELIVERY_OF_NHS_PRESCRIPTION_PADS_LOG/2026/0_DELIVERY_OF_NHS_PRESCRIPTION_PADS_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:04:14.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "0.Delivery of NHS prescription pads log V1.0MAR25.docx",
+  "question_count": 7,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "How many pads were received?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Serial numbers"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Where will these be stored"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "5",
+      "question_text": "Have you completed the serial numbers on the 1. Prescription Pad Management Log?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Received and confirmed by PRINT NAME"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Received and confirmed by SIGNATURE"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__0_DELIVERY_OF_NHS_PRESCRIPTION_PADS_LOG__2026",
+  "title": "0.Delivery of NHS prescription pads log V1.0MAR25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
