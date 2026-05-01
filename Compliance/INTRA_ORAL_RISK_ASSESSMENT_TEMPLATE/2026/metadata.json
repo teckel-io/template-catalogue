@@ -1,0 +1,288 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Comments": "comments",
+    "DATE": "date",
+    "Date of Completion": "date_of_completion",
+    "NAME OF ASSESSOR": "name_of_assessor",
+    "Required action": "required_action",
+    "Responsible Person": "responsible_person",
+    "Review Date": "review_date",
+    "SIGNATURE": "signature"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 30707,
+  "form_id": "INTRA_ORAL_RISK_ASSESSMENT_TEMPLATE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INTRA_ORAL_RISK_ASSESSMENT_TEMPLATE/2026/INTRA_ORAL_RISK_ASSESSMENT_TEMPLATE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:05:58.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Intra-Oral risk assessment template V2.1FEB26.docx",
+  "question_count": 30,
+  "questions": [
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "1",
+      "question_text": "Has an RPA reviewed the adequacy of room wall protection and protection of adjacent areas?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "2",
+      "question_text": "Has an RPA reviewed the position of the x-ray exposure controls and mains isolator switch?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "3",
+      "question_text": "Is the x-ray operator's position further than 2 m from the patient's head whilst affecting the exposure?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "4",
+      "question_text": "Is the equipment subject to planned preventative maintenance?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "5",
+      "question_text": "Have local rules been provided for the use of all x-ray machines?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "6",
+      "question_text": "Have all relevant staff read the local rules and signed a declaration agreeing to comply with their contents?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "7",
+      "question_text": "Are local rules up-to-date and contain a review date?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "8",
+      "question_text": "Name of the RPS"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "9",
+      "question_text": "Description of the extent of the controlled area"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "10",
+      "question_text": "Summary of working instructions for restricting exposure ALARP"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "11",
+      "question_text": "Dose investigation Level (if applicable, i.e. provided)"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "12",
+      "question_text": "Summary of contingency plans, e.g. for failure of the exposure switch to terminate"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "13",
+      "question_text": "Procedures for pregnant members of staff?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "14",
+      "question_text": "Have all relevant staff directly involved with radiography have a basic understanding of risks, precautions, and legislation. ?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "15",
+      "question_text": "Have other clinic staff been made aware that they should not enter the room used for radiography while radiography is in progress?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "16",
+      "question_text": "Has an RPS been appointed for the practice?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "17",
+      "question_text": "Has the RPS been trained to fulfil the RPS role?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "18",
+      "question_text": "Is the weekly radiographic workload for all operators less than 100 exposures per week?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "19",
+      "question_text": "Is personal monitoring provided, e.g.. OSL or TLDs worn on the trunk? *"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "20",
+      "question_text": "Are lead aprons provided if patients require support during X-ray examinations?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "21",
+      "question_text": "Are they at least 0.25 mm lead equivalence (the lead equivalence should be marked on the lead gown)?"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No",
+        "Don't Know/NA"
+      ],
+      "question_number": "22",
+      "question_text": "Are they visually inspected and thoroughly examined if necessary?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Required action"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Responsible Person"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Date of Completion"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "NAME OF ASSESSOR"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "SIGNATURE"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "DATE"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Review Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Comments"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INTRA_ORAL_RISK_ASSESSMENT_TEMPLATE__2026",
+  "title": "Intra-Oral risk assessment template V2.1FEB26",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
