@@ -1,0 +1,255 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Date": "date",
+    "Employer": "employer",
+    "Student": "student"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20470,
+  "form_id": "H_S_INDUCTION_FOR_WORK_EXPERIENCE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/H_S_INDUCTION_FOR_WORK_EXPERIENCE/2026/H_S_INDUCTION_FOR_WORK_EXPERIENCE.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:17:13.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "H&S Induction for Work Experience V1.1DEC24.docx",
+  "question_count": 42,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Guided tour of the workplace, including location of kitchens, toilets and washing facilities — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Guided tour of the workplace, including location of kitchens, toilets and washing facilities — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Guided tour of the workplace, including location of kitchens, toilets and washing facilities — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Introduction to staff, including work experience supervisor — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Introduction to staff, including work experience supervisor — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Introduction to staff, including work experience supervisor — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Explanation of any prohibited areas, which must not be entered for reasons of safety or security — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Explanation of any prohibited areas, which must not be entered for reasons of safety or security — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Explanation of any prohibited areas, which must not be entered for reasons of safety or security — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Fire Alarm and Emergency Evacuation -explanation of what to do in case of an emergency and/or if the fire alarm is activated — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Fire Alarm and Emergency Evacuation -explanation of what to do in case of an emergency and/or if the fire alarm is activated — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Fire Alarm and Emergency Evacuation -explanation of what to do in case of an emergency and/or if the fire alarm is activated — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "First Aid/Medical Emergency Kit - explanation of the first aid & medical emergency facilities, location of the first aid box & Medical emergency kit, the accident book and the identities of the practice's first-aiders — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "First Aid/Medical Emergency Kit - explanation of the first aid & medical emergency facilities, location of the first aid box & Medical emergency kit, the accident book and the identities of the practice's first-aiders — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "First Aid/Medical Emergency Kit - explanation of the first aid & medical emergency facilities, location of the first aid box & Medical emergency kit, the accident book and the identities of the practice's first-aiders — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Internal procedures – explanation of the procedure to be followed if the student has problems or concerns or if they are ill or unable to attend their work experience — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Internal procedures – explanation of the procedure to be followed if the student has problems or concerns or if they are ill or unable to attend their work experience — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Internal procedures – explanation of the procedure to be followed if the student has problems or concerns or if they are ill or unable to attend their work experience — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Signing-in and security procedures –explanation of signing-in procedures — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Signing-in and security procedures –explanation of signing-in procedures — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Signing-in and security procedures –explanation of signing-in procedures — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Use of the telephone – explanation of how to access an outside line and contact emergency services if required — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Use of the telephone – explanation of how to access an outside line and contact emergency services if required — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Use of the telephone – explanation of how to access an outside line and contact emergency services if required — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Safe systems of work – explanation of any hazards associated with the tasks the student will be carrying out, including a need to adhere to safe working practices — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Safe systems of work – explanation of any hazards associated with the tasks the student will be carrying out, including a need to adhere to safe working practices — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Safe systems of work – explanation of any hazards associated with the tasks the student will be carrying out, including a need to adhere to safe working practices — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Machinery/ Equipment - ensure that the student understands that they can never operate any machinery without the permission of their supervisor and must never do so unless trained. All faults with machinery and equipment must be reported to their supervisor — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Machinery/ Equipment - ensure that the student understands that they can never operate any machinery without the permission of their supervisor and must never do so unless trained. All faults with machinery and equipment must be reported to their supervisor — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Machinery/ Equipment - ensure that the student understands that they can never operate any machinery without the permission of their supervisor and must never do so unless trained. All faults with machinery and equipment must be reported to their supervisor — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Protective Equipment—Provide students with appropriate personal protective equipment and explain how and when to use it correctly — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Protective Equipment—Provide students with appropriate personal protective equipment and explain how and when to use it correctly — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Protective Equipment—Provide students with appropriate personal protective equipment and explain how and when to use it correctly — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Manual Handling - explanation of the correct way to lift and carry objects. Ensure student understands why it is important to have instruction on handling and moving specific items in the workplace — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Manual Handling - explanation of the correct way to lift and carry objects. Ensure student understands why it is important to have instruction on handling and moving specific items in the workplace — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Manual Handling - explanation of the correct way to lift and carry objects. Ensure student understands why it is important to have instruction on handling and moving specific items in the workplace — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Dangerous substances—Explain the rules of handling chemicals in the workplace. Ensure that the student understands that they must ask their supervisor first if they are unsure of the correct precautions to take — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Dangerous substances—Explain the rules of handling chemicals in the workplace. Ensure that the student understands that they must ask their supervisor first if they are unsure of the correct precautions to take — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Dangerous substances—Explain the rules of handling chemicals in the workplace. Ensure that the student understands that they must ask their supervisor first if they are unsure of the correct precautions to take — Employer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Health and Safety: Ensure that the student understands the importance of following the company's H&S rules and the consequences of breaching those rules — Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Health and Safety: Ensure that the student understands the importance of following the company's H&S rules and the consequences of breaching those rules — Student"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Health and Safety: Ensure that the student understands the importance of following the company's H&S rules and the consequences of breaching those rules — Employer"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__H_S_INDUCTION_FOR_WORK_EXPERIENCE__2026",
+  "title": "H&S Induction for Work Experience V1.1DEC24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
