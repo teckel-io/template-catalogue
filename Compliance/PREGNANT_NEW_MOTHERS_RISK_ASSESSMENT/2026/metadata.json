@@ -1,0 +1,411 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 41557,
+  "form_id": "PREGNANT_NEW_MOTHERS_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PREGNANT_NEW_MOTHERS_RISK_ASSESSMENT/2026/PREGNANT_NEW_MOTHERS_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:09:58.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Pregnant & New Mothers Risk Assessment V2.3JAN26.docx",
+  "question_count": 65,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Date of Assessment"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Name of Assessor"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Name of Staff Member"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Review Date 1"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Review Date 2"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Review Date 3"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Review Date 4"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "The use of filing cabinets — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "The use of filing cabinets — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Stairs — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Stairs — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Slips, trips and falls — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Slips, trips and falls — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Manual handling of loads Posture and physical/mental fatigue — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Manual handling of loads Posture and physical/mental fatigue — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Cleaning aspirator — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Cleaning aspirator — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "X-ray equipment/Radiation exposure — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "X-ray equipment/Radiation exposure — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Changing Radiographic Solutions — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Changing Radiographic Solutions — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Amalgam Handling — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Amalgam Handling — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Biological Agents — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Biological Agents — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Sedation — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Sedation — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Stress/Workload — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Stress/Workload — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "New Mothers – Breastfeeding Needs — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "New Mothers – Breastfeeding Needs — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "COSHH — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "COSHH — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Ease of Access to welfare & Facilities — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Ease of Access to welfare & Facilities — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "36",
+      "question_text": "Are there any medical issues (physical or psychological) relating to the pregnancy/ birth which could affect or be affected by work?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Are there any medical issues (physical or psychological) relating to the pregnancy/ birth which could affect or be affected by work? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "38",
+      "question_text": "Is the employee breastfeeding? (If yes, ensure suitable facilities/ breaks and storage facilities can be accessed)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Is the employee breastfeeding? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "40",
+      "question_text": "Is the employee experiencing any concerns or stressors which are likely to cause uncertainty about her return to work? (If yes, use the individual stress action plan)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Is the employee experiencing any concerns or stressors which are likely to cause uncertainty about her return to work? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "42",
+      "question_text": "Does the employee need to be referred to the Occupational Health Service?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Does the employee need to be referred to the Occupational Health Service? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "44",
+      "question_text": "Are there any uneven surfaces or trip hazards?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Are there any uneven surfaces or trip hazards? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "46",
+      "question_text": "Are there any problems with easy access to restrooms and welfare facilities?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "Are there any problems with easy access to restrooms and welfare facilities? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "48",
+      "question_text": "Is there any outdoor work that could cause difficulty for the employee?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Is there any outdoor work that could cause difficulty for the employee? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "50",
+      "question_text": "Does the job involve manual handling? If yes, complete/ review the manual handling risk assessment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Does the job involve manual handling? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "52",
+      "question_text": "Is there a lot of physical effort involved?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Is there a lot of physical effort involved? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "54",
+      "question_text": "Does the employee use chemicals? If Yes, have you reviewed the COSHH folder?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Does the employee use chemicals? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "56",
+      "question_text": "Is the employee required to work alone? If yes, complete/review the lone worker risk assessment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Is the employee required to work alone? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "58",
+      "question_text": "Are there any risks of infection associated with work?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "Are there any risks of infection associated with work? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "60",
+      "question_text": "Does the work involve repetitive movement?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Does the work involve repetitive movement? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "62",
+      "question_text": "Is there any equipment the individual is unable to use due to current health conditions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "Is there any equipment the individual is unable to use due to current health conditions? — Comments"
+    },
+    {
+      "answer_options": [
+        "Yes",
+        "No"
+      ],
+      "question_number": "64",
+      "question_text": "Is the employee a display screen equipment user? If yes, complete/ review the DSE assessment."
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "Is the employee a display screen equipment user? — Comments"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PREGNANT_NEW_MOTHERS_RISK_ASSESSMENT__2026",
+  "title": "Pregnant & New Mothers Risk Assessment V2.3JAN26",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
