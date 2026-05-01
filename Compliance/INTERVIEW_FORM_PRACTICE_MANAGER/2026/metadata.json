@@ -1,0 +1,116 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Comments on the candidate:": "comments",
+    "Exceeds the standard": "exceeds_standard",
+    "Marginal": "marginal",
+    "Meets acceptable standard": "meets_acceptable_standard",
+    "Satisfactory": "satisfactory",
+    "Suitability:": "suitability",
+    "Unsatisfactory": "unsatisfactory",
+    "Very poor /no evidence of the competency": "very_poor_no_evidence"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 28438,
+  "form_id": "INTERVIEW_FORM_PRACTICE_MANAGER",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INTERVIEW_FORM_PRACTICE_MANAGER/2026/INTERVIEW_FORM_PRACTICE_MANAGER.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:18:49.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Interview Form - Practice Manager V1.1JUN24.docx",
+  "question_count": 9,
+  "questions": [
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "1",
+      "question_text": "Appearance"
+    },
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "2",
+      "question_text": "Personality"
+    },
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "3",
+      "question_text": "Relevant Experience"
+    },
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "4",
+      "question_text": "Availability"
+    },
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "5",
+      "question_text": "Ease of Travel"
+    },
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "6",
+      "question_text": "Enthusiasm"
+    },
+    {
+      "answer_options": [
+        "Satisfactory",
+        "Unsatisfactory"
+      ],
+      "question_number": "7",
+      "question_text": "Overall"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Comments on the candidate"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Suitability"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INTERVIEW_FORM_PRACTICE_MANAGER__2026",
+  "title": "Interview Form - Practice Manager V1.1JUN24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
