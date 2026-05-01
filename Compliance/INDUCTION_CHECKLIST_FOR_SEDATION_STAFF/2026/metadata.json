@@ -1,0 +1,269 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 20385,
+  "form_id": "INDUCTION_CHECKLIST_FOR_SEDATION_STAFF",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INDUCTION_CHECKLIST_FOR_SEDATION_STAFF/2026/INDUCTION_CHECKLIST_FOR_SEDATION_STAFF.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:17:59.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Induction checklist for sedation staff V1.1APR24.docx",
+  "question_count": 36,
+  "questions": [
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "1",
+      "question_text": "Does the staff member have the requisite clinical experience to provide the specific type of conscious sedation?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Does the staff member have the requisite clinical experience to provide the specific type of conscious sedation? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Does the staff member have the requisite clinical experience to provide the specific type of conscious sedation? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "4",
+      "question_text": "Can the staff member produce a relevant clinical log diary demonstrating clinical experience?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Can the staff member produce a relevant clinical log diary demonstrating clinical experience? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Can the staff member produce a relevant clinical log diary demonstrating clinical experience? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "7",
+      "question_text": "Has the member of staff undergone relevant training in conscious sedation? SAAD/MSc/Other"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Has the member of staff undergone relevant training in conscious sedation? SAAD/MSc/Other - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Has the member of staff undergone relevant training in conscious sedation? SAAD/MSc/Other - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "10",
+      "question_text": "Can the member of staff produce the relevant training certificates for conscious sedation?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Can the member of staff produce the relevant training certificates for conscious sedation? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Can the member of staff produce the relevant training certificates for conscious sedation? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "13",
+      "question_text": "Has the staff member undergone 12 hours of verifiable update training in conscious sedation within the last five years? SAAD/Other"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Has the staff member undergone 12 hours of verifiable update training in conscious sedation within the last five years? SAAD/Other - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Has the staff member undergone 12 hours of verifiable update training in conscious sedation within the last five years? SAAD/Other - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "16",
+      "question_text": "Can the member of staff produce the relevant training certificates?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Can the member of staff produce the relevant training certificates? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Can the member of staff produce the relevant training certificates? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "19",
+      "question_text": "Has the staff member undergone the relevant training for Immediate Life Support (ILS) for adults and children? *Note: BLS training is not sufficient for conscious sedation."
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Has the staff member undergone the relevant training for Immediate Life Support (ILS) for adults and children? *Note: BLS training is not sufficient for conscious sedation. - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Has the staff member undergone the relevant training for Immediate Life Support (ILS) for adults and children? *Note: BLS training is not sufficient for conscious sedation. - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "22",
+      "question_text": "Can the member of staff produce the relevant training certificates for ILS?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Can the member of staff produce the relevant training certificates for ILS? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Can the member of staff produce the relevant training certificates for ILS? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "25",
+      "question_text": "Does the member of staff have relevant medical indemnity for conscious sedation?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Does the member of staff have relevant medical indemnity for conscious sedation? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Does the member of staff have relevant medical indemnity for conscious sedation? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "28",
+      "question_text": "Can the member of staff produce relevant medical indemnity certificates?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Can the member of staff produce relevant medical indemnity certificates? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Can the member of staff produce relevant medical indemnity certificates? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "31",
+      "question_text": "Has the staff member undergone updated training in: · Safeguarding? · Consent? · Mental Capacity?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Has the staff member undergone updated training in: · Safeguarding? · Consent? · Mental Capacity? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Has the staff member undergone updated training in: · Safeguarding? · Consent? · Mental Capacity? - Date of Completion of Action"
+    },
+    {
+      "answer_options": [
+        "Compliant",
+        "Not Compliant",
+        "Not Applicable"
+      ],
+      "question_number": "34",
+      "question_text": "Can the member of staff produce the relevant training certificates? · Safeguarding? · Consent? · Mental Capacity?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Can the member of staff produce the relevant training certificates? · Safeguarding? · Consent? · Mental Capacity? - Action Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Can the member of staff produce the relevant training certificates? · Safeguarding? · Consent? · Mental Capacity? - Date of Completion of Action"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INDUCTION_CHECKLIST_FOR_SEDATION_STAFF__2026",
+  "title": "Induction checklist for sedation staff V1.1APR24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
