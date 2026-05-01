@@ -1,0 +1,190 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "access_control": "Access Control",
+    "additional_comments": "Other Comments",
+    "approved_ppe": "Approved PPE",
+    "assessment_date": "Assessment Date",
+    "assessor_name": "Assessor Name",
+    "date_reviewed": "Date Reviewed",
+    "disposal_procedures": "Disposal Procedures",
+    "emergency_procedures": "Emergency Procedures",
+    "hazardous_properties": "Hazardous Properties",
+    "holding_storage_requirements": "Holding and Storage Requirements",
+    "hse_hazard_classification": "HSE Hazard Classification",
+    "item_usage": "What will the item be used for?",
+    "other_comments": "Other comments",
+    "other_hazard_classification": "Other Hazard Classification",
+    "quantity_to_be_used": "Quantity to be used",
+    "risk_level_high": "HIGH risk level",
+    "risk_level_low": "LOW risk level",
+    "risk_level_moderate": "MODERATE risk level",
+    "risk_level_very_high": "VERY HIGH risk level",
+    "risk_level_very_low": "VERY LOW risk level",
+    "substance_manufacturer": "Substance/Manufacturer",
+    "training_requirements": "Training Requirements",
+    "who_exposed": "Who may be exposed?"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 68644,
+  "form_id": "BIOLOGICAL_AGENT_COSHH_ASSESSMENT_FORM",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/BIOLOGICAL_AGENT_COSHH_ASSESSMENT_FORM/2026/BIOLOGICAL_AGENT_COSHH_ASSESSMENT_FORM.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:07:29.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Biological Agent COSHH Assessment Form.docx",
+  "question_count": 22,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Assessor Name:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Assessment Date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Date Reviewed"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Substance/Manufacturer"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Hazardous Properties"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Hazard pictograms (symbols) - HSE"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Hazard pictograms (symbols) - Other"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Quantity to be used"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Emergency Procedures"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "What will the item be used for?"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Who may be exposed?"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Level of Risk under normal working conditions? - VERY LOW"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Level of Risk under normal working conditions? - LOW"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Level of Risk under normal working conditions? - MODERATE"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Level of Risk under normal working conditions? - HIGH"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Level of Risk under normal working conditions? - VERY HIGH"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Other comments:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Access Control"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Approved PPE"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Disposal Procedures:"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Training Requirements"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Holding and Storage Requirements"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__BIOLOGICAL_AGENT_COSHH_ASSESSMENT_FORM__2026",
+  "title": "Biological Agent COSHH Assessment Form",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
