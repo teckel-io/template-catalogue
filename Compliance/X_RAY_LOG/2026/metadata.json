@@ -4,6 +4,7 @@
   "cadence_logic": null,
   "cadence_usage_threshold": null,
   "cadence_usage_unit": null,
+  "classification_status": null,
   "claude_input_tokens": 0,
   "claude_model_version": "skipped",
   "claude_output_tokens": 0,
@@ -25,17 +26,17 @@
   "edition": "2026",
   "extraction_source": "docx",
   "file_format": "docx",
-  "file_size_bytes": 19774,
+  "file_size_bytes": 20924,
   "form_id": "X_RAY_LOG",
   "gcs_uri": "gs://teckel-templates-dev/Compliance/X_RAY_LOG/2026/X_RAY_LOG.docx",
   "industry": null,
   "industry_id": null,
-  "ingested_via": "batch_loader v1.5",
+  "ingested_via": "batch_loader v1.6",
   "is_log": false,
-  "metadata_generated_at": "2026-05-01T01:06:41.000Z",
+  "metadata_generated_at": "2026-05-01T19:13:55.000Z",
   "ocr_model_version": null,
   "ocr_pages_processed": null,
-  "original_filename": "X-ray Log V2.0FEB24.docx",
+  "original_filename": "X-ray Log V2.0MAR24.docx",
   "question_count": 7,
   "questions": [
     {
@@ -78,7 +79,7 @@
   "requirement_level": null,
   "retention_period": null,
   "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__X_RAY_LOG__2026",
-  "title": "X-ray Log V2.0FEB24",
+  "title": "X-ray Log V2.0MAR24",
   "trigger_type": null,
   "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
 }
