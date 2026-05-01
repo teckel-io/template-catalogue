@@ -1,0 +1,168 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "contractor_name": "contractor_name",
+    "directors_info": "directors_info",
+    "email": "email",
+    "friday_hours": "friday_hours",
+    "lunch_hours": "lunch_hours",
+    "monday_hours": "monday_hours",
+    "partners_info": "partners_info",
+    "payment_methods": "payment_methods",
+    "practice_address": "practice_address",
+    "practice_manager_email": "practice_manager_email",
+    "practice_manager_name": "practice_manager_name",
+    "practice_manager_telephone": "practice_manager_telephone",
+    "practice_name": "practice_name",
+    "professional_qualifications": "professional_qualifications",
+    "saturday_hours": "saturday_hours",
+    "teaching_training": "teaching_training",
+    "telephone": "telephone",
+    "thursday_hours": "thursday_hours",
+    "tuesday_hours": "tuesday_hours",
+    "website": "website",
+    "wednesday_hours": "wednesday_hours"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 27083,
+  "form_id": "NHS_PATIENT_INFORMATION_LEAFLET_TEMPLATE_PIL_V2_MAR_26",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/NHS_PATIENT_INFORMATION_LEAFLET_TEMPLATE_PIL_V2_MAR_26/2026/NHS_PATIENT_INFORMATION_LEAFLET_TEMPLATE_PIL_V2_MAR_26.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:01:54.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "NHS Patient Information Leaflet Template (PIL).V2.MAR.26 .docx",
+  "question_count": 21,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Practice Name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Practice Address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Email"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Website"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Telephone"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Name of the contractor (individual/partnership / body corporate)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "For partnerships: state whether it is limited; list all partners and indicate general/limited partners"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "For dental corporations: list directors, chief executive and secretary; provide registered office address"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Full name and professional qualifications of each person performing services under the contract"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Whether the contractor undertakes teaching or training dental professionals"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Payment methods accepted (cash/card types)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Monday opening hours (AM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Tuesday opening hours (AM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Wednesday opening hours (AM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Thursday opening hours (AM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Friday opening hours (AM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Saturday opening hours (AM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Lunch hours (PM - PM)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Practice Manager name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Practice Manager email"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Practice Manager telephone"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__NHS_PATIENT_INFORMATION_LEAFLET_TEMPLATE_PIL_V2_MAR_26__2026",
+  "title": "NHS Patient Information Leaflet Template (PIL).V2.MAR.26 ",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
