@@ -22,17 +22,17 @@
   "edition": "2026",
   "extraction_source": "docx",
   "file_format": "docx",
-  "file_size_bytes": 20872,
+  "file_size_bytes": 23731,
   "form_id": "DEEP_CLEAN_LOG",
   "gcs_uri": "gs://teckel-templates-dev/Compliance/DEEP_CLEAN_LOG/2026/DEEP_CLEAN_LOG.docx",
   "industry": null,
   "industry_id": null,
   "ingested_via": "batch_loader v1.5",
   "is_log": true,
-  "metadata_generated_at": "2026-05-01T00:47:39.000Z",
+  "metadata_generated_at": "2026-05-01T01:24:05.000Z",
   "ocr_model_version": null,
   "ocr_pages_processed": null,
-  "original_filename": "Deep Clean Log V2.0FEB24.docx",
+  "original_filename": "Deep Clean Log V3.0MARCH26.docx",
   "question_count": 4,
   "questions": [
     {
@@ -60,7 +60,7 @@
   "requirement_level": null,
   "retention_period": null,
   "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__DEEP_CLEAN_LOG__2026",
-  "title": "Deep Clean Log V2.0FEB24",
+  "title": "Deep Clean Log V3.0MARCH26",
   "trigger_type": null,
   "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
 }
