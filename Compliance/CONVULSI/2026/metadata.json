@@ -1,0 +1,224 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "abcde_approach": "abcde_approach",
+    "allow_patient_rest": "allow_patient_rest",
+    "assess_treat_abcde": "assess_treat_abcde",
+    "await_ambulance": "await_ambulance",
+    "call_999": "call_999",
+    "check_blood_glucose": "check_blood_glucose",
+    "check_glucose_supplement": "check_glucose_supplement",
+    "check_tympanic_temp": "check_tympanic_temp",
+    "convulsions_resolved": "convulsions_resolved",
+    "epistatus_administered": "epistatus_administered",
+    "history_convulsions": "history_convulsions",
+    "maintain_airway": "maintain_airway",
+    "maintain_patient_safety": "maintain_patient_safety",
+    "monitor_oxygen_saturation": "monitor_oxygen_saturation",
+    "oxygen_administered": "oxygen_administered",
+    "patient_flat_airway": "patient_flat_airway",
+    "patient_recovery_position": "patient_recovery_position",
+    "reassure_patient": "reassure_patient",
+    "reassure_patient_post": "reassure_patient_post",
+    "recovery_position": "recovery_position",
+    "recovery_position_post": "recovery_position_post",
+    "repeat_midazolam": "repeat_midazolam"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 135810,
+  "form_id": "CONVULSI",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/CONVULSI/2026/CONVULSI.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:03:36.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "convulsi.pdf",
+  "question_count": 20,
+  "questions": [
+    {
+      "answer_options": [
+        "YES",
+        "NO"
+      ],
+      "question_number": "1",
+      "question_text": "History of Convulsions"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "Lie Patient flat and maintain Airway"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "Assess and treat A.B.C.D.E"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "Recovery position if possible"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "Administer Oxygen 15 l/min with high concentration mask (If sats > 94% SpO2) if Sats less than 94%"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Reassure patient"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Call 999"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Check blood glucose (range 4 - 7mmols)"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Maintain patient safety"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "check tympanic temperature"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "A.B.C.D.E. approach"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Administer Epistatus (if available)"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "Monitor Oxygen saturation if possible"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "Maintain airway"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "Allow patent to rest post fit"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Check blood glucose and consider giving supplement"
+    },
+    {
+      "answer_options": [
+        "YES",
+        "NO"
+      ],
+      "question_number": "17",
+      "question_text": "Convulsions resolved?"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Consider placing patient in recovery position"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Consider repeating Midazolam after 10 minutes"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Await arrival of ambulance"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__CONVULSI__2026",
+  "title": "convulsi",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
