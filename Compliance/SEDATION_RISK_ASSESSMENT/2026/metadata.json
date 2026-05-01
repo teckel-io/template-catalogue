@@ -1,0 +1,151 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": "annual",
+  "cadence_logic": "calendar_only",
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {},
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 21000,
+  "form_id": "SEDATION_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SEDATION_RISK_ASSESSMENT/2026/SEDATION_RISK_ASSESSMENT.docx",
+  "industry": "Dentistry",
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:10:03.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Sedation Risk Assessment V2.0FEB24.docx",
+  "question_count": 22,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": 1,
+      "question_text": "Date of Assessment"
+    },
+    {
+      "answer_options": [],
+      "question_number": 2,
+      "question_text": "Name of Assessor"
+    },
+    {
+      "answer_options": [],
+      "question_number": 3,
+      "question_text": "Date of next review (12 months)"
+    },
+    {
+      "answer_options": [],
+      "question_number": 4,
+      "question_text": "Risk 1 - Low/No Oxygen (patients). Existing: daily check, 24-hour ordering, spare tank in place. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 5,
+      "question_text": "Risk 1 - Low/No Oxygen: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 6,
+      "question_text": "Risk 2 - Pregnant team members (clinical team and patients). Existing: pregnancy risk assessments, COSHH eval, alt protocols.Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 7,
+      "question_text": "Risk 2 - Pregnant team members: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 8,
+      "question_text": "Risk 3 - Emergency Drugs not in place (Flumazenil/Midazolam, clinical team and patients). Existing: weekly checks, reorder 8 weeks pre-expiry. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 9,
+      "question_text": "Risk 3 - Emergency Drugs: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 10,
+      "question_text": "Risk 4 - Emergency Oxygen equipment unavailable (clinical team and patients). Existing: daily Oxygen cylinder green check. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 11,
+      "question_text": "Risk 4 - Emergency Oxygen equipment: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 12,
+      "question_text": "Risk 5 - Defibrillator not working (clinical team and patients). Existing: daily defib check (battery + pads expiry). Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 13,
+      "question_text": "Risk 5 - Defibrillator: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 14,
+      "question_text": "Risk 6 - Regular Audits not conducted (clinical team and patients). Existing: 6-monthly record card audits, annual sedation audits. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 15,
+      "question_text": "Risk 6 - Regular Audits: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 16,
+      "question_text": "Risk 7 - Adverse events not recorded (clinical team and patients). Existing: training, reporting methods, event review. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 17,
+      "question_text": "Risk 7 - Adverse events: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 18,
+      "question_text": "Risk 8 - Never Events (Midazolam over-sedation; oxygen monitoring failure in non-N2O sedation; clinical team and patients). Must report to NRLS. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 19,
+      "question_text": "Risk 8 - Never Events: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 20,
+      "question_text": "Risk 9 - Using paper records (clinical team and patients). Existing: thorough records of treatment, medication, adverse reactions. Further actions?"
+    },
+    {
+      "answer_options": [],
+      "question_number": 21,
+      "question_text": "Risk 9 - Paper records: actions in place - confirm with signature or initials."
+    },
+    {
+      "answer_options": [],
+      "question_number": 22,
+      "question_text": "Any additional findings to be noted"
+    }
+  ],
+  "regulator": "CQC",
+  "requirement_level": "recommended",
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SEDATION_RISK_ASSESSMENT__2026",
+  "title": "Sedation Risk Assessment V2.0FEB24",
+  "trigger_type": "periodic",
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
