@@ -1,0 +1,141 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "additional_comments": "additional_comments",
+    "date_of_inspection": "date_of_inspection",
+    "exposure_switch": "exposure_switch",
+    "general_condition_digital_detectors": "general_condition_digital_detectors",
+    "general_conditions": "general_conditions",
+    "image_quality": "image_quality",
+    "image_quality_baseline": "image_quality_baseline",
+    "image_uniformity": "image_uniformity",
+    "inspected_by": "inspected_by",
+    "location": "location",
+    "manufacturer_model": "manufacturer_model",
+    "mechanical_movement": "mechanical_movement",
+    "safety_warning_systems": "safety_warning_systems"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 29603,
+  "form_id": "INTERNAL_TESTING_CHECKLIST_FOR_CEPH_RECOMMENDED",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/INTERNAL_TESTING_CHECKLIST_FOR_CEPH_RECOMMENDED/2026/INTERNAL_TESTING_CHECKLIST_FOR_CEPH_RECOMMENDED.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:06:31.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Internal testing checklist for Ceph (recommended).docx",
+  "question_count": 13,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Manufacturer & Model"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Location"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Image Quality Baseline"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Date of Inspection"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Inspected By"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "General Condition of Digital Detectors"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Image Uniformity"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Image Quality"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Safety & Warning Systems"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Exposure Switch"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "General Conditions"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "Mechanical Movement"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Additional Comments"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__INTERNAL_TESTING_CHECKLIST_FOR_CEPH_RECOMMENDED__2026",
+  "title": "Internal testing checklist for Ceph (recommended)",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
