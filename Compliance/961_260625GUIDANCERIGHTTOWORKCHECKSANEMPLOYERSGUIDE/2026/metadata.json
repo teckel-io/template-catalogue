@@ -1,0 +1,99 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "date_of_birth": "date_of_birth",
+    "date_of_identity_check": "date_of_identity_check",
+    "evidence_checked_by": "evidence_checked_by",
+    "forename": "forename",
+    "identity_verified": "identity_verified",
+    "image_of_passport": "image_of_passport",
+    "middle_names": "middle_names",
+    "photograph_image": "photograph_image",
+    "present_surnames": "present_surnames"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "pdf",
+  "file_format": "pdf",
+  "file_size_bytes": 906103,
+  "form_id": "961_260625GUIDANCERIGHTTOWORKCHECKSANEMPLOYERSGUIDE",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/961_260625GUIDANCERIGHTTOWORKCHECKSANEMPLOYERSGUIDE/2026/961_260625GUIDANCERIGHTTOWORKCHECKSANEMPLOYERSGUIDE.pdf",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:17:54.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "961_260625GuidanceRighttoworkchecksanemployersguide.pdf",
+  "question_count": 9,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Forename"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Middle names (s)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Present surname(s)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Date of birth"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Image of the passport or passport card"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Photograph / image"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Date of identity check"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Evidence checked by"
+    },
+    {
+      "answer_options": [
+        "Y",
+        "N"
+      ],
+      "question_number": "9",
+      "question_text": "Identity verified"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__961_260625GUIDANCERIGHTTOWORKCHECKSANEMPLOYERSGUIDE__2026",
+  "title": "961_260625GuidanceRighttoworkchecksanemployersguide",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
