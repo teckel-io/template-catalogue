@@ -1,0 +1,472 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "actions_confirmed": "Actions in place- confirm with signature or initials",
+    "control_measures": "Control Measures in place",
+    "further_actions": "Further actions required",
+    "identified_risk": "Identified Risk",
+    "persons_at_risk": "Person/s at risk"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 41548,
+  "form_id": "PRACTICE_HEALTH_AND_SAFETY_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PRACTICE_HEALTH_AND_SAFETY_RISK_ASSESSMENT/2026/PRACTICE_HEALTH_AND_SAFETY_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:12:00.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Practice Health and Safety Risk Assessment V3.0JAN26.docx",
+  "question_count": 85,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Autoclave Risk of explosion, scalds and burns — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Autoclave Risk of explosion, scalds and burns — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Autoclave Risk of explosion, scalds and burns — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Autoclave Risk of explosion, scalds and burns — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Autoclave Risk of explosion, scalds and burns — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Scalding and Burning Where tap water temperatures are above the recommended temperature range of 55 degrees Radiators — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Scalding and Burning Where tap water temperatures are above the recommended temperature range of 55 degrees Radiators — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Scalding and Burning Where tap water temperatures are above the recommended temperature range of 55 degrees Radiators — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Scalding and Burning Where tap water temperatures are above the recommended temperature range of 55 degrees Radiators — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Scalding and Burning Where tap water temperatures are above the recommended temperature range of 55 degrees Radiators — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Compressors Failure of the compressor or receiver leads to injury. Noise from the compressor. Entanglement in dangerous parts of moving machinery — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Compressors Failure of the compressor or receiver leads to injury. Noise from the compressor. Entanglement in dangerous parts of moving machinery — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Compressors Failure of the compressor or receiver leads to injury. Noise from the compressor. Entanglement in dangerous parts of moving machinery — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Compressors Failure of the compressor or receiver leads to injury. Noise from the compressor. Entanglement in dangerous parts of moving machinery — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "Compressors Failure of the compressor or receiver leads to injury. Noise from the compressor. Entanglement in dangerous parts of moving machinery — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "Biological agents Risk of infection from Blood/saliva Bacteria/micro-organisms — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Biological agents Risk of infection from Blood/saliva Bacteria/micro-organisms — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Biological agents Risk of infection from Blood/saliva Bacteria/micro-organisms — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Biological agents Risk of infection from Blood/saliva Bacteria/micro-organisms — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Biological agents Risk of infection from Blood/saliva Bacteria/micro-organisms — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Display screen equipment Risk of upper limb disorders. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Display screen equipment Risk of upper limb disorders. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Display screen equipment Risk of upper limb disorders. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Display screen equipment Risk of upper limb disorders. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Display screen equipment Risk of upper limb disorders. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Electrical Risk of – electric shock or burns fire from damaged equipment. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Electrical Risk of – electric shock or burns fire from damaged equipment. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Electrical Risk of – electric shock or burns fire from damaged equipment. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Electrical Risk of – electric shock or burns fire from damaged equipment. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Electrical Risk of – electric shock or burns fire from damaged equipment. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Eye injury Risk of – flying debris and splatter from rotary instruments splashing during the cleaning of instruments. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Eye injury Risk of – flying debris and splatter from rotary instruments splashing during the cleaning of instruments. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Eye injury Risk of – flying debris and splatter from rotary instruments splashing during the cleaning of instruments. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Eye injury Risk of – flying debris and splatter from rotary instruments splashing during the cleaning of instruments. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Eye injury Risk of – flying debris and splatter from rotary instruments splashing during the cleaning of instruments. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Fire — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Fire — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Fire — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Fire — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Fire — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Hazardous substances Risk of skin, eye and respiratory tract irritation, asthma, allergy and poisoning. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Hazardous substances Risk of skin, eye and respiratory tract irritation, asthma, allergy and poisoning. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "43",
+      "question_text": "Hazardous substances Risk of skin, eye and respiratory tract irritation, asthma, allergy and poisoning. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "44",
+      "question_text": "Hazardous substances Risk of skin, eye and respiratory tract irritation, asthma, allergy and poisoning. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "45",
+      "question_text": "Hazardous substances Risk of skin, eye and respiratory tract irritation, asthma, allergy and poisoning. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "46",
+      "question_text": "Manual handling Risk of injury to the back or other parts of the body. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "47",
+      "question_text": "Manual handling Risk of injury to the back or other parts of the body. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "48",
+      "question_text": "Manual handling Risk of injury to the back or other parts of the body. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "49",
+      "question_text": "Manual handling Risk of injury to the back or other parts of the body. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "50",
+      "question_text": "Manual handling Risk of injury to the back or other parts of the body. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "51",
+      "question_text": "Radiation – ionising Risk of accidental over-exposure from X-ray equipment — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "52",
+      "question_text": "Radiation – ionising Risk of accidental over-exposure from X-ray equipment — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "53",
+      "question_text": "Radiation – ionising Risk of accidental over-exposure from X-ray equipment — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "54",
+      "question_text": "Radiation – ionising Risk of accidental over-exposure from X-ray equipment — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "55",
+      "question_text": "Radiation – ionising Risk of accidental over-exposure from X-ray equipment — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "56",
+      "question_text": "Sharps Risk of infection from used needles, instruments and spicules of teeth or bone. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "57",
+      "question_text": "Sharps Risk of infection from used needles, instruments and spicules of teeth or bone. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "58",
+      "question_text": "Sharps Risk of infection from used needles, instruments and spicules of teeth or bone. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "59",
+      "question_text": "Sharps Risk of infection from used needles, instruments and spicules of teeth or bone. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "60",
+      "question_text": "Sharps Risk of infection from used needles, instruments and spicules of teeth or bone. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "61",
+      "question_text": "Slips, trips and falls Risk of injury. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "62",
+      "question_text": "Slips, trips and falls Risk of injury. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "63",
+      "question_text": "Slips, trips and falls Risk of injury. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "64",
+      "question_text": "Slips, trips and falls Risk of injury. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "65",
+      "question_text": "Slips, trips and falls Risk of injury. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "66",
+      "question_text": "Waste disposal Risk of exposure to infectious or hazardous waste. — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "67",
+      "question_text": "Waste disposal Risk of exposure to infectious or hazardous waste. — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "68",
+      "question_text": "Waste disposal Risk of exposure to infectious or hazardous waste. — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "69",
+      "question_text": "Waste disposal Risk of exposure to infectious or hazardous waste. — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "70",
+      "question_text": "Waste disposal Risk of exposure to infectious or hazardous waste. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "71",
+      "question_text": "Compressed Gas Cylinder(s) Oxygen Tanks — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "72",
+      "question_text": "Compressed Gas Cylinder(s) Oxygen Tanks — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "73",
+      "question_text": "Compressed Gas Cylinder(s) Oxygen Tanks — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "74",
+      "question_text": "Compressed Gas Cylinder(s) Oxygen Tanks — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "75",
+      "question_text": "Compressed Gas Cylinder(s) Oxygen Tanks — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "76",
+      "question_text": "Adverse Weather — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "77",
+      "question_text": "Adverse Weather — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "78",
+      "question_text": "Adverse Weather — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "79",
+      "question_text": "Adverse Weather — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "80",
+      "question_text": "Adverse Weather — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "81",
+      "question_text": "Violence and Aggression — Identified Risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "82",
+      "question_text": "Violence and Aggression — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "83",
+      "question_text": "Violence and Aggression — Control Measures in place"
+    },
+    {
+      "answer_options": [],
+      "question_number": "84",
+      "question_text": "Violence and Aggression — Further actions required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "85",
+      "question_text": "Violence and Aggression — Actions in place- confirm with signature or initials"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PRACTICE_HEALTH_AND_SAFETY_RISK_ASSESSMENT__2026",
+  "title": "Practice Health and Safety Risk Assessment V3.0JAN26",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
