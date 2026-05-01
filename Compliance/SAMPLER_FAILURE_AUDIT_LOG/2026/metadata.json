@@ -1,0 +1,91 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Action Taken (Sampler re-test, Biofilm removal)": "action_taken",
+    "C.F.U Count": "cfu_count",
+    "Failed Quarter": "failed_quarter",
+    "PASS | FAIL": "pass_fail",
+    "Sampler re-test date": "sampler_retest_date",
+    "Sampler read date": "sampler_read_date",
+    "Sign Off": "sign_off_alt",
+    "Sign off": "sign_off"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 24696,
+  "form_id": "SAMPLER_FAILURE_AUDIT_LOG",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/SAMPLER_FAILURE_AUDIT_LOG/2026/SAMPLER_FAILURE_AUDIT_LOG.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:02:48.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Sampler failure Audit log V1.0.docx",
+  "question_count": 7,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Failed Quarter"
+    },
+    {
+      "answer_options": [
+        "Sampler re-test",
+        "Biofilm removal"
+      ],
+      "question_number": "2",
+      "question_text": "Action Taken (Sampler re-test, Biofilm removal)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Sampler re-test date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Sampler read date"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "C.F.U Count"
+    },
+    {
+      "answer_options": [
+        "PASS",
+        "FAIL"
+      ],
+      "question_number": "6",
+      "question_text": "PASS | FAIL"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Sign off"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__SAMPLER_FAILURE_AUDIT_LOG__2026",
+  "title": "Sampler failure Audit log V1.0",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
