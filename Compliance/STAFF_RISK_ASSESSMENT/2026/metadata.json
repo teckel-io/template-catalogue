@@ -1,0 +1,254 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Actions in place- confirm with signature or initials": "actions_confirmed",
+    "Further actions Required": "further_actions_required"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 31383,
+  "form_id": "STAFF_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/STAFF_RISK_ASSESSMENT/2026/STAFF_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:12:27.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Staff Risk Assessment V2.0FEB24.docx",
+  "question_count": 42,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Chairside assisting — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Chairside assisting — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Charting and general instruction — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Charting and general instruction — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "Instrument cleaning before sterilisation — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "Instrument cleaning before sterilisation — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Instrument sterilisation — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Instrument sterilisation — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Decontamination of equipment and work surfaces — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Decontamination of equipment and work surfaces — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Cleaning aspirator system — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Cleaning aspirator system — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "Lubrication of handpieces — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "Lubrication of handpieces — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "X-Ray equipment — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "16",
+      "question_text": "X-Ray equipment — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "17",
+      "question_text": "Changing radiographic solutions — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "18",
+      "question_text": "Changing radiographic solutions — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "19",
+      "question_text": "Computer and Visual Screen — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "20",
+      "question_text": "Computer and Visual Screen — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "21",
+      "question_text": "Filing cabinets — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "22",
+      "question_text": "Filing cabinets — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "23",
+      "question_text": "Office files and equipment on shelves — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "24",
+      "question_text": "Office files and equipment on shelves — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "25",
+      "question_text": "Pedestrian areas — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "26",
+      "question_text": "Pedestrian areas — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "27",
+      "question_text": "Printers and computers — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "28",
+      "question_text": "Printers and computers — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "29",
+      "question_text": "Contact with the public. — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "30",
+      "question_text": "Contact with the public. — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "31",
+      "question_text": "Entry and exit to Practice — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "32",
+      "question_text": "Entry and exit to Practice — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "33",
+      "question_text": "Fire in Practice or around the site — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "34",
+      "question_text": "Fire in Practice or around the site — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "35",
+      "question_text": "Medical emergencies — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "36",
+      "question_text": "Medical emergencies — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "37",
+      "question_text": "Handling heavy and or awkward loads — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "38",
+      "question_text": "Handling heavy and or awkward loads — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "39",
+      "question_text": "Working alone unexpectedly — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "40",
+      "question_text": "Working alone unexpectedly — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "41",
+      "question_text": "Using hazardous substances — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "42",
+      "question_text": "Using hazardous substances — Actions in place- confirm with signature or initials"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__STAFF_RISK_ASSESSMENT__2026",
+  "title": "Staff Risk Assessment V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
