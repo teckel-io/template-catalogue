@@ -1,0 +1,672 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Clinician": "clinician",
+    "NAME": "name",
+    "Non-Clinical": "non_clinical",
+    "Principal/ Practice Owner": "principal_practice_owner",
+    "Qualified Clinical": "qualified_clinical",
+    "Unqualified Clinical": "unqualified_clinical"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 22949,
+  "form_id": "PERSONNEL_FILE_CHECKLIST_GENERAL_STAFF",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PERSONNEL_FILE_CHECKLIST_GENERAL_STAFF/2026/PERSONNEL_FILE_CHECKLIST_GENERAL_STAFF.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:21:54.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Personnel File Checklist - General Staff V1.3JUL25.docx",
+  "question_count": 78,
+  "questions": [
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "1",
+      "question_text": "Staff Details/ Emerg Contact — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "2",
+      "question_text": "Staff Details/ Emerg Contact — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "3",
+      "question_text": "Staff Details/ Emerg Contact — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "4",
+      "question_text": "Staff Details/ Emerg Contact — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "5",
+      "question_text": "Staff Details/ Emerg Contact — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "6",
+      "question_text": "Medical History Form — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "7",
+      "question_text": "Medical History Form — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "8",
+      "question_text": "Medical History Form — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "9",
+      "question_text": "Medical History Form — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "10",
+      "question_text": "Medical History Form — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "11",
+      "question_text": "2 Forms of ID (Passport/Licence) — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "12",
+      "question_text": "2 Forms of ID (Passport/Licence) — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "13",
+      "question_text": "2 Forms of ID (Passport/Licence) — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "14",
+      "question_text": "2 Forms of ID (Passport/Licence) — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "15",
+      "question_text": "2 Forms of ID (Passport/Licence) — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "16",
+      "question_text": "Proof Of Current Address — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "17",
+      "question_text": "Proof Of Current Address — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "18",
+      "question_text": "Proof Of Current Address — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "19",
+      "question_text": "Proof Of Current Address — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "20",
+      "question_text": "Proof Of Current Address — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "21",
+      "question_text": "GDC Registration Certificate — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "22",
+      "question_text": "GDC Registration Certificate — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "23",
+      "question_text": "GDC Registration Certificate — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "24",
+      "question_text": "DBS Certificate/Risk Assessment — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "25",
+      "question_text": "DBS Certificate/Risk Assessment — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "26",
+      "question_text": "DBS Certificate/Risk Assessment — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "27",
+      "question_text": "DBS Certificate/Risk Assessment — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "28",
+      "question_text": "DBS Certificate/Risk Assessment — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "29",
+      "question_text": "Hep B Status & Immunisations History — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "30",
+      "question_text": "Hep B Status & Immunisations History — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "31",
+      "question_text": "Hep B Status & Immunisations History — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "32",
+      "question_text": "Hep B Status & Immunisations History — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "33",
+      "question_text": "Indemnity Certificate — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "34",
+      "question_text": "Indemnity Certificate — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "35",
+      "question_text": "Indemnity Certificate — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "36",
+      "question_text": "Qualification Certificates — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "37",
+      "question_text": "Qualification Certificates — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "38",
+      "question_text": "Qualification Certificates — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "39",
+      "question_text": "BLS Training Cert* — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "40",
+      "question_text": "BLS Training Cert* — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "41",
+      "question_text": "BLS Training Cert* — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "42",
+      "question_text": "BLS Training Cert* — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "43",
+      "question_text": "BLS Training Cert* — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "44",
+      "question_text": "Performer Letter (NHS) — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "45",
+      "question_text": "Performer Letter (NHS) — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "46",
+      "question_text": "Performer Letter (NHS) — Principal/ Practice Owner"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "47",
+      "question_text": "Curriculum Vitae (CV) — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "48",
+      "question_text": "Curriculum Vitae (CV) — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "49",
+      "question_text": "Curriculum Vitae (CV) — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "50",
+      "question_text": "Curriculum Vitae (CV) — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "51",
+      "question_text": "References (2 Required) — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "52",
+      "question_text": "References (2 Required) — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "53",
+      "question_text": "References (2 Required) — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "54",
+      "question_text": "References (2 Required) — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "55",
+      "question_text": "Job Offer Letter — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "56",
+      "question_text": "Job Offer Letter — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "57",
+      "question_text": "Job Offer Letter — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "58",
+      "question_text": "Job Offer Letter — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "59",
+      "question_text": "Signed Contract — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "60",
+      "question_text": "Signed Contract — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "61",
+      "question_text": "Signed Contract — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "62",
+      "question_text": "Signed Contract — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "63",
+      "question_text": "Job Role/ Description — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "64",
+      "question_text": "Job Role/ Description — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "65",
+      "question_text": "Job Role/ Description — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "66",
+      "question_text": "Job Role/ Description — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "67",
+      "question_text": "Induction Checklist — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "68",
+      "question_text": "Induction Checklist — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "69",
+      "question_text": "Induction Checklist — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "70",
+      "question_text": "Induction Checklist — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "71",
+      "question_text": "Appraisals (Annual) — Non-Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "72",
+      "question_text": "Appraisals (Annual) — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "73",
+      "question_text": "Appraisals (Annual) — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "74",
+      "question_text": "Appraisals (Annual) — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "75",
+      "question_text": "Personal Development Plan — Unqualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "76",
+      "question_text": "Personal Development Plan — Qualified Clinical"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "77",
+      "question_text": "Personal Development Plan — Clinician"
+    },
+    {
+      "answer_options": [
+        "Checked",
+        "Not Checked"
+      ],
+      "question_number": "78",
+      "question_text": "Personal Development Plan — Principal/ Practice Owner"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PERSONNEL_FILE_CHECKLIST_GENERAL_STAFF__2026",
+  "title": "Personnel File Checklist - General Staff V1.3JUL25",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
