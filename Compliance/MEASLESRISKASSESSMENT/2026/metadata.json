@@ -1,0 +1,102 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "assessor_name": "Assessor's name",
+    "date_initial_assessment": "Date of initial assessment",
+    "date_review": "Date of review",
+    "further_action_administrative": "What further action do you need to take to control risks? — Administrative controls",
+    "further_action_elimination": "What further action do you need to take to control risks? — Elimination (physically remove the hazard)",
+    "further_action_engineering": "What further action do you need to take to control risks? — Engineering Controls",
+    "further_action_monitoring": "What further action do you need to take to control risks? — Regularly Monitor and Review",
+    "further_action_ppe": "What further action do you need to take to control risks? — Personal protective equipment (PPE)/respiratory protective equipment (RPE)",
+    "further_action_substitution": "What further action do you need to take to control risks? — Substitution (replace the hazard)",
+    "practice_name": "Practice name"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 31724,
+  "form_id": "MEASLESRISKASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/MEASLESRISKASSESSMENT/2026/MEASLESRISKASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:09:09.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "MeaslesRiskAssessment.docx",
+  "question_count": 10,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Practice name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Date of initial assessment"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Assessor's name"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "Date of review"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "What further action do you need to take to control risks? — Regularly Monitor and Review"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "What further action do you need to take to control risks? — Elimination (physically remove the hazard)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "What further action do you need to take to control risks? — Substitution (replace the hazard)"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "What further action do you need to take to control risks? — Engineering Controls"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "What further action do you need to take to control risks? — Administrative controls"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "What further action do you need to take to control risks? — Personal protective equipment (PPE)/respiratory protective equipment (RPE)"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__MEASLESRISKASSESSMENT__2026",
+  "title": "MeaslesRiskAssessment",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
