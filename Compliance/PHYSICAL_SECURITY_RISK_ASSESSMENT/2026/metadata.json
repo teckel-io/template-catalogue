@@ -1,0 +1,120 @@
+{
+  "agent_id": "batch_loader_v1",
+  "cadence_calendar": null,
+  "cadence_logic": null,
+  "cadence_usage_threshold": null,
+  "cadence_usage_unit": null,
+  "claude_input_tokens": 0,
+  "claude_model_version": "skipped",
+  "claude_output_tokens": 0,
+  "column_map": {
+    "Actions in place- confirm with signature or initials": "actions_confirmed",
+    "Further actions Required": "further_actions_required",
+    "Person/s at risk": "persons_at_risk"
+  },
+  "document_id_convention": null,
+  "duty_cycle_cumulative": null,
+  "duty_cycle_since_last_inspection": null,
+  "duty_cycle_threshold_interim": null,
+  "duty_cycle_threshold_lifetime": null,
+  "duty_cycle_unit": null,
+  "edition": "2026",
+  "extraction_source": "docx",
+  "file_format": "docx",
+  "file_size_bytes": 22588,
+  "form_id": "PHYSICAL_SECURITY_RISK_ASSESSMENT",
+  "gcs_uri": "gs://teckel-templates-dev/Compliance/PHYSICAL_SECURITY_RISK_ASSESSMENT/2026/PHYSICAL_SECURITY_RISK_ASSESSMENT.docx",
+  "industry": null,
+  "industry_id": null,
+  "ingested_via": "batch_loader v1.5",
+  "is_log": false,
+  "metadata_generated_at": "2026-05-01T01:09:53.000Z",
+  "ocr_model_version": null,
+  "ocr_pages_processed": null,
+  "original_filename": "Physical Security Risk Assessment V2.0FEB24.docx",
+  "question_count": 15,
+  "questions": [
+    {
+      "answer_options": [],
+      "question_number": "1",
+      "question_text": "Alarm Systems — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "2",
+      "question_text": "Alarm Systems — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "3",
+      "question_text": "Alarm Systems — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "4",
+      "question_text": "CCTV — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "5",
+      "question_text": "CCTV — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "6",
+      "question_text": "CCTV — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "7",
+      "question_text": "Windows — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "8",
+      "question_text": "Windows — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "9",
+      "question_text": "Windows — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "10",
+      "question_text": "Doors — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "11",
+      "question_text": "Doors — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "12",
+      "question_text": "Doors — Actions in place- confirm with signature or initials"
+    },
+    {
+      "answer_options": [],
+      "question_number": "13",
+      "question_text": "External surrounding — Person/s at risk"
+    },
+    {
+      "answer_options": [],
+      "question_number": "14",
+      "question_text": "External surrounding — Further actions Required"
+    },
+    {
+      "answer_options": [],
+      "question_number": "15",
+      "question_text": "External surrounding — Actions in place- confirm with signature or initials"
+    }
+  ],
+  "regulator": null,
+  "requirement_level": null,
+  "retention_period": null,
+  "storage_key": "0x272aa1e6ce1b9ee9744b3c6c9f90a57b2cd9797c__PHYSICAL_SECURITY_RISK_ASSESSMENT__2026",
+  "title": "Physical Security Risk Assessment V2.0FEB24",
+  "trigger_type": null,
+  "wallet_address": "0xd082b08a6f7e906099abb38d1284118068532585"
+}
